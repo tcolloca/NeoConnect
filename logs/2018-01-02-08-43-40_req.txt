@@ -1,0 +1,15 @@
+POST /process_market.phtml HTTP/1.1
+referer: http://www.neopets.com/market.phtml?type=your&view=&obj_name=&lim=60&order_by=id
+accept-language: en;q=0.8
+cookie: np_uniq=pending; expires=Wed, 2-Jan-2019 23:43:38 GMT; ld_=deleted; expires=Thu, 1-Jan-1970 0:0:1 GMT; np_uniq_=2018-01-01; expires=Wed, 2-Jan-2019 2:52:2 GMT; nupid=0; expires=Tue, 2-Jan-2018 22:3:38 GMT; np_randseed=83210765243838193; expires=Wed, 1-Aug-2018 23:15:1 GMT; npid=0; expires=Tue, 2-Jan-2018 22:3:38 GMT; neologin=tomatereloco%2B57f3b5990c9c9c034f924e456cc35c69910aeffd; expires=Wed, 2-Jan-2019 23:42:50 GMT; neoremember=tomatereloco; expires=Wed, 4-Apr-2018 17:5:24 GMT; nupi=0; expires=Tue, 2-Jan-2018 22:3:38 GMT; npuid=7300060300406036000706f6d51044702650c6f606f00700000e70000000000w; expires=Thu, 1-Feb-2018 23:43:38 GMT; np_uniq_tomatereloco=2018-01-02; expires=Wed, 2-Jan-2019 23:43:38 GMT; np_uniq_tomatereloco_side=2017-12-31; expires=Mon, 31-Dec-2018 17:5:59 GMT; ld_tomatereloco=deleted; expires=Thu, 1-Jan-1970 0:0:1 GMT; access_token=deleted; expires=Thu, 1-Jan-1970 0:0:1 GMT; toolbar=tomatereloco%2BC%2B57f3b5990c9c9c034f924e456cc35c69910aeffd; expires=Wed, 2-Jan-2019 23:42:50 GMT; xt6Yr4e33D=683436629301; expires=Wed, 1-Aug-2018 23:15:1 GMT; wc_ids=0; expires=Sun, 1-Oct-2017 12:38:44 GMT; ld_tomatereloco_side=deleted; expires=Thu, 1-Jan-1970 0:0:1 GMT; PHPSESSID=rjh83q8kk5bkepmtfqe8s6nsi2; ; ssotoken=6631d26b641fa26f4c0c4afcb10305cf77f5145c; expires=Wed, 2-Jan-2019 2:52:4 GMT; geoCountry=AR; 
+origin: http://www.neopets.com
+host: www.neopets.com
+connection: keep-alive
+content-type: application/x-www-form-urlencoded
+cache-control: no-cache
+pragma: no-cache
+accept: text/html
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+content-length: 545
+
+type=update_prices&order_by=id&view=&lim=60&obj_name=&pin=1114&obj_id_3=76028&oldcost_3=0&cost_3=11400&back_to_inv[76028]=0&obj_id_8=76530&oldcost_8=0&cost_8=3135&back_to_inv[76530]=0&obj_id_1=74763&oldcost_1=0&cost_1=37050&back_to_inv[74763]=0&obj_id_4=76159&oldcost_4=0&cost_4=14250&back_to_inv[76159]=0&obj_id_7=76520&oldcost_7=0&cost_7=142&back_to_inv[76520]=0&obj_id_2=74768&oldcost_2=0&cost_2=14249&back_to_inv[74768]=0&obj_id_5=76160&oldcost_5=0&cost_5=2945&back_to_inv[76160]=0&obj_id_6=76165&oldcost_6=0&cost_6=7172&back_to_inv[76165]=0

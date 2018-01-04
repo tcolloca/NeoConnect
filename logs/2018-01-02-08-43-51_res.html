@@ -1,0 +1,1203 @@
+HTTP/1.1 200 OK
+date: Tue, 02 Jan 2018 23:43:49 GMT
+server: Apache/2.2.15 (CentOS)
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+transfer-encoding: chunked
+vary: Accept-Encoding
+x-host: web-0009.intneo.com
+pragma: no-cache
+set-cookie: np_uniq=pending; expires=Wed, 02-Jan-2019 23:43:50 GMT; path=/; domain=.neopets.com
+set-cookie: nupi=0; expires=Tue, 02-Jan-2018 22:03:50 GMT; path=/; domain=.neopets.com
+set-cookie: nupid=0; expires=Tue, 02-Jan-2018 22:03:50 GMT; path=/; domain=.neopets.com
+set-cookie: npid=0; expires=Tue, 02-Jan-2018 22:03:50 GMT; path=/; domain=.neopets.com
+set-cookie: npuid=246066f0q01060000500f00K006003077f06560004047c006700006d00023e00; expires=Thu, 01-Feb-2018 23:43:50 GMT; path=/; domain=.neopets.com
+set-cookie: ld_tomatereloco=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.neopets.com
+set-cookie: np_uniq_tomatereloco=2018-01-02; expires=Wed, 02-Jan-2019 23:43:50 GMT; path=/; domain=.neopets.com
+x-xss-protection: 0
+x-cobalt: loaded
+x-powered-by: PHP/5.4.28
+connection: close
+content-type: text/html; charset=UTF-8
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+9603
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--
+ host - web-0009.intneo.com
+//-->
+<html><head>
+	<meta name="description" content="Neopets.Com - Virtual Pet Community! Join up for free games, shops, auctions, chat and more!">
+	<meta name="keywords" content="pets, pet, games, game, virtual, chat, fun, prizes, play, virtual pet, kids">
+	<meta name="robots" content="noodp, index, follow">
+	<meta http-equiv="X-UA-Compatible" content="IE=8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<link rel="stylesheet" type="text/css" href="http://images.neopets.com/css/default.css?v=4">
+	<link rel="stylesheet" type="text/css" href="http://images.neopets.com/css/ad.css?v=6">
+	
+	<style type="text/css">td.neoaswc img {vertical-align: top;}</style>	<style type="text/css">
+
+	.centeredOverlay {
+		position: absolute;
+		background-color: rgba(0, 0, 0, 0.3);
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		color:black;
+		text-align: center;
+	}
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="http://images.neopets.com/css/themes/025_tfr_5ce03.css?v=9">
+		
+	<title>Neopets - Spaceship Interior</title>
+	<script id="js-framework" type="text/javascript" language="JavaScript" src="http://images.neopets.com/js/common.js?v=6"></script>
+
+		<script src="http://images.neopets.com/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="http://images.neopets.com/js/jquery-ui-1.8.17.min.js" type="text/javascript"></script>
+
+	
+	<script type="text/javascript">
+	var Neo = {
+		clog: function() {
+			if (window.console && console.log) {
+				if (arguments.length == 0) {
+					console.log('! no arguments passed !');
+				} else if (arguments.length == 1) {
+					console.log(arguments[0]);
+				} else {
+					console.log(arguments);
+				}
+			}
+		},
+		popups: {
+			list: [],
+			add: function(popup) {
+				Neo.popups.list.push(popup);
+				Neo.fade.show();
+			},
+			rem: function(popup) {
+				for (var i = Neo.popups.list.length - 1; i >= 0; i--) {
+					var curPopup = Neo.popups.list[i];
+					Neo.clog(i, popup, curPopup, popup == curPopup);
+					if (curPopup == popup) {
+						Neo.popups.list.splice(i, 1);
+					}
+				}
+				if (Neo.popups.list.length == 0) {
+					Neo.fade.hide();
+				}
+			},
+			remAll: function() {
+				Neo.popups.list = [];
+				Neo.fade.hide();
+			}
+		},
+		fade: {
+			show: function() {
+				$('#neoFade').show();
+			},
+			hide: function() {
+				$('#neoFade').hide();
+			}
+		},
+		setNp: function(newnp) {
+			$('#npanchor').text(newnp);
+		},
+		setNc: function(newnc) {
+			Neo.clog('lol', newnc);
+			$('#ncanchor').text(newnc);
+		},
+		precache: function(url) {
+			if ($.isArray(url)) {
+				for (var i = 0; i < url.length; i++) {
+					new Image().src = url[i];
+				}
+			} else {
+				new Image().src = url;
+			}
+		}
+	};
+	</script>
+	<style type="text/css">
+		#neoFade { display: none; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; opacity: 0.5; background: black; filter: alpha(opacity=50); z-index: 9500; }
+	</style>
+
+	<script id="js-browserdetect" type="text/javascript" language="JavaScript" src="http://images.neopets.com/js/getbrowser.js?v=1">
+		
+	</script>
+	
+	<!-- 
+	<script id="js-browserdetect2" type="text/javascript" language="JavaScript" src="http://images.neopets.com/js/getbrowser_new.js">
+	</script> -->
+	
+<script type="text/javascript" src="http://images.neopets.com/n.js"></script>
+	<script type="text/javascript">
+	<!--
+		var nl = "en";
+		var nh = 3;
+		var nm = 43;
+		var ns = 50;
+		var na = "pm";
+		var ncl = new Array(0, 53, 104, 137, 169, 198, 231, 265, 299, 335, 368, 397, 427);
+
+		window.setInterval('nc()', 1000);
+
+		function sh(i) {
+			ol.style.clip = "rect("+ncl[i-1]+" 128 "+ncl[i]+" 0)";
+			ol.style.visibility = "visible";
+		}
+
+		function mo() {
+			ol.style.visibility = "hidden";
+		}
+
+		function search_handle(searchForm) {
+			searchForm.action = "/search.phtml";
+			searchForm.target = "";
+			searchForm.method = "post";
+			searchForm.s.value = searchForm.q.value;
+			searchForm.submit();
+		};
+		function logout_nchub() {
+			var f = document.createElement("iframe");
+			f.setAttribute("src", "http://nc.neopets.com/auth/logout?no-redirect=1");
+			f.setAttribute("width", "0");
+			f.setAttribute("height", "0");
+			f.setAttribute("border", "0");
+
+			var i = document.getElementById('logout_nchub');
+			i.appendChild(f);
+
+					}
+		jQuery(document).ready(function(){
+			$('a#logout_link').click(function (event) {
+				setTimeout(function() {window.location = '/logout.phtml';},1000);
+				logout_nchub();
+				return false;
+			});
+		});
+	//-->
+	</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1152868-1']);
+_gaq.push(['_setCustomVar', 1, 'age-gender', 'male-25', 2]);
+_gaq.push(['_trackPageview', '/space/coincidence.phtml']);
+(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+<script>
+function omnitureTrackPage(advertiser, id) { }
+function omnitureTrackClick(advertiser, id) { }
+</script>
+
+<script>(function() {
+	var _fbq = window._fbq || (window._fbq = []);
+	if (!_fbq.loaded) {
+		var fbds = document.createElement('script');
+		fbds.async = true;
+		fbds.src = '//connect.facebook.net/en_US/fbds.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(fbds, s);
+		_fbq.loaded = true;
+	}
+	_fbq.push(['addPixelId', '694075314048104']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=694075314048104&amp;ev=PixelInitialized" /></noscript>
+
+</head>
+<body id="neobdy" class="en">	<div id="neoFade"></div>
+
+	<script type="text/javascript">
+	$(document).ready(function()
+	{
+	    $(".slidingDiv").show();
+		$(".show_hide").show();
+
+		$('.show_hide').click(function()
+		{
+			$(".slidingDiv").slideToggle();
+		});
+	});
+	</script>
+	<div id="pushdown_banner">
+		<div id="ad-slug-wrapper">
+			<table id="ad-table">
+				<tr>
+					<td class="slug"><img src="http://images.neopets.com/adslug-opa-l.png" width="13" height="66"></td>
+					<td class="neoaswc">
+						<script>
+var NeoRubicon = {
+	interval: null,
+
+	refreshAds: function() {
+		$('div.rubiconAdWrapper').each(function(k, v) {
+			if ($(this).attr('data-dorefresh') == 'true') {
+				var iframe = $(this).find('iframe');
+				var i2 = $(iframe).clone();
+				$(iframe).after(i2);
+				$(iframe).remove();
+			}
+		});
+
+	}
+};
+$(function() {
+	NeoRubicon.interval = setInterval(NeoRubicon.refreshAds, 30000);
+});
+</script>
+
+<style>
+iframe.rubicon { overflow: hidden; }
+iframe.rubicon.banner { width: 728px; height: 90px; }
+iframe.rubicon.tower { width: 160px; height: 600px; }
+iframe.rubicon.mrec { width: 300px; height: 250px; }
+iframe.rubicon.mrecwide { width: 400px; height: 400px; }
+</style>
+<!-- neo-intl-regular-0 -->
+<div id="ad-728x90DivWrapper" class="rubiconAdWrapper ad_wrapper_fixed" data-dorefresh=""true"">
+	<iframe class="rubicon banner" frameborder="0" scrolling="no" src="/ads/rubiconFrame.phtml?rpAccount=11488&rpSite=33442&rpZoneSize=137412-2&rpAdType=js"></iframe>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+<div id="main" class="">
+
+
+<div id="ban"  ></div>
+
+	<div id="header">
+		<table cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td width="156" rowspan="3"><a href="/index.phtml"><img src="http://images.neopets.com/transparent_spacer.gif" width="156" height="77" alt="" border="0"></a></td>
+				<td class="eventIcon sf" xalign="left">&nbsp;</td>
+				<td class="user medText">
+Welcome, <a href="/userlookup.phtml?user=tomatereloco">tomatereloco</a> <span style="font-weight: normal;">|</span> NP: <a id='npanchor' href="/inventory.phtml">981,519</a> <span style='font-weight: normal;'>|</span> NC: <a id='ncanchor' href='/mall/index.phtml'>350</a> <span style="font-weight: normal;">|</span> <a id="logout_link" href="/logout.phtml"><b>Logout</b></a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" id="navigation">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td width="725" align="center">
+<script type="text/javascript">
+	// Yay for Suckerfish!
+	startList = function() {
+		if (document.all&&document.getElementById) {
+			navRoot = document.getElementById("template_nav");
+			for (i=0; i<navRoot.childNodes.length; i++) {
+				node = navRoot.childNodes[i];
+				if (node.nodeName=="LI") {
+					node.onmouseover=function() {
+						this.className+=" over";
+					}
+					node.onmouseout=function() {
+						this.className=this.className.replace(" over", "");
+					}
+				}
+			}
+		}
+	}
+	window.onload=startList;
+</script>
+
+<ul id="template_nav">
+	<li class="nav_image"><a href="/myaccount.phtml"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/myaccount.png" alt="" border="0" width="115" height="38"></a><ul class="dropdown">
+			<li><a href="/myaccount.phtml">&raquo; Control Panel</a></li>
+			<li><a href="/preferences.phtml">&raquo; Preferences</a></li>
+			<li><a href="/userinfo.phtml">&raquo; Edit Profile</a></li>
+			<li><a href="/neomessages.phtml">&raquo; Neomail</a></li>
+			<li><a href="/neofriends.phtml">&raquo; Neofriends</a></li>
+			<li><a href="/addpet.phtml">&raquo; Create a Neopet</a></li>
+						<li><a href="/space/warehouse/prizecodes.phtml">&raquo; Redeem Code</a></li>
+				</ul>
+
+	<li class="nav_image"><a href="/customise/"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/customise.png" alt="" border="0" width="90" height="38"></a><ul class="dropdown">
+			<li><a href="/customise/">&raquo; Customise Neopet</a></li>
+			<li><a href="/inventory.phtml">&raquo; Inventory</a></li>
+			<li><a href="/closet.phtml">&raquo; Closet</a></li>
+			<li><a href="/neohome/"> &raquo; Neohomes</a></li>
+			<li><a href="/addpet.phtml">&raquo; Create a Neopet</a></li>
+			<li><a href="/pound/">&raquo; Pound</a></li>
+		</ul>
+	</li>
+
+		<li class="nav_image"><a href="/games/"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/games.png" alt="" border="0" width="65" height="38"></a><ul class="dropdown">
+			<li><a href="/games/">&raquo; Games Room</a></li>
+			<li><a href="/games/category.phtml?sortby=pop">&raquo; Popular</a></li>
+			<li><a href="/games/hiscores.phtml">&raquo; High Scores</a></li>
+			<li><a href="/games/favourites.phtml">&raquo; Favourites</a></li>
+			<!--<li><a href="/keyquest/">&raquo; Key Quest</a></li>-->
+			<li><a href="/dome/">&raquo; Battledome</a></li>
+						<li><a href="/games/pet/">&raquo; Pet Games</a></li>
+			<li><a href="/games/ghoulcatchers/">&raquo; Ghoul Catchers</a></li>
+					</ul>
+	</li>
+	
+	<li class="nav_image"><a href="/explore.phtml"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/explore.png" alt="" border="0" width="74" height="38"></a><ul class="dropdown">
+			<li><a href="/explore.phtml">&raquo; Map of Neopia</a></li>
+			<li><a href="/help/tutorial/index.phtml">&raquo; Tutorial</a></li>
+						<li><a href="/neopedia.phtml">&raquo; Neopedia</a></li>
+			<li><a href="/petcentral.phtml">&raquo; Pet Central</a></li>
+			<li><a href="/calendar.phtml">&raquo; Calendar</a></li>
+		</ul>
+	</li>
+
+	<li class="nav_image"><a href="/nf.phtml"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/news.png" alt="" border="0" width="57" height="38"></a><ul class="dropdown">
+		<li><a href="/nf.phtml">&raquo; New Features</a></li>
+		<li><a href="/comingsoon.phtml">&raquo; Coming Soon</a></li>
+		<li><a href="/ntimes/index.phtml">&raquo; Neopian Times</a></li><li><a href="/stuff.phtml">&raquo; Merch News</a></li>		</ul>
+	</li>
+
+	
+	<li class="nav_image"><a href="/community/index.phtml"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/community.png" alt="" border="0" width="97" height="38"></a><ul class="dropdown">
+			<li><a href="/community/index.phtml">&raquo; Hub</a></li>
+			<li><a href="/neoboards/index.phtml">&raquo; Neoboards</a></li>
+						<li><a href="/contests.phtml">&raquo; Spotlights</a></li>
+			<li><a href="/guilds/index.phtml">&raquo; Guilds</a></li>
+		</ul>
+	</li>
+	<li class="nav_image"><a href="/objects.phtml"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/shops.png" alt="" border="0" width="61" height="38"></a><ul class="dropdown">
+			<li><a href="/objects.phtml">&raquo; Neopia Central</a></li>
+			<li><a href="/market.phtml?type=wizard">&raquo; Shop Wizard</a></li>
+			<li><a href="/market.phtml?type=your">&raquo; Your Shop</a></li>
+			<li><a href="/auctions.phtml">&raquo; Auctions</a></li>
+			<li><a href="/island/tradingpost.phtml">&raquo; Trading Post</a></li>
+			<li><a href="/bank.phtml">&raquo; Bank</a></li>
+						<li><a href="/shopping/index.phtml">&raquo; Merchandise</a></li>
+				</ul>
+	</li>
+
+	<style type="text/css">
+		li.nav_image { margin-left: 0px; }
+	</style>
+		<li class="nav_image"><a href="http://ncmall.neopets.com/mall/shop.phtml?page=&cat="><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/ncmall.png" alt="" border="0" width="70" height="38"></a><ul class="dropdown">
+			<li><a href="http://ncmall.neopets.com/mall/shop.phtml?page=&cat=">&raquo; Shop</a></li>
+			<li><a href="http://nc.neopets.com/get-nickcash">&raquo; Get Neocash</a></li>
+			<li><a href="http://nc.neopets.com/nickcash-cards">&raquo; Find Neocash Cards</a></li>
+			<li><a href="http://nc.neopets.com/redeemnc">&raquo; Redeem Neocash Cards</a></li>
+			<li><a href='http://nc.neopets.com/transactionlog/'>&raquo; Transaction Logs</a></li>
+					</ul>
+	</li>
+		<style type="text/css">
+		li.nav_image { margin-left: 0px; }
+                .nav_premium_header{ margin-left:-2px !important; }
+	</style>
+		<li class="nav_image nav_premium_header"><a href="http://nc.neopets.com/membership/"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/premium.png" alt="" border="0" width="96" height="38"></a><ul class="dropdown">
+
+						<li><a href="http://nc.neopets.com/membership/">&raquo; Become a Member</a></li>
+								</ul>
+	</li>
+</ul>
+</td>
+							<td id="nst">3:43:50 pm NST</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" height="3"><img src="http://images.neopets.com/transparent_spacer.gif" width="1" height="3" alt="" border="0"></td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="content">
+	    		
+			    
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+				<td class="content">
+										                                <!-- r0 -->
+<style type='text/css'>
+.magmaportal #cboxContent h1 {
+	margin-top: -10px;
+	margin-bottom: 0px;
+}
+
+.magmaportal #cboxCurrent {
+	display: none;
+}
+
+.magmaportal #cboxClose {
+	height: 38px;
+	width: 38px;
+	background: url('http://images.neopets.com/magma/portal/buttons/close_x.png') no-repeat;
+	top: -23px;
+}
+.magmaportal #cboxClose:hover {
+	background-position: 0 -38px;
+}
+.magmaportal #cboxContent {
+	background-color: #eae9f5;
+}
+.magmaportal #cboxTopLeft {
+	width: 11px;
+	height: 16px;
+	background: url('http://images.neopets.com/magma/portal/popup.png') -25px 0px no-repeat;
+}
+.magmaportal #cboxTopRight {
+	width: 16px;
+	height: 16px;
+	background: url('http://images.neopets.com/magma/portal/popup.png') -984px 1px no-repeat;
+}
+.magmaportal #cboxBottomLeft {
+	width: 11px;
+	height: 16px;
+	background: url('http://images.neopets.com/magma/portal/popup.png') -25px -33px no-repeat;
+}
+.magmaportal #cboxBottomRight {
+	width: 16px;
+	height: 16px;
+	background: url('http://images.neopets.com/magma/portal/popup.png') -984px -33px no-repeat;
+}
+.magmaportal #cboxMiddleLeft {
+	width: 11px;
+	background: url('http://images.neopets.com/magma/portal/popup.png') -13px 0px;
+}
+.magmaportal #cboxMiddleRight {
+	width: 11px;
+	background: url('http://images.neopets.com/magma/portal/popup.png') -1px 0px;
+}
+.magmaportal #cboxTopCenter {
+	height: 16px;
+	background: url('http://images.neopets.com/magma/portal/popup.png') -37px 1px no-repeat;
+}
+.magmaportal #cboxBottomCenter {
+	height: 16px;
+	background: url('http://images.neopets.com/magma/portal/popup.png') -37px -33px no-repeat;
+}
+</style>
+
+<link href='/include/colorbox/base.css?v=1' rel='stylesheet' type='text/css'>
+<script src='http://images.neopets.com/js/jquery.colorbox.min.js?v=1' type='text/javascript'></script>
+
+<script type='text/javascript'>
+function initCbox(baseClass) {
+	$('#colorbox').attr('class', baseClass);
+	$('#cboxWrapper').css('width', ($('#cboxTopLeft').width() + $('#cboxTopCenter').width() + $('#cboxTopRight').width()) + 'px'); 
+	$('#cboxContent').css('width', $('#cboxWrapper').width() - ($('#cboxMiddleLeft').width() + $('#cboxMiddleRight').width()) + 'px');
+	$('#cboxCurrent').css('display', 'none');
+	$('#cboxLoadedContent').css('overflow', 'visible');
+	$.colorbox.resize();
+	$('#cboxWrapper').css('width', ($('#cboxTopLeft').width() + $('#cboxTopCenter').width() + $('#cboxTopRight').width()) + 'px'); 
+	$('#cboxContent').css('width', $('#cboxWrapper').width() - ($('#cboxMiddleLeft').width() + $('#cboxMiddleRight').width()) + 'px');
+	$('#cboxLoadedContent').width($('#cboxContent').width());
+
+	try {
+		eval("initCbox_" + baseClass + "()");
+	} catch (e) {
+	}
+}
+
+var defaultColorbox = {
+	opacity: 0.70,
+	fixed: true,
+	scrolling: false,
+	transition: 'none',
+	onComplete: function(type) {
+		initCbox(type);
+	}
+};
+</script>
+<style type='text/css'>
+#portalHub {
+	width: 980px;
+	height: 400px;
+	background: url(http://images.neopets.com/magma/portal/bg.jpg) no-repeat;
+}
+
+.portalButtonGreenSmall, .portalButtonGreenMedium, .portalButtonGreenLarge,
+		.portalButtonRedSmall, .portalButtonRedMedium, .portalButtonRedLarge,
+		.portalButtonYellowSmall, .portalButtonYellowMedium, .portalButtonYellowLarge, .portalButtonYellowXlarge {
+	height: 39px;
+	background: url(http://images.neopets.com/magma/portal/buttons/bg.png) no-repeat;
+	cursor: pointer;
+}
+
+.portalButtonGreenSmall div, .portalButtonGreenMedium div, .portalButtonGreenLarge div,
+		.portalButtonRedSmall div, .portalButtonRedMedium div, .portalButtonRedLarge div,
+		.portalButtonYellowSmall div, .portalButtonYellowMedium div, .portalButtonYellowLarge div, .portalButtonYellowXlarge div {
+	height: 39px;
+}
+
+.portalButtonGreenSmall {
+	width: 110px;
+}
+
+.portalButtonGreenSmall:hover {
+	background-position: 0 -39px;
+}
+
+.portalButtonGreenMedium {
+	width: 300px;
+	background-position: -110px 0;
+}
+
+.portalButtonGreenMedium:hover {
+	background-position: -110px -39px;
+}
+
+.portalButtonGreenLarge {
+	width: 340px;
+	background-position: -410px 0;
+}
+
+.portalButtonGreenLarge:hover {
+	background-position: -410px -39px;
+}
+
+.portalButtonRedSmall {
+	width: 110px;
+	background-position: -750px 0;
+}
+
+.portalButtonRedSmall:hover {
+	background-position: -750px -39px;
+}
+
+.portalButtonRedMedium {
+	width: 300px;
+	background-position: -860px 0;
+}
+
+.portalButtonRedMedium:hover {
+	background-position: -860px -39px;
+}
+
+.portalButtonRedLarge {
+	width: 340px;
+	background-position: -1160px 0;
+}
+
+.portalButtonRedLarge:hover {
+	background-position: -1160px -39px;
+}
+
+.portalButtonYellowSmall {
+	width: 110px;
+	background-position: -1500px 0;
+}
+
+.portalButtonYellowSmall:hover {
+	background-position: -1500px -39px;
+}
+
+.portalButtonYellowMedium {
+	width: 170px;
+	background-position: -1610px 0;
+}
+
+.portalButtonYellowMedium:hover {
+	background-position: -1610px -39px;
+}
+
+.portalButtonYellowLarge {
+	width: 230px;
+	background-position: -1780px 0;
+}
+
+.portalButtonYellowLarge:hover {
+	background-position: -1780px -39px;
+}
+
+.portalButtonYellowXlarge {
+	width: 300px;
+	background-position: -2010px 0;
+}
+
+.portalButtonYellowXlarge:hover {
+	background-position: -2010px -39px;
+}
+
+.portalButtonApproach {
+	width: 230px;
+	background: url(http://images.neopets.com/magma/portal/buttons/approach_with_dignity.png) no-repeat;
+}
+
+.portalButtonBuy {
+	width: 110px;
+	background: url(http://images.neopets.com/magma/portal/buttons/buy.png) no-repeat;
+}
+
+.portalButtonFlee {
+	width: 300px;
+	background: url(http://images.neopets.com/magma/portal/buttons/flee_in_case_there_are_lasers.png) no-repeat;
+}
+
+.portalButtonInventory {
+	width: 170px;
+	background: url(http://images.neopets.com/magma/portal/buttons/go_to_inventory.png) no-repeat;
+}
+
+.portalButtonDoIt {
+	width: 170px;
+	background: url(http://images.neopets.com/magma/portal/buttons/lets_do_this.png) no-repeat;
+}
+
+.portalButtonNope {
+	width: 110px;
+	background: url(http://images.neopets.com/magma/portal/buttons/nope.png) no-repeat;
+}
+
+.portalButtonFine {
+	width: 110px;
+	background: url(http://images.neopets.com/magma/portal/buttons/oh_fine.png) no-repeat;
+}
+
+.portalButtonStepAway {
+	width: 300px;
+	background: url(http://images.neopets.com/magma/portal/buttons/step_away_from_the_control_panel.png) no-repeat;
+}
+
+.portalButtonYup {
+	width: 110px;
+	background: url(http://images.neopets.com/magma/portal/buttons/yup.png) no-repeat;
+}
+</style>
+<style type='text/css'>
+.shipButtonGreenSmall, .shipButtonGreenMedium, .shipButtonGreenLarge, .shipButtonRedSmall, .shipButtonRedMedium, .shipButtonRedLarge,
+	.shipButtonRed230, .shipButtonYellowTiny, .shipButtonYellowSmall, .shipButtonYellowMedium, .shipButtonYellowLarge, .shipButtonYellow340 {
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/bg2.png) no-repeat;
+	cursor: pointer;
+}
+
+.shipButtonGreenSmall {
+	width: 110px;
+}
+
+.shipButtonGreenSmall:hover {
+	background-position: 0 -39px;
+}
+
+.shipButtonGreenMedium {
+	width: 300px;
+	background-position: -110px 0;
+}
+
+.shipButtonGreenMedium:hover {
+	background-position: -110px -39px;
+}
+
+.shipButtonGreenLarge {
+	width: 340px;
+	background-position: -410px 0;
+}
+
+.shipButtonGreenLarge:hover {
+	background-position: -410px -39px;
+}
+
+.shipButtonRedSmall {
+	width: 110px;
+	background-position: -750px 0;
+}
+
+.shipButtonRedSmall:hover {
+	background-position: -750px -39px;
+}
+
+.shipButtonRedMedium {
+	width: 300px;
+	background-position: -860px 0;
+}
+
+.shipButtonRedMedium:hover {
+	background-position: -860px -39px;
+}
+
+.shipButtonRedLarge {
+	width: 340px;
+	background-position: -1160px 0;
+}
+
+.shipButtonRedLarge:hover {
+	background-position: -1160px -39px;
+}
+
+.shipButtonRed230 {
+	width: 230px;
+	background-position: -2650px 0;
+}
+
+.shipButtonRed230:hover {
+	background-position: -2650px -39px;
+}
+
+.shipButtonYellowTiny {
+	width: 110px;
+	background-position: -1500px 0;
+}
+
+.shipButtonYellowTiny:hover {
+	background-position: -1500px -39px;
+}
+
+.shipButtonYellowSmall {
+	width: 170px;
+	background-position: -1610px 0;
+}
+
+.shipButtonYellowSmall:hover {
+	background-position: -1610px -39px;
+}
+
+.shipButtonYellowMedium {
+	width: 230px;
+	background-position: -1780px 0;
+}
+
+.shipButtonYellowMedium:hover {
+	background-position: -1780px -39px;
+}
+
+.shipButtonYellowLarge {
+	width: 300px;
+	background-position: -2010px 0;
+}
+
+.shipButtonYellowLarge:hover {
+	background-position: -2010px -39px;
+}
+
+.shipButtonYellow340 {
+	width: 340px;
+	background-position: -2310px 0;
+}
+
+.shipButtonYellow340:hover {
+	background-position: -2310px -39px;
+}
+
+.shipButtonLater {
+	width: 230px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/erm_maybe_later.png) no-repeat;
+}
+
+.shipButtonNoScience {
+	width: 300px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/no_not_even_for_science.png) no-repeat;
+}
+
+.shipButtonNoCreep {
+	width: 340px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/no_way_youre_creeping_me_out.png) no-repeat;
+}
+
+.shipButtonNoMind {
+	width: 340px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/no_thanks_changed_mind.png) no-repeat;
+}
+
+.shipButtonNoCancel {
+	width: 230px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/no_i_dont_want_to_cancel.png) no-repeat;
+}
+
+.shipButtonHelp {
+	width: 170px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/promise_to_help.png) no-repeat;
+}
+
+.shipButtonReturn {
+	width: 170px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/return_to_neopia.png) no-repeat;
+}
+
+.shipButtonSpeak {
+	width: 230px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/speak_to_dr_landelbrot.png) no-repeat;
+}
+
+.shipButtonSure {
+	width: 230px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/sure_id_love_to.png) no-repeat;
+}
+
+.shipButtonYesAsk {
+	width: 340px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/yes_i_thought_youd_never_ask.png) no-repeat;
+}
+
+.shipButtonYesBoldly {
+	width: 300px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/yes_lets_boldly_go_onward.png) no-repeat;
+}
+
+.shipButtonYesLater {
+	width: 340px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/yes_i_will_try_again_later.png) no-repeat;
+}
+
+.shipButtonCancelQuest {
+	width: 340px;
+	height: 39px;
+	background: url(http://images.neopets.com/coincidence/buttons/no_thanks_changed_mind.png) no-repeat;
+}
+</style>
+<style type='text/css'>
+#shipHub {
+	width: 980px;
+	height: 400px;
+	background: url(http://images.neopets.com/coincidence/0g7vht2w.jpg) no-repeat;
+	position: relative;
+	z-index: 10;
+}
+
+#laserDecoration {
+	width: 360px;
+	height: 185px;
+	background: url(http://images.neopets.com/coincidence/machine_8z52gt7i.png) no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+#questItems {
+	margin: auto;
+	padding-bottom: 2em;
+}
+
+#questItems td {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+#scientistPlain, #scientistWelcome, #scientistYay {
+	width: 357px;
+	height: 400px;
+	background: url(http://images.neopets.com/coincidence/scientist.png) no-repeat;
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+}
+
+#scientistWelcome {
+	background-position: -357px 0;
+}
+
+#scientistYay {
+	background-position: -714px 0;
+}
+</style>
+<style type='text/css'>
+#templateHeader { width: 100%; }
+
+#templateHeader tbody, #templateHeader td, #templateHeader tr {
+	border-collapse: collapse;
+	padding: 0;
+	width: 100%;
+}
+
+#pageTitle {
+	float: left;
+	margin-top: 8px;
+	font-size: 1.5em;
+}
+
+#pageTitle h1, #pageTitle h2, #pageTitle span {
+	float: left;
+	margin-top: 0px;
+	font-size: 1em;
+}
+
+#pageFacebook {
+	float: left;
+	margin-left: 10px;
+	padding-top: 6px;
+}
+
+#pageHelp {
+	width: 31px;
+	height: 31px;
+	background: url(http://images.neopets.com/common/help.png) no-repeat;
+	float: right;
+}
+
+#pageHelp:hover {
+	background-position: 0 -31px;
+}
+
+#pageBoard {
+	width: 31px;
+	height: 31px;
+	background: url(http://images.neopets.com/common/board.png) no-repeat;
+	float: right;
+}
+
+#pageBoard:hover {
+	background-position: 0 -31px;
+}
+
+#titleSpacing {
+	width: 1px;
+	height: 31px;
+	float: left;
+}
+
+#pageDesc {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+</style>
+
+<table id="templateHeader"><tr><td>
+<div style='clear: both;'></div>
+<h1 id='pageTitle'>
+Aboard <i>The Coincidence</i></h1>
+<div id='titleSpacing'></div>
+<div style='clear: both;'></div>
+</td></tr></table>
+<p id='pageDesc'>Before you is Dr Landelbrot, a brilliant scientist. He's standing between you and all of the shiny buttons. It's like he wants you to focus on the task at hand instead of going wild flipping toggles and pressing keys. This is a spaceship, though! Who is he kidding? Eh, maybe you should be listening to what he's saying.</p>
+<div id='shipHub'>
+  <div id='laserDecoration'></div>
+  <div id='scientistPlain'></div>
+</div>
+<div id='panelPopups' style='display: none;'>
+
+	<div id='shipPopupCancel'>
+		<h1>STOP!</h1>
+		<p>Are you sure you want to cancel?<br><br>Once you cancel, you forfeit your quest for the day. You will be able to visit Dr Landelbrot again tomorrow.</p>
+		<div class='shipButtonRed230' onclick="$.colorbox.close()" style='float: left; margin-left: 20px;'><div class='shipButtonNoCancel'></div></div>
+		<div class='shipButtonGreenLarge' onclick="cancelQuest()" style='float: right; margin-right: 20px;'><div class='shipButtonYesLater'></div></div>
+
+		<div style='clear: both;'></div>
+	</div>
+
+</div>
+<p>Back again? I'm still working with the materials you gave me. Don't worry, I was able to calculate how long it would take me to finish this part of the Random Events machine. Here is a handy timer you can watch while you wait.</p>
+<div style='text-align: center;'>
+<p>RESEARCH COMPLETE IN:</p>
+
+<style type='text/css'>
+#countdownClock_1514936630 li {
+	width: 19px;
+	height: 31px;
+	background: url(http://images.neopets.com/ncmall/fortune/pushdowns/countdown-numbers.png) no-repeat;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+	*display: inline;
+}
+
+#countdownClock_1514936630 li.clockSepWidth {
+	width: 7px;
+	background-position: -196px 0px;
+}
+</style>
+
+<div style='text-align: center;'>
+	<div style='margin-bottom: 4px;'></div>
+	<ul style='margin: 0; padding: 0; list-style-type: none;' id='countdownClock_1514936630'>
+		<li id='clockHourHundred_1514936630' style="display: none;"></li><li id='clockHourTen_1514936630'></li><li id='clockHourOne_1514936630'></li><li id='clockHourSep_1514936630' class='clockSepWidth'></li><li id='clockMinuteTen_1514936630'></li><li id='clockMinuteOne_1514936630'></li><li id='clockMinuteSep_1514936630' class='clockSepWidth'></li><li id='clockSecondTen_1514936630'></li><li id='clockSecondOne_1514936630'></li>
+	</ul>
+</div>
+
+<script type='text/javascript'>
+var countdownClock_1514936630 = {
+	hours: 8,
+	minutes: 16,
+	seconds: 10,
+	tick: function() {
+		if (this.seconds <= 0) {
+			this.seconds = 59;
+			if (this.minutes <= 0) {
+				this.minutes = 59;
+				this.hours--;
+			} else {
+				this.minutes--;
+			}
+		} else {
+			this.seconds--;
+		}
+
+		this.display();
+
+								
+		if (this.seconds == 0 && this.minutes == 0 && this.hours == 0) {
+			window.clearInterval(intervalId);
+		}
+	},
+	display: function() {
+		var hourHundred = document.getElementById('clockHourHundred_1514936630');
+		var hourTen = document.getElementById('clockHourTen_1514936630');
+		var hourOne = document.getElementById('clockHourOne_1514936630');
+		var minuteTen = document.getElementById('clockMinuteTen_1514936630');
+		var minuteOne = document.getElementById('clockMinuteOne_1514936630');
+		var secondTen = document.getElementById('clockSecondTen_1514936630');
+		var secondOne = document.getElementById('clockSecondOne_1514936630');
+
+		hourHundred.style.backgroundPosition = '-' + Math.floor(this.hours / 100) * 19 + 'px 0px';
+		hourTen.style.backgroundPosition = '-' + Math.floor((this.hours - (Math.floor(this.hours / 100) * 100)) / 10) * 19 + 'px 0px';
+		hourOne.style.backgroundPosition = '-' + Math.floor(this.hours % 10) * 19 + 'px 0px';
+		minuteTen.style.backgroundPosition = '-' + Math.floor(this.minutes / 10) * 19 + 'px 0px';
+		minuteOne.style.backgroundPosition = '-' + Math.floor(this.minutes % 10) * 19 + 'px 0px';
+		secondTen.style.backgroundPosition = '-' + Math.floor(this.seconds / 10) * 19 + 'px 0px';
+		secondOne.style.backgroundPosition = '-' + Math.floor(this.seconds % 10) * 19 + 'px 0px';
+	}
+};
+countdownClock_1514936630.display();
+intervalId = window.setInterval('countdownClock_1514936630.tick()', 1000);
+</script>
+
+</div>
+<p>Or you could go outside and play. You might need a spacesuit, though. It's cold out.</p>
+<a href='/explore.phtml'><div class='shipButtonYellowSmall' style='margin: auto;'><div class='shipButtonReturn'>&nbsp;</div></div></a>
+<div style='clear: both; height: 20px;'></div>
+<br clear="all">
+
+									</td>
+			</tr>
+		</table>
+	</div>
+	<div id="footer">
+		<img src="http://images.neopets.com/themes/025_tfr_5ce03/rotations/3.png" width="200" height="170" alt="" border="0" class="footerNifty">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" class="footer">
+			<tr>
+				<td width="175" align="left"><a href="/index.phtml"><img src="http://images.neopets.com/transparent_spacer.gif" width="156" height="46" alt="Neopets.com" border="0"></a></td>
+				<td align="left"><br>
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<!-- Search -->
+							<td class="sf" valign="middle">
+								<form onSubmit="javascript: search_handle(this);">
+								<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="footerForm sf" valign="middle"><b>Search Neopets:</b>&nbsp;</td>
+										<td valign="middle"><input class="sf" type="text" name="q" size="25" maxlength="255" value="Enter search text..." style="color: #a5a5a5; padding: 2px;" onFocus="this.style.color='#000000'; if( this.value=='Enter search text...' ) { this.value=''; }" onBlur="if( this.value=='' ) { this.style.color='#A5A5A5'; this.value='Enter search text...'; }">&nbsp;</td>
+										<td valign="middle"><input type="submit" value="Go!" class="sf">
+										<input type="hidden" name="client" value="pub-9208792519293771">
+										<input type="hidden" name="forid" value="1">
+										<input type="hidden" name="ie" value="ISO-8859-1">
+										<input type="hidden" name="oe" value="ISO-8859-1">
+										<input type="hidden" name="safe" value="active">
+										<input type="hidden" name="domains" value="www.neopets.com">
+										<input type="hidden" name="cof" value="GALT:#FFFFFF;GL:1;DIV:#000066;VLC:FFFFFF;AH:center;BGC:FFFFFF;LBGC:000066;ALC:FFFFFF;LC:FFFFFF;T:000000;GFNT:000066;GIMP:000077;FORID:1">
+										<input type="hidden" name="hl" value="en">
+										<input type="hidden" name="s">
+										</td>
+									</tr>
+								</table>
+								</form>
+							</td>
+							<td width="15">&nbsp;</td>
+							<!-- Language -->
+							<td class="sf" valign="top">
+								<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="footerForm sf" valign="middle"><form method="post"><b>Select Language:</b>&nbsp;</td>
+										<td valign="top">
+											<select name="lang" class="sf"><option value="en" selected>English</option><option value="nl">Nederlands</option><option value="pt">Português</option><option value="de">Deutsch</option><option value="fr">Français</option><option value="it">Italiano</option><option value="es">Español</option><option value="ch">简体中文</option><option value="zh">�?體中文</option><option value="ja">日本語</option><option value="ko">한국어</option></select>&nbsp;</td>
+										<td valign="top"><input type="submit" value="Go!" class="sf"></form></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="copyright">
+
+					<a href='/privacy.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/privacypolicy.png' width='81' height='18' border='0' alt='privacypolicy'></a>
+<img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/divider.png' width='4' height='16' border='0'>
+<a href='/safetytips.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/safetytips.png' width='61' height='18' border='0' alt='safetytips'></a>
+<img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/divider.png' width='4' height='16' border='0'>
+<a href='/contact.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/contactus.png' width='60' height='18' border='0' alt='contactus'></a>
+<img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/divider.png' width='4' height='16' border='0'>
+<a href='/aboutus.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/aboutus.png' width='50' height='18' border='0' alt='aboutus'></a>
+<img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/divider.png' width='4' height='16' border='0'>
+<a href='/refer/index.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/referral.png' width='98' height='18' border='0' alt='referral'></a>
+<img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/divider.png' width='4' height='16' border='0'>
+<a href='/help.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/help.png' width='25' height='18' border='0' alt='help'></a>
+					<br>
+					<div class='sf' style='width: 800px;'>
+						<div style="position: relative; height: 42px; width: 300px;"></div>						NEOPETS and all related indicia are trademarks of <a href="/aboutus.phtml"><b>Neopets, Inc.</b></a>, &copy; 1999-2018. &reg; denotes Reg. USPTO. All rights reserved. Use of this site signifies your acceptance of the <a href='/terms.phtml'><b>Terms of Use</b></a>. <a href="/privacy.phtml">Your California Privacy Rights</a>
+
+
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+<script language="JavaScript">
+function tzCook() { 
+	var today = new Date();
+	var expire = new Date();
+	expire.setTime(today.getTime() + 3600000*24*30);
+	var cstr = "_tz="+escape(today.getTimezoneOffset()) + ";expires="+expire.toGMTString() + ";path=/;domain=.neopets.com;";
+	document.cookie = cstr;
+}
+tzCook();
+</script>
+</div>	<style type="text/css">
+		.ban_bottom {
+			width: 996px;
+			height: 94px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+	</style>
+	<div class="ban_bottom ban_theme_bg main_theme" id="pushdown_banner_btf">
+		<div id="ad-slug-wrapper-btf">
+			<table id="ad-table-btf">
+				<tr>
+					<td class="slug"><img src="http://images.neopets.com/adslug-opa-l.png" width="13" height="66"></td>
+					<td class="neoaswc">
+						<!-- neo-intl-regular-6 -->
+<div id="ad-728x90Div-btfWrapper" class="rubiconAdWrapper ad_wrapper_fixed" data-dorefresh=""true"">
+	<iframe class="rubicon banner" frameborder="0" scrolling="no" src="/ads/rubiconFrame.phtml?rpAccount=11488&rpSite=33424&rpZoneSize=327426-2&rpAdType=js"></iframe>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+<div style="display: none" id="logout_nchub"></div>
+<script type="text/javascript" src="http://images.neopets.com/js/ckads.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(checkAds()); function checkAds(){if (document.getElementById('adsense')!=undefined){document.write("<script>_gaq.push(['_trackEvent', 'Adblock', 'Unblocked', 'false',,true]);</sc" + "ript>");}else{document.write("<script>_gaq.push(['_trackEvent', 'Adblock', 'Blocked', 'true',,true]);</sc" + "ript>");}}
+</script>
+
+<link href='/include/colorbox/base.css?v=1' rel='stylesheet' type='text/css'>
+<script src='http://images.neopets.com/js/jquery.colorbox.min.js?v=1' type='text/javascript'></script>
+
+</body>
+</html>
+
+0
+
+
