@@ -1515,3 +1515,823 @@ com.httphelper.main.HttpHelper.<init>(HttpHelper.java:85)
 com.httphelper.main.HttpHelper.<init>(HttpHelper.java:48)
 com.neopetsconnect.main.Main.initHelper(Main.java:113)
 com.neopetsconnect.main.Main.main(Main.java:35)
+2018-01-04T03:20:36.9: [EXCEPTION] Cause:
+com.httphelper.main.HttpHelperException: Failed to open socket.
+com.httphelper.main.HttpHelper.<init>(HttpHelper.java:87)
+com.httphelper.main.HttpHelper.<init>(HttpHelper.java:48)
+com.neopetsconnect.main.Main.initHelper(Main.java:113)
+com.neopetsconnect.main.Main.main(Main.java:35)Cause:
+java.net.ConnectException: Connection timed out: connect
+java.net.DualStackPlainSocketImpl.connect0(Native Method)
+java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+java.net.PlainSocketImpl.connect(Unknown Source)
+java.net.SocksSocketImpl.connect(Unknown Source)
+java.net.Socket.connect(Unknown Source)
+java.net.Socket.connect(Unknown Source)
+java.net.Socket.<init>(Unknown Source)
+java.net.Socket.<init>(Unknown Source)
+com.httphelper.main.HttpHelper.<init>(HttpHelper.java:85)
+com.httphelper.main.HttpHelper.<init>(HttpHelper.java:48)
+com.neopetsconnect.main.Main.initHelper(Main.java:113)
+com.neopetsconnect.main.Main.main(Main.java:35)
+2018-01-04T04:57:03.495: [EXCEPTION] 994d
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--
+ host - web-0038.intneo.com
+//-->
+<html><head>
+	<meta name="description" content="Neopets.Com - Virtual Pet Community! Join up for free games, shops, auctions, chat and more!">
+	<meta name="keywords" content="pets, pet, games, game, virtual, chat, fun, prizes, play, virtual pet, kids">
+	<meta name="robots" content="noodp, index, follow">
+	<meta http-equiv="X-UA-Compatible" content="IE=8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<link rel="stylesheet" type="text/css" href="http://images.neopets.com/css/default.css?v=4">
+	<link rel="stylesheet" type="text/css" href="http://images.neopets.com/css/ad.css?v=6">
+	
+	<style type="text/css">td.neoaswc img {vertical-align: top;}</style>	<style type="text/css">
+
+	.centeredOverlay {
+		position: absolute;
+		background-color: rgba(0, 0, 0, 0.3);
+		top:0;
+		left:0;
+		width:10%
+		height:10%
+		color:black;
+		text-align: center;
+	}
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="http://images.neopets.com/css/themes/025_tfr_5ce03.css?v=9">
+		
+	<title>Neopets - Browsing a Shop</title>
+	<script id="js-framework" type="text/javascript" language="JavaScript" src="http://images.neopets.com/js/common.js?v=6"></script>
+
+		<script src="http://images.neopets.com/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="http://images.neopets.com/js/jquery-ui-1.8.17.min.js" type="text/javascript"></script>
+
+	
+	<script type="text/javascript">
+	var Neo = {
+		clog: function() {
+			if (window.console && console.log) {
+				if (arguments.length == 0) {
+					console.log('! no arguments passed !');
+				} else if (arguments.length == 1) {
+					console.log(arguments[0]);
+				} else {
+					console.log(arguments);
+				}
+			}
+		},
+		popups: {
+			list: [],
+			add: function(popup) {
+				Neo.popups.list.push(popup);
+				Neo.fade.show();
+			},
+			rem: function(popup) {
+				for (var i = Neo.popups.list.length - 1; i >= 0; i--) {
+					var curPopup = Neo.popups.list[i];
+					Neo.clog(i, popup, curPopup, popup == curPopup);
+					if (curPopup == popup) {
+						Neo.popups.list.splice(i, 1);
+					}
+				}
+				if (Neo.popups.list.length == 0) {
+					Neo.fade.hide();
+				}
+			},
+			remAll: function() {
+				Neo.popups.list = [];
+				Neo.fade.hide();
+			}
+		},
+		fade: {
+			show: function() {
+				$('#neoFade').show();
+			},
+			hide: function() {
+				$('#neoFade').hide();
+			}
+		},
+		setNp: function(newnp) {
+			$('#npanchor').text(newnp);
+		},
+		setNc: function(newnc) {
+			Neo.clog('lol', newnc);
+			$('#ncanchor').text(newnc);
+		},
+		precache: function(url) {
+			if ($.isArray(url)) {
+				for (var i = 0; i < url.length; i++) {
+					new Image().src = url[i];
+				}
+			} else {
+				new Image().src = url;
+			}
+		}
+	};
+	</script>
+	<style type="text/css">
+		#neoFade { display: none; position: fixed; top: 0px; left: 0px; width: 10% height: 10% opacity: 0.5; background: black; filter: alpha(opacity=50); z-index: 9500; }
+	</style>
+
+	<script id="js-browserdetect" type="text/javascript" language="JavaScript" src="http://images.neopets.com/js/getbrowser.js?v=1">
+		
+	</script>
+	
+	<!-- 
+	<script id="js-browserdetect2" type="text/javascript" language="JavaScript" src="http://images.neopets.com/js/getbrowser_new.js">
+	</script> -->
+	
+<script type="text/javascript" src="http://images.neopets.com/n.js"></script>
+	<script type="text/javascript">
+	<!--
+		var nl = "en";
+		var nh = 11;
+		var nm = 57;
+		var ns = 0;
+		var na = "pm";
+		var ncl = new Array(0, 53, 104, 137, 169, 198, 231, 265, 299, 335, 368, 397, 427);
+
+		window.setInterval('nc()', 1000);
+
+		function sh(i) {
+			ol.style.clip = "rect("+ncl[i-1]+" 128 "+ncl[i]+" 0)";
+			ol.style.visibility = "visible";
+		}
+
+		function mo() {
+			ol.style.visibility = "hidden";
+		}
+
+		function search_handle(searchForm) {
+			searchForm.action = "/search.phtml";
+			searchForm.target = "";
+			searchForm.method = "post";
+			searchForm.s.value = searchForm.q.value;
+			searchForm.submit();
+		};
+		function logout_nchub() {
+			var f = document.createElement("iframe");
+			f.setAttribute("src", "http://nc.neopets.com/auth/logout?no-redirect=1");
+			f.setAttribute("width", "0");
+			f.setAttribute("height", "0");
+			f.setAttribute("border", "0");
+
+			var i = document.getElementById('logout_nchub');
+			i.appendChild(f);
+
+					}
+		jQuery(document).ready(function(){
+			$('a#logout_link').click(function (event) {
+				setTimeout(function() {window.location = '/logout.phtml';},1000);
+				logout_nchub();
+				return false;
+			});
+		});
+	//-->
+	</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1152868-1']);
+_gaq.push(['_setCustomVar', 1, 'age-gender', 'male-25', 2]);
+_gaq.push(['_trackPageview', '/browseshop.phtml']);
+(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+<script>
+function omnitureTrackPage(advertiser, id) { }
+function omnitureTrackClick(advertiser, id) { }
+</script>
+
+<script>(function() {
+	var _fbq = window._fbq || (window._fbq = []);
+	if (!_fbq.loaded) {
+		var fbds = document.createElement('script');
+		fbds.async = true;
+		fbds.src = '//connect.facebook.net/en_US/fbds.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(fbds, s);
+		_fbq.loaded = true;
+	}
+	_fbq.push(['addPixelId', '694075314048104']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=694075314048104&amp;ev=PixelInitialized" /></noscript>
+
+</head>
+<body id="neobdy" class="en">	<div id="neoFade"></div>
+
+	<script type="text/javascript">
+	$(document).ready(function()
+	{
+	    $(".slidingDiv").show();
+		$(".show_hide").show();
+
+		$('.show_hide').click(function()
+		{
+			$(".slidingDiv").slideToggle();
+		});
+	});
+	</script>
+	<div id="pushdown_banner">
+		<div id="ad-slug-wrapper">
+			<table id="ad-table">
+				<tr>
+					<td class="slug"><img src="http://images.neopets.com/adslug-opa-l.png" width="13" height="66"></td>
+					<td class="neoaswc">
+						<script>
+var NeoRubicon = {
+	interval: null,
+
+	refreshAds: function() {
+		$('div.rubiconAdWrapper').each(function(k, v) {
+			if ($(this).attr('data-dorefresh') == 'true') {
+				var iframe = $(this).find('iframe');
+				var i2 = $(iframe).clone();
+				$(iframe).after(i2);
+				$(iframe).remove();
+			}
+		});
+
+	}
+};
+$(function() {
+	NeoRubicon.interval = setInterval(NeoRubicon.refreshAds, 30000);
+});
+</script>
+
+<style>
+iframe.rubicon { overflow: hidden; }
+iframe.rubicon.banner { width: 728px; height: 90px; }
+iframe.rubicon.tower { width: 160px; height: 600px; }
+iframe.rubicon.mrec { width: 300px; height: 250px; }
+iframe.rubicon.mrecwide { width: 400px; height: 400px; }
+</style>
+<!-- neo-intl-regular-0 -->
+<div id="ad-728x90DivWrapper" class="rubiconAdWrapper ad_wrapper_fixed" data-dorefresh=""true"">
+	<iframe class="rubicon banner" frameborder="0" scrolling="no" src="/ads/rubiconFrame.phtml?rpAccount=11488&rpSite=33442&rpZoneSize=137412-2&rpAdType=js"></iframe>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+<div id="main" class="">
+
+
+<div id="ban"  ></div>
+
+	<div id="header">
+		<table cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td width="156" rowspan="3"><a href="/index.phtml"><img src="http://images.neopets.com/transparent_spacer.gif" width="156" height="77" alt="" border="0"></a></td>
+				<td class="eventIcon sf" xalign="left">&nbsp;</td>
+				<td class="user medText">
+Welcome, <a href="/userlookup.phtml?user=tomatereloco">tomatereloco</a> <span style="font-weight: normal;">|</span> NP: <a id='npanchor' href="/inventory.phtml">1,047,363</a> <span style='font-weight: normal;'>|</span> NC: <a id='ncanchor' href='/mall/index.phtml'>350</a> <span style="font-weight: normal;">|</span> <a id="logout_link" href="/logout.phtml"><b>Logout</b></a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" id="navigation">
+					<table width="10% cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td width="725" align="center">
+<script type="text/javascript">
+	// Yay for Suckerfish!
+	startList = function() {
+		if (document.all&&document.getElementById) {
+			navRoot = document.getElementById("template_nav");
+			for (i=0; i<navRoot.childNodes.length; i++) {
+				node = navRoot.childNodes[i];
+				if (node.nodeName=="LI") {
+					node.onmouseover=function() {
+						this.className+=" over";
+					}
+					node.onmouseout=function() {
+						this.className=this.className.replace(" over", "");
+					}
+				}
+			}
+		}
+	}
+	window.onload=startList;
+</script>
+
+<ul id="template_nav">
+	<li class="nav_image"><a href="/myaccount.phtml"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/myaccount.png" alt="" border="0" width="115" height="38"></a><ul class="dropdown">
+			<li><a href="/myaccount.phtml">&raquo; Control Panel</a></li>
+			<li><a href="/preferences.phtml">&raquo; Preferences</a></li>
+			<li><a href="/userinfo.phtml">&raquo; Edit Profile</a></li>
+			<li><a href="/neomessages.phtml">&raquo; Neomail</a></li>
+			<li><a href="/neofriends.phtml">&raquo; Neofriends</a></li>
+			<li><a href="/addpet.phtml">&raquo; Create a Neopet</a></li>
+						<li><a href="/space/warehouse/prizecodes.phtml">&raquo; Redeem Code</a></li>
+				</ul>
+
+	<li class="nav_image"><a href="/customise/"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/customise.png" alt="" border="0" width="90" height="38"></a><ul class="dropdown">
+			<li><a href="/customise/">&raquo; Customise Neopet</a></li>
+			<li><a href="/inventory.phtml">&raquo; Inventory</a></li>
+			<li><a href="/closet.phtml">&raquo; Closet</a></li>
+			<li><a href="/neohome/"> &raquo; Neohomes</a></li>
+			<li><a href="/addpet.phtml">&raquo; Create a Neopet</a></li>
+			<li><a href="/pound/">&raquo; Pound</a></li>
+		</ul>
+	</li>
+
+		<li class="nav_image"><a href="/games/"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/games.png" alt="" border="0" width="65" height="38"></a><ul class="dropdown">
+			<li><a href="/games/">&raquo; Games Room</a></li>
+			<li><a href="/games/category.phtml?sortby=pop">&raquo; Popular</a></li>
+			<li><a href="/games/hiscores.phtml">&raquo; High Scores</a></li>
+			<li><a href="/games/favourites.phtml">&raquo; Favourites</a></li>
+			<!--<li><a href="/keyquest/">&raquo; Key Quest</a></li>-->
+			<li><a href="/dome/">&raquo; Battledome</a></li>
+						<li><a href="/games/pet/">&raquo; Pet Games</a></li>
+			<li><a href="/games/ghoulcatchers/">&raquo; Ghoul Catchers</a></li>
+					</ul>
+	</li>
+	
+	<li class="nav_image"><a href="/explore.phtml"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/explore.png" alt="" border="0" width="74" height="38"></a><ul class="dropdown">
+			<li><a href="/explore.phtml">&raquo; Map of Neopia</a></li>
+			<li><a href="/help/tutorial/index.phtml">&raquo; Tutorial</a></li>
+						<li><a href="/neopedia.phtml">&raquo; Neopedia</a></li>
+			<li><a href="/petcentral.phtml">&raquo; Pet Central</a></li>
+			<li><a href="/calendar.phtml">&raquo; Calendar</a></li>
+		</ul>
+	</li>
+
+	<li class="nav_image"><a href="/nf.phtml"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/news.png" alt="" border="0" width="57" height="38"></a><ul class="dropdown">
+		<li><a href="/nf.phtml">&raquo; New Features</a></li>
+		<li><a href="/comingsoon.phtml">&raquo; Coming Soon</a></li>
+		<li><a href="/ntimes/index.phtml">&raquo; Neopian Times</a></li><li><a href="/stuff.phtml">&raquo; Merch News</a></li>		</ul>
+	</li>
+
+	
+	<li class="nav_image"><a href="/community/index.phtml"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/community.png" alt="" border="0" width="97" height="38"></a><ul class="dropdown">
+			<li><a href="/community/index.phtml">&raquo; Hub</a></li>
+			<li><a href="/neoboards/index.phtml">&raquo; Neoboards</a></li>
+						<li><a href="/contests.phtml">&raquo; Spotlights</a></li>
+			<li><a href="/guilds/index.phtml">&raquo; Guilds</a></li>
+		</ul>
+	</li>
+	<li class="nav_image"><a href="/objects.phtml"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/shops.png" alt="" border="0" width="61" height="38"></a><ul class="dropdown">
+			<li><a href="/objects.phtml">&raquo; Neopia Central</a></li>
+			<li><a href="/market.phtml?type=wizard">&raquo; Shop Wizard</a></li>
+			<li><a href="/market.phtml?type=your">&raquo; Your Shop</a></li>
+			<li><a href="/auctions.phtml">&raquo; Auctions</a></li>
+			<li><a href="/island/tradingpost.phtml">&raquo; Trading Post</a></li>
+			<li><a href="/bank.phtml">&raquo; Bank</a></li>
+						<li><a href="/shopping/index.phtml">&raquo; Merchandise</a></li>
+				</ul>
+	</li>
+
+	<style type="text/css">
+		li.nav_image { margin-left: 0px; }
+	</style>
+		<li class="nav_image"><a href="http://ncmall.neopets.com/mall/shop.phtml?page=&cat="><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/ncmall.png" alt="" border="0" width="70" height="38"></a><ul class="dropdown">
+			<li><a href="http://ncmall.neopets.com/mall/shop.phtml?page=&cat=">&raquo; Shop</a></li>
+			<li><a href="http://nc.neopets.com/get-nickcash">&raquo; Get Neocash</a></li>
+			<li><a href="http://nc.neopets.com/nickcash-cards">&raquo; Find Neocash Cards</a></li>
+			<li><a href="http://nc.neopets.com/redeemnc">&raquo; Redeem Neocash Cards</a></li>
+			<li><a href='http://nc.neopets.com/transactionlog/'>&raquo; Transaction Logs</a></li>
+					</ul>
+	</li>
+		<style type="text/css">
+		li.nav_image { margin-left: 0px; }
+                .nav_premium_header{ margin-left:-2px !important; }
+	</style>
+		<li class="nav_image nav_premium_header"><a href="http://nc.neopets.com/membership/"><img src="http://images.neopets.com/themes/025_tfr_5ce03/navigation/premium.png" alt="" border="0" width="96" height="38"></a><ul class="dropdown">
+
+						<li><a href="http://nc.neopets.com/membership/">&raquo; Become a Member</a></li>
+								</ul>
+	</li>
+</ul>
+</td>
+							<td id="nst">11:57:00 pm NST</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" height="3"><img src="http://images.neopets.com/transparent_spacer.gif" width="1" height="3" alt="" border="0"></td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="content">
+	    		
+			    
+	<table width="10% cellpadding="0" cellspacing="0" border="0">
+		<tr>
+<td align="center" class="sidebar" width="178">
+<div class="sidebarModule" style="margin-bottom: 7px;">
+	<table width="150" cellpadding="3" cellspacing="0" border="0" class="sidebarTable">
+		<tr>
+			<td valign="middle" class="sidebarHeader medText"><a href="/quickref.phtml"><b>jimtry</b></a> </td>
+		</tr>
+		<tr>
+			<td class="activePet"><a href="/quickref.phtml"><IMG src="http://pets.neopets.com/cp/jwglt5ox/2/2.png" width="150" height="150" border="0" style=""></a></td>
+		</tr>
+		<tr>
+			<td class="activePet sf" align="center"><a href="/customise/?view=jimtry"><b><span class="pointer">&raquo</span> Customise</b></a></td>
+		</tr>
+
+		<tr>
+			<td class="activePetInfo" align="center">
+				<table cellpadding="1" cellspacing="0" border="0">
+					<tr>
+						<td align="right">Species:</td>
+						<td align="left"><b>Kougra</b></td>
+					</tr>
+
+					<tr>
+						<td align="right">Health:</td>
+						<td align="left"><b><font color='green'><b>113 / 120</b></font></b></td>
+					</tr>
+
+					<tr>
+						<td align="right">Mood:</td>
+						<td align="left"><b>delighted!</b></td>
+					</tr>
+
+					<tr>
+						<td align="right">Hunger:</td>
+						<td align="left"><b><span style="color: #FF0000;">famished</span></b></td>
+					</tr>
+
+					<tr>
+						<td align="right">Age:</td>
+						<td align="left"><b>4,567 days</b></td>
+						</tr>
+
+					<tr>
+						<td align="right">Level:</td>
+						<td align="left"><b>64</b></td>
+					</tr>
+				</table>
+
+				
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div class="sidebarModule" style="margin-bottom: 7px;">
+	<table width="158" cellpadding="2" cellspacing="0" border="0" class="sidebarTable">
+		<tr>
+			<td valign="middle" class="sidebarHeader medText">Search Neopets</td>
+		</tr>
+		<tr>
+			<td class="neofriend" align="center">
+				<form onSubmit="search_handle(this);" style="padding-top: 4px; padding-bottom: 4px;">
+					<input class="sf" type="text" name="q" maxlength="255" value="Enter search text..." style="width: 135px; color: #a5a5a5; padding: 2px;" onFocus="this.style.color='#000000'; if( this.value=='Enter search text...' ) { this.value=''; }" onBlur="if( this.value=='' ) { this.style.color='#A5A5A5'; this.value='Enter search text...'; }"><br>
+					<input type="submit" value="Go!" class="sf">
+					<input type="hidden" name="client" value="pub-9208792519293771">
+					<input type="hidden" name="forid" value="1">
+					<input type="hidden" name="ie" value="ISO-8859-1">
+					<input type="hidden" name="oe" value="ISO-8859-1">
+					<input type="hidden" name="safe" value="active">
+					<input type="hidden" name="domains" value="www.neopets.com">
+					<input type="hidden" name="cof" value="GALT:#FFFFFF;GL:1;DIV:#000066;VLC:FFFFFF;AH:center;BGC:FFFFFF;LBGC:000066;ALC:FFFFFF;LC:FFFFFF;T:000000;GFNT:000066;GIMP:000077;FORID:1">
+					<input type="hidden" name="hl" value="en">
+					<input type="hidden" name="s">
+				</form>
+			</td>
+		</tr>
+	</table>
+</div>
+<style>
+     .neofriendUsername_online{
+            text-align:left;
+            font-size:10px;
+        }
+        
+        
+        .button-link-online {
+	padding: 3px 10px;
+	background: #4479BA;
+	color: #FFF !important;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: solid 1px #20538D;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	-webkit-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+.button-link-online:hover {
+	background: #356094;
+	border: solid 1px #2A4E77;
+	text-decoration: none;
+}
+.button-link-online:active {
+	-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+	background: #2E5481;
+	border: solid 1px #203E5F;
+}
+        
+</style>
+<div class="sidebarModule">
+	<table width="158" cellpadding="2" cellspacing="0" border="0" class="sidebarTable">
+		<tr>
+						<td valign="middle" class="sidebarHeader medText"><a href="/neofriends.phtml"><b>Neofriends</b></a> &nbsp;&nbsp;&nbsp; <a href="/s/index.phtml?track_cat_id=50&item_id=488"><img src="http://images.neopets.com/help/question_mark.png" width="13" height="13" alt="" border="0" align="absbottom"></a></td>
+		</tr>
+		<tr>
+			<td class="neofriend" align="center">
+
+These Neofriends are currently online!
+			<br /><br />
+
+			<table width="10% cellpadding="0" cellspacing="0" border="0"><tr>
+				<td width="30" align="center" valign="top"><img src="http://images.neopets.com/neoboards/avatars/nightsteed.gif" width="50" height="50" alt="" border="0" class="neofriendAvatar"></td>
+				<td width="70" align="left" valign="top" ><div class="neofriendUsername_online">
+						<a href="/userlookup.phtml?user=neobillogranhermano" style="font-weight: normal;">neobillogran...</a>
+					</div> <br/><div class="neofriendInfo"> <a href="/neomessages.phtml?type=send&recipient=neobillogranhermano" style="font-weight: normal;" class='button-link-online'>Neomail</a><br />
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" height="7"><img src="http://images.neopets.com/transparent_spacer.gif" width="1" height="7" alt="" border="0"></td>
+			</tr></table>			</td>
+		</tr>
+	</table>
+</div>
+</td>				<td class="content">
+										                                <!-- r0 -->
+
+<div align="center" class="medText">
+
+<a href="/objects.phtml"><b>Neopia Central</b></a>&nbsp;|
+<a href="/market_bazaar.phtml"><b>Bazaar</b></a>&nbsp;|
+<a href="/market_plaza.phtml"><b>Plaza</b></a>&nbsp;|
+<a href="/market_map.phtml"><b>Marketplace</b></a>&nbsp;|
+<a href="/market.phtml?type=wizard"><b>Shop Wizard</b></a>&nbsp;|
+<a href="/auctions.phtml"><b>Auctions</b></a>&nbsp;|
+<a href="/island/tradingpost.phtml"><b>Trading Post</b></a>
+<br />
+<a href="/objects.phtml?type=inventory"><b>Inventory</b></a>&nbsp;|
+<a href="/closet.phtml"><b>Closet</b></a>&nbsp;|
+<a href="/safetydeposit.phtml"><b>Safety Deposit Box</b></a>&nbsp;|
+<a href="/bank.phtml"><b>Bank</b></a>&nbsp;|
+<a href="/market.phtml?type=your"><b>Your Shop</b></a>
+<br />
+<a href="/battledome/battledome.phtml"><b>Battledome</b></a>&nbsp;|
+<a href="/guilds/index.phtml"><b>Guild Headquarters</b></a>&nbsp;|
+<a href="/noticeboard.phtml"><b>Notice Board</b></a>&nbsp;|
+<a href="/neohome/"><b>Neohomes</b></a>&nbsp;|
+<a href="/neohome/shed"><b>Storage Shed</b></a>
+
+
+<!--
+	<a href="/objects.phtml"><b>Neopia Central</b></a>&nbsp;|&nbsp;<a href="/market_bazaar.phtml"><b>Bazaar</b></a>&nbsp;|&nbsp;<a href="/market_plaza.phtml"><b>Plaza</b></a>&nbsp;|&nbsp;<a href="/market_map.phtml"><b>Marketplace</b></a>&nbsp;|&nbsp;<a href="/objects.phtml?type=inventory"><b>Inventory</b></a>&nbsp;|&nbsp;<a href="/closet.phtml"><b>Closet</b></a>&nbsp;|&nbsp;<a href="/safetydeposit.phtml"><b>Safety Deposit Box</b></a>
+
+	<br />
+
+	<a href="/battledome/battledome.phtml"><b>Battledome</b></a>&nbsp;|&nbsp;<a href="/guilds/index.phtml"><b>Guild Headquarters</b></a>&nbsp;|&nbsp;<a href="/noticeboard.phtml"><b>Notice Board</b></a>&nbsp;|&nbsp;<a href="/neohome/"><b>Neohomes</b></a>&nbsp;|&nbsp;<a href="/neohome/shed"><b>Storage Shed</b></a>
+	
+--->
+</div>
+
+
+
+
+<br />
+ 
+<BR><DIV align="center"><SCRIPT type="text/javascript">
+var right_str = "If you want to buy an item, use the left mouse button :)";
+</SCRIPT>
+<SCRIPT type="text/javascript" src="/js/browseshop.js"></SCRIPT>
+</DIV><b>Needy Things</b> (owned by <A href="/userlookup.phtml?user=stardom75"><b>stardom75</b></a>) - Click <a href='/autoform_abuse.phtml?abuse=report&offender=stardom75&reportType=shop' onClick="if ( !confirm('Are you SURE you wish to report this shop?\n\nShops that have offensive material in, or scams can be reported to the\nNeopets Team by clicking \'OK\' below.  We will deal with it as soon as we can.') ) { return false; }"><b>here</b></a> to report shop.<br><BR><DIV align="center"><img src="http://images.neopets.com/new_shopkeepers/195.gif" width="150" height="150" border="0"><br><b>Whispering softly Mystin says 'you are getting sleepy, very very sleepy....'</b><br></DIV><BR>
+<!-- desc start -->
+<div align="center"> <div style="background: #3399ff; width: 7% border: #999999 10px ridge;"></div></div>
+<!-- desc end -->
+<div style='text-align: center; margin: 10px;'><TABLE border="0" align='center'><TR><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=7464&g=1&xhs=5n4qqr4p&old_price=6995&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Zei Codestone at 6,995 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone7.gif" width="80" height="80" title="This mystical codestone is used for training pets in the Mystery Island Training School - it is very valuable!" border="1"></a> <br> <b>Zei Codestone</b><br>4 in stock<br>Cost : 6,995 NP<br><br></td></TR></TABLE></div><HR noshade size="1" width="7% style="margin-bottom: 0px;"><BR><TABLE align="center" border="0" cellpadding="3"><TR><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=7458&g=1&xhs=5n4qqr4p&old_price=10000&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Mau Codestone at 10,000 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone1.gif" width="80" height="80" title="This mystical codestone is used for training pets in the Mystery Island Training School - it is very valuable!" border="1"></a> <br> <b>Mau Codestone</b><br>8 in stock<br>Cost : 10,000 NP<br><br></td><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=7459&g=1&xhs=5n4qqr4p&old_price=10000&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Tai-Kai Codestone at 10,000 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone2.gif" width="80" height="80" title="This mystical codestone is used for training pets in the Mystery Island Training School - it is very valuable!" border="1"></a> <br> <b>Tai-Kai Codestone</b><br>3 in stock<br>Cost : 10,000 NP<br><br></td><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=7460&g=1&xhs=5n4qqr4p&old_price=10000&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Lu Codestone at 10,000 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone3.gif" width="80" height="80" title="This mystical codestone is used for training pets in the Mystery Island Training School - it is very valuable!" border="1"></a> <br> <b>Lu Codestone</b><br>8 in stock<br>Cost : 10,000 NP<br><br></td><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=7461&g=1&xhs=5n4qqr4p&old_price=10000&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Vo Codestone at 10,000 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone4.gif" width="80" height="80" title="This mystical codestone is used for training pets in the Mystery Island Training School - its very valuable!" border="1"></a> <br> <b>Vo Codestone</b><br>2 in stock<br>Cost : 10,000 NP<br><br></td><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=7462&g=1&xhs=5n4qqr4p&old_price=25000&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Eo Codestone at 25,000 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone5.gif" width="80" height="80" title="This mystical codestone is used for training pets in the Mystery Island Training School - it is very valuable!" border="1"></a> <br> <b>Eo Codestone</b><br>8 in stock<br>Cost : 25,000 NP<br><br></td></TR><TR><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=7463&g=1&xhs=5n4qqr4p&old_price=10000&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Main Codestone at 10,000 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone6.gif" width="80" height="80" title="This mystical codestone is used for training pets in the Mystery Island Training School - it is very valuable!" border="1"></a> <br> <b>Main Codestone</b><br>8 in stock<br>Cost : 10,000 NP<br><br></td><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=7464&g=1&xhs=5n4qqr4p&old_price=6995&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Zei Codestone at 6,995 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone7.gif" width="80" height="80" title="This mystical codestone is used for training pets in the Mystery Island Training School - it is very valuable!" border="1"></a> <br> <b>Zei Codestone</b><br>4 in stock<br>Cost : 6,995 NP<br><br></td><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=7465&g=1&xhs=5n4qqr4p&old_price=3795&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Orn Codestone at 3,795 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone8.gif" width="80" height="80" title="This mystical codestone is used for training pets in the Mystery Island Training School - it is very valuable!" border="1"></a> <br> <b>Orn Codestone</b><br>10 in stock<br>Cost : 3,795 NP<br><br></td><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=7466&g=1&xhs=5n4qqr4p&old_price=10000&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Har Codestone at 10,000 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone9.gif" width="80" height="80" title="This mystical codestone is used for training pets in the Mystery Island Training School - it is very valuable!" border="1"></a> <br> <b>Har Codestone</b><br>9 in stock<br>Cost : 10,000 NP<br><br></td><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=7467&g=1&xhs=5n4qqr4p&old_price=10000&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Bri Codestone at 10,000 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone10.gif" width="80" height="80" title="This mystical codestone is used for training pets in the Mystery Island Training School - it is very valuable!" border="1"></a> <br> <b>Bri Codestone</b><br>4 in stock<br>Cost : 10,000 NP<br><br></td></TR><TR><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=12755&g=1&xhs=5n4qqr4p&old_price=995&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy One Dubloon Coin at 995 NP?') ) { return false; }"><img src="http://images.neopets.com/items/dubloon1.gif" width="80" height="80" title="This bronze coin is worth one Dubloon.  Spend em on Krawk Island!!" border="1"></a> <br> <b>One Dubloon Coin</b><br>3 in stock<br>Cost : 995 NP<br><br></td><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=18159&g=1&xhs=5n4qqr4p&old_price=1495&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Yellow Growth at 1,495 NP?') ) { return false; }"><img src="http://images.neopets.com/items/krawk_gross_1.gif" width="80" height="80" title="The kind of thing you would find growing between your toes if you left your socks on for three months!" border="1"></a> <br> <b>Yellow Growth</b><br>1 in stock<br>Cost : 1,495 NP<br><br></td><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=22208&g=1&xhs=5n4qqr4p&old_price=10000&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Mag Codestone at 10,000 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone11.gif" width="80" height="80" title="These rare volcanic rocks are very sought after on the island." border="1"></a> <br> <b>Mag Codestone</b><br>1 in stock<br>Cost : 10,000 NP<br><br></td><TD width="120" align="center" valign="top"><A href="buy_item.phtml?lower=0&owner=stardom75&obj_info_id=22212&g=1&xhs=5n4qqr4p&old_price=10000&feat=7464,6995,4&_ref_ck=2f6eff24c88d6a615a97c911d2b258ba" onClick="if ( !confirm ('Are you sure you wish to buy Sho Codestone at 10,000 NP?') ) { return false; }"><img src="http://images.neopets.com/items/codestone15.gif" width="80" height="80" title="When this large magma rock cooled a strange symbol appeared on it." border="1"></a> <br> <b>Sho Codestone</b><br>2 in stock<br>Cost : 10,000 NP<br><br></td></TR></TABLE><BR><DIV align="center"></DIV><BR><BR><SPAN style="font-weight: normal; font-style: normal;"><center><form action='market_map.phtml' method='get'><input type='submit' value='Back to the Shops'></form></center></SPAN></DIV><br clear="all">
+
+									</td>
+			</tr>
+		</table>
+	</div>
+	<div id="footer">
+		<img src="http://images.neopets.com/themes/025_tfr_5ce03/rotations/2.png" width="200" height="170" alt="" border="0" class="footerNifty">
+		<table width="10% cellpadding="0" cellspacing="0" border="0" class="footer">
+			<tr>
+				<td width="175" align="left"><a href="/index.phtml"><img src="http://images.neopets.com/transparent_spacer.gif" width="156" height="46" alt="Neopets.com" border="0"></a></td>
+				<td align="left"><br>
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<!-- Search -->
+							<td class="sf" valign="middle">
+								<form onSubmit="javascript: search_handle(this);">
+								<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="footerForm sf" valign="middle"><b>Search Neopets:</b>&nbsp;</td>
+										<td valign="middle"><input class="sf" type="text" name="q" size="25" maxlength="255" value="Enter search text..." style="color: #a5a5a5; padding: 2px;" onFocus="this.style.color='#000000'; if( this.value=='Enter search text...' ) { this.value=''; }" onBlur="if( this.value=='' ) { this.style.color='#A5A5A5'; this.value='Enter search text...'; }">&nbsp;</td>
+										<td valign="middle"><input type="submit" value="Go!" class="sf">
+										<input type="hidden" name="client" value="pub-9208792519293771">
+										<input type="hidden" name="forid" value="1">
+										<input type="hidden" name="ie" value="ISO-8859-1">
+										<input type="hidden" name="oe" value="ISO-8859-1">
+										<input type="hidden" name="safe" value="active">
+										<input type="hidden" name="domains" value="www.neopets.com">
+										<input type="hidden" name="cof" value="GALT:#FFFFFF;GL:1;DIV:#000066;VLC:FFFFFF;AH:center;BGC:FFFFFF;LBGC:000066;ALC:FFFFFF;LC:FFFFFF;T:000000;GFNT:000066;GIMP:000077;FORID:1">
+										<input type="hidden" name="hl" value="en">
+										<input type="hidden" name="s">
+										</td>
+									</tr>
+								</table>
+								</form>
+							</td>
+							<td width="15">&nbsp;</td>
+							<!-- Language -->
+							<td class="sf" valign="top">
+								<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="footerForm sf" valign="middle"><form method="post"><b>Select Language:</b>&nbsp;</td>
+										<td valign="top">
+											<select name="lang" class="sf"><option value="en" selected>English</option><option value="nl">Nederlands</option><option value="pt">Português</option><option value="de">Deutsch</option><option value="fr">Français</option><option value="it">Italiano</option><option value="es">Español</option><option value="ch">简体中文</option><option value="zh">�?體中文</option><option value="ja">日本語</option><option value="ko">한국어</option></select>&nbsp;</td>
+										<td valign="top"><input type="submit" value="Go!" class="sf"></form></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="copyright">
+
+					<a href='/privacy.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/privacypolicy.png' width='81' height='18' border='0' alt='privacypolicy'></a>
+<img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/divider.png' width='4' height='16' border='0'>
+<a href='/safetytips.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/safetytips.png' width='61' height='18' border='0' alt='safetytips'></a>
+<img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/divider.png' width='4' height='16' border='0'>
+<a href='/contact.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/contactus.png' width='60' height='18' border='0' alt='contactus'></a>
+<img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/divider.png' width='4' height='16' border='0'>
+<a href='/aboutus.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/aboutus.png' width='50' height='18' border='0' alt='aboutus'></a>
+<img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/divider.png' width='4' height='16' border='0'>
+<a href='/refer/index.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/referral.png' width='98' height='18' border='0' alt='referral'></a>
+<img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/divider.png' width='4' height='16' border='0'>
+<a href='/help.phtml'><img src='http://images.neopets.com/themes/025_tfr_5ce03/navigation/help.png' width='25' height='18' border='0' alt='help'></a>
+					<br>
+					<div class='sf' style='width: 800px;'>
+						<div style="position: relative; height: 42px; width: 300px;"></div>						NEOPETS and all related indicia are trademarks of <a href="/aboutus.phtml"><b>Neopets, Inc.</b></a>, &copy; 1999-2018. &reg; denotes Reg. USPTO. All rights reserved. Use of this site signifies your acceptance of the <a href='/terms.phtml'><b>Terms of Use</b></a>. <a href="/privacy.phtml">Your California Privacy Rights</a>
+
+
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+<script language="JavaScript">
+function tzCook() { 
+	var today = new Date();
+	var expire = new Date();
+	expire.setTime(today.getTime() + 3600000*24*30);
+	var cstr = "_tz="+escape(today.getTimezoneOffset()) + ";expires="+expire.toGMTString() + ";path=/;domain=.neopets.com;";
+	document.cookie = cstr;
+}
+tzCook();
+</script>
+</div>	<style type="text/css">
+		.ban_bottom {
+			width: 996px;
+			height: 94px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+	</style>
+	<div class="ban_bottom ban_theme_bg main_theme" id="pushdown_banner_btf">
+		<div id="ad-slug-wrapper-btf">
+			<table id="ad-table-btf">
+				<tr>
+					<td class="slug"><img src="http://images.neopets.com/adslug-opa-l.png" width="13" height="66"></td>
+					<td class="neoaswc">
+						<!-- neo-intl-regular-6 -->
+<div id="ad-728x90Div-btfWrapper" class="rubiconAdWrapper ad_wrapper_fixed" data-dorefresh=""true"">
+	<iframe class="rubicon banner" frameborder="0" scrolling="no" src="/ads/rubiconFrame.phtml?rpAccount=11488&rpSite=33424&rpZoneSize=327426-2&rpAdType=js"></iframe>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+<div style="display: none" id="logout_nchub"></div>
+<script type="text/javascript" src="http://images.neopets.com/js/ckads.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(checkAds()); function checkAds(){if (document.getElementById('adsense')!=undefined){document.write("<script>_gaq.push(['_trackEvent', 'Adblock', 'Unblocked', 'false',,true]);</sc" + "ript>");}else{document.write("<script>_gaq.push(['_trackEvent', 'Adblock', 'Blocked', 'true',,true]);</sc" + "ript>");}}
+</script>
+
+<link href='/include/colorbox/base.css?v=1' rel='stylesheet' type='text/css'>
+<script src='http://images.neopets.com/js/jquery.colorbox.min.js?v=1' type='text/javascript'></script>
+
+</body>
+</html>
+
+0
+
+
+2018-01-04T04:57:03.506: [EXCEPTION] Count: 1
+2018-01-04T04:57:03.508: [EXCEPTION] Cause:
+java.lang.RuntimeException: Failed when buying: Zei Codestone
+com.neopetsconnect.shopwizard.ShopWizard.buyItem(ShopWizard.java:85)
+com.neopetsconnect.shopwizard.ShopWizard.buyItem(ShopWizard.java:57)
+com.neopetsconnect.shopwizard.ShopWizard.lambda$6(ShopWizard.java:191)
+java.util.stream.Collectors.lambda$toMap$58(Unknown Source)
+java.util.stream.ReduceOps$3ReducingSink.accept(Unknown Source)
+java.util.HashMap$EntrySpliterator.forEachRemaining(Unknown Source)
+java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+java.util.stream.ReferencePipeline.collect(Unknown Source)
+com.neopetsconnect.shopwizard.ShopWizard.buyShopItems(ShopWizard.java:188)
+com.neopetsconnect.shopwizard.ShopWizard.buyItems(ShopWizard.java:151)
+com.neopetsconnect.dailies.trainingschool.TrainingSchool.pay(TrainingSchool.java:85)
+com.neopetsconnect.dailies.trainingschool.TrainingSchool.call(TrainingSchool.java:69)
+com.neopetsconnect.dailies.DailyDoer.lambda$13(DailyDoer.java:58)
+com.neopetsconnect.utils.TimedJobsRunner.runTimedJobs(TimedJobsRunner.java:71)
+com.neopetsconnect.utils.TimedJobsRunner.run(TimedJobsRunner.java:34)
+com.neopetsconnect.dailies.DailyDoer.run(DailyDoer.java:88)
+com.neopetsconnect.main.Main.lambda$1(Main.java:53)
+java.util.concurrent.FutureTask.run(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)Cause:
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+java.util.ArrayList.rangeCheck(Unknown Source)
+java.util.ArrayList.get(Unknown Source)
+com.neopetsconnect.shopwizard.ShopWizard.buyItem(ShopWizard.java:79)
+com.neopetsconnect.shopwizard.ShopWizard.buyItem(ShopWizard.java:57)
+com.neopetsconnect.shopwizard.ShopWizard.lambda$6(ShopWizard.java:191)
+java.util.stream.Collectors.lambda$toMap$58(Unknown Source)
+java.util.stream.ReduceOps$3ReducingSink.accept(Unknown Source)
+java.util.HashMap$EntrySpliterator.forEachRemaining(Unknown Source)
+java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+java.util.stream.ReferencePipeline.collect(Unknown Source)
+com.neopetsconnect.shopwizard.ShopWizard.buyShopItems(ShopWizard.java:188)
+com.neopetsconnect.shopwizard.ShopWizard.buyItems(ShopWizard.java:151)
+com.neopetsconnect.dailies.trainingschool.TrainingSchool.pay(TrainingSchool.java:85)
+com.neopetsconnect.dailies.trainingschool.TrainingSchool.call(TrainingSchool.java:69)
+com.neopetsconnect.dailies.DailyDoer.lambda$13(DailyDoer.java:58)
+com.neopetsconnect.utils.TimedJobsRunner.runTimedJobs(TimedJobsRunner.java:71)
+com.neopetsconnect.utils.TimedJobsRunner.run(TimedJobsRunner.java:34)
+com.neopetsconnect.dailies.DailyDoer.run(DailyDoer.java:88)
+com.neopetsconnect.main.Main.lambda$1(Main.java:53)
+java.util.concurrent.FutureTask.run(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+2018-01-04T05:01:57.72: [EXCEPTION] Count: 1
+2018-01-04T05:01:57.724: [EXCEPTION] Cause:
+java.util.UnknownFormatConversionException: Conversion = ';'
+java.util.Formatter.checkText(Unknown Source)
+java.util.Formatter.parse(Unknown Source)
+java.util.Formatter.format(Unknown Source)
+java.util.Formatter.format(Unknown Source)
+java.lang.String.format(Unknown Source)
+com.logger.main.CategoryLogger.log(CategoryLogger.java:157)
+com.logger.main.CategoryLogger.log(CategoryLogger.java:129)
+com.neopetsconnect.dailies.EdnasQuest.getQuestItems(EdnasQuest.java:100)
+com.neopetsconnect.dailies.EdnasQuest.completeQuest(EdnasQuest.java:66)
+com.neopetsconnect.dailies.EdnasQuest.call(EdnasQuest.java:50)
+com.neopetsconnect.dailies.DailyDoer.lambda$10(DailyDoer.java:49)
+com.neopetsconnect.utils.TimedJobsRunner.runTimedJobs(TimedJobsRunner.java:71)
+com.neopetsconnect.utils.TimedJobsRunner.run(TimedJobsRunner.java:34)
+com.neopetsconnect.dailies.DailyDoer.run(DailyDoer.java:88)
+com.neopetsconnect.main.Main.lambda$1(Main.java:53)
+java.util.concurrent.FutureTask.run(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)

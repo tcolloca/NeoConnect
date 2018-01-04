@@ -1,3 +1,6 @@
+Faerie Quests and Shop Wizard shouldn't work on this case. Visit shopwiz first.
+Edna after failed.
+
 Inventory:
 
 depositAll()

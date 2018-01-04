@@ -18,6 +18,7 @@ import com.httphelper.main.HttpContentType;
 import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpHelperException;
 import com.httphelper.main.HttpResponse;
+import com.neopetsconnect.exceptions.FaerieQuestException;
 import com.neopetsconnect.exceptions.ItemNotFoundException;
 import com.neopetsconnect.exceptions.ShopWizardBannedException;
 import com.neopetsconnect.main.Item;
@@ -74,7 +75,11 @@ public class ShopWizard implements ConfigProperties {
 		String content = loadShopPage(shopItem).getContent().get();
 		Document doc = Jsoup.parse(content);
 		try {
-			String link = DomUtils.getContent(doc)
+			Element contentElem = DomUtils.getContent(doc);
+			if (contentElem.text().contains("her quest")) {
+				throw new FaerieQuestException("You have a faerie quest!");
+			}
+			String link = contentElem
 					.select(":root > div").get(3)
 					.select(":root > table > tbody > tr > td > a").get(0)
 					.attr("href");
