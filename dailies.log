@@ -1304,3 +1304,88 @@
 2018-01-03T22:58:17.393: [TRAINING_SCHOOL] Bought all.
 2018-01-03T22:58:19.232: [TRAINING_SCHOOL] Started training.
 2018-01-03T22:58:20.754: [TRAINING_SCHOOL] Have to wait 240 minutes.
+2018-01-04T04:55:53.174: [DAILIES] Sleeping 2.000 minutes.
+2018-01-04T04:56:29.117: [FORGOTTEN_SHORE] Done.
+2018-01-04T04:56:29.119: [COLTZANS_SHRINE] Done.
+2018-01-04T04:56:29.12: [WISE_OLD_KING] Done.
+2018-01-04T04:56:30.514: [TURMACULUS] Next time: 2018-01-03T02:00
+2018-01-04T04:56:30.515: [TURMACULUS] Now: 2018-01-03T23:56:30.514
+2018-01-04T04:56:30.516: [TURMACULUS] Done.
+2018-01-04T04:56:30.517: [LAB_RAY] Done.
+2018-01-04T04:56:30.519: [EDNAS_QUEST] Done.
+2018-01-04T04:56:30.521: [KITCHEN_QUEST] Done.
+2018-01-04T04:56:31.76: [FOOD_CLUB] Done.
+2018-01-04T04:56:32.93: [TRAINING_SCHOOL] CompletedStatus
+2018-01-04T04:56:33.629: [TRAINING_SCHOOL] StatIncrease [statType=DEFENCE, amount=1]
+2018-01-04T04:56:34.769: [TRAINING_SCHOOL] NoneStatus
+2018-01-04T04:56:39.543: [TRAINING_SCHOOL] PendingPayStatus
+2018-01-04T04:56:39.545: [TRAINING_SCHOOL] Needed: [Tai-Kai Codestone, Zei Codestone, Lu Codestone]
+2018-01-04T04:56:39.547: [SHOP_WIZARD] Finding: Tai-Kai Codestone
+2018-01-04T04:56:45.17: [SHOP_WIZARD] Finding: Zei Codestone
+2018-01-04T04:56:51.675: [SHOP_WIZARD] Finding: Lu Codestone
+2018-01-04T04:57:01.197: [SHOP_WIZARD] Buying: Item [name=Zei Codestone, price=Optional.empty, amount=1]
+2018-01-04T04:57:01.199: [SHOP_WIZARD] Buying item: ShopItem [Item [name=Zei Codestone, price=Optional[6995], amount=1], link=/browseshop.phtml?owner=stardom75&buy_obj_info_id=7464&buy_cost_neopoints=6995]
+2018-01-04T04:57:22.943: [FORGOTTEN_SHORE] Done.
+2018-01-04T04:57:22.943: [COLTZANS_SHRINE] Done.
+2018-01-04T04:57:22.944: [WISE_OLD_KING] Done.
+2018-01-04T04:57:24.316: [TURMACULUS] Next time: 2018-01-03T02:00
+2018-01-04T04:57:24.317: [TURMACULUS] Now: 2018-01-03T23:57:24.316
+2018-01-04T04:57:24.318: [TURMACULUS] Done.
+2018-01-04T04:57:24.319: [LAB_RAY] Done.
+2018-01-04T04:57:24.32: [EDNAS_QUEST] Done.
+2018-01-04T04:57:24.321: [KITCHEN_QUEST] Done.
+2018-01-04T04:57:25.547: [FOOD_CLUB] Done.
+2018-01-04T04:57:26.658: [TRAINING_SCHOOL] PendingPayStatus
+2018-01-04T04:57:26.659: [TRAINING_SCHOOL] Needed: [Tai-Kai Codestone, Zei Codestone, Lu Codestone]
+2018-01-04T04:57:26.659: [SHOP_WIZARD] Finding: Tai-Kai Codestone
+2018-01-04T04:57:30.635: [SHOP_WIZARD] Finding: Zei Codestone
+2018-01-04T04:57:38.019: [SHOP_WIZARD] Finding: Lu Codestone
+2018-01-04T04:57:43.131: [SHOP_WIZARD] Buying: Item [name=Lu Codestone, price=Optional.empty, amount=1]
+2018-01-04T04:57:43.131: [SHOP_WIZARD] Buying item: ShopItem [Item [name=Lu Codestone, price=Optional[7348], amount=1], link=/browseshop.phtml?owner=xamorei&buy_obj_info_id=7460&buy_cost_neopoints=7348]
+2018-01-04T04:57:46.136: [SHOP_WIZARD] Buying: Item [name=Tai-Kai Codestone, price=Optional.empty, amount=1]
+2018-01-04T04:57:46.137: [SHOP_WIZARD] Buying item: ShopItem [Item [name=Tai-Kai Codestone, price=Optional[2990], amount=1], link=/browseshop.phtml?owner=kn102392&buy_obj_info_id=7459&buy_cost_neopoints=2990]
+2018-01-04T04:57:48.907: [SHOP_WIZARD] Buying: Item [name=Zei Codestone, price=Optional.empty, amount=1]
+2018-01-04T04:57:48.908: [SHOP_WIZARD] Buying item: ShopItem [Item [name=Zei Codestone, price=Optional[7395], amount=1], link=/browseshop.phtml?owner=zeldalulu&buy_obj_info_id=7464&buy_cost_neopoints=7395]
+2018-01-04T04:57:51.957: [TRAINING_SCHOOL] Bought all.
+2018-01-04T04:57:56.012: [TRAINING_SCHOOL] Started training.
+2018-01-04T04:58:06.646: [TRAINING_SCHOOL] Have to wait 240 minutes.
+2018-01-04T04:58:06.648: [TDMGPOP] Done.
+2018-01-04T04:58:13.921: [HEALING_SPRINGS] Healed :)
+2018-01-04T04:58:13.923: [FISHING_VORTEX] Done.
+2018-01-04T04:58:13.924: [FRUIT_MACHINE] Done.
+2018-01-04T04:58:15.321: [COINCIDENCE] Have to wait 0 hours.
+2018-01-04T04:58:18.455: [BURIED_TREASURE] Played (392, 401).
+2018-01-04T04:58:18.461: [SNOWAGER] Next time: 2018-01-04T06:00
+2018-01-04T04:58:18.462: [SNOWAGER] Now: 2018-01-03T23:58:18.457
+2018-01-04T04:58:18.463: [SNOWAGER] Return in: 6.03 hours.
+2018-01-04T05:01:27.288: [DAILIES] Sleeping 2.000 minutes.
+2018-01-04T05:01:47.17: [FORGOTTEN_SHORE] Nothing to be found :/
+2018-01-04T05:01:47.171: [FORGOTTEN_SHORE] Retrieved :)
+2018-01-04T05:01:47.172: [FORGOTTEN_SHORE] Done.
+2018-01-04T05:01:49.319: [COLTZANS_SHRINE] Visited :)
+2018-01-04T05:01:51.607: [WISE_OLD_KING] Done.
+2018-01-04T05:01:53.209: [TURMACULUS] Next time: 2018-01-03T02:00
+2018-01-04T05:01:53.21: [TURMACULUS] Now: 2018-01-04T00:01:53.209
+2018-01-04T05:01:53.213: [TURMACULUS] Done.
+2018-01-04T05:01:56.623: [LAB_RAY] Done.
+2018-01-04T05:02:26.83: [FORGOTTEN_SHORE] Done.
+2018-01-04T05:02:26.831: [COLTZANS_SHRINE] Done.
+2018-01-04T05:02:26.832: [WISE_OLD_KING] Done.
+2018-01-04T05:02:26.833: [TURMACULUS] Done.
+2018-01-04T05:02:26.834: [LAB_RAY] Done.
+2018-01-04T05:02:28.002: [EDNAS_QUEST] Dish name: Magic Scroll of Techo Frazzling
+2018-01-04T05:02:28.962: [EDNAS_QUEST] Items: Chokato Crisps, Lime Elixir
+2018-01-04T05:02:28.965: [SHOP_WIZARD] Finding: Chokato Crisps
+2018-01-04T05:02:42.076: [SHOP_WIZARD] Finding: Lime Elixir
+2018-01-04T05:02:57.928: [SHOP_WIZARD] Total cost: 426, max cost: 2500.
+2018-01-04T05:02:57.931: [SHOP_WIZARD] Buying: Item [name=Chokato Crisps, price=Optional.empty, amount=1]
+2018-01-04T05:02:57.931: [SHOP_WIZARD] Buying item: ShopItem [Item [name=Chokato Crisps, price=Optional[425], amount=1], link=/browseshop.phtml?owner=emmetmatthew&buy_obj_info_id=26766&buy_cost_neopoints=425]
+2018-01-04T05:03:01.765: [SHOP_WIZARD] Buying: Item [name=Lime Elixir, price=Optional.empty, amount=1]
+2018-01-04T05:03:01.766: [SHOP_WIZARD] Buying item: ShopItem [Item [name=Lime Elixir, price=Optional[1], amount=1], link=/browseshop.phtml?owner=aganiii&buy_obj_info_id=9022&buy_cost_neopoints=1]
+2018-01-04T05:03:08.531: [KITCHEN_QUEST] Dish name: Stuffed Cress with Mustard Pancakes
+2018-01-04T05:03:18.201: [KITCHEN_QUEST] Items: Pink Rock Stick, Fruity Shaved Ice, Tetraberry Tea, Goparokko Meerca Tail Fruit Tape
+2018-01-04T05:03:18.202: [SHOP_WIZARD] Finding: Pink Rock Stick
+2018-01-04T05:04:04.401: [SHOP_WIZARD] Finding: Fruity Shaved Ice
+2018-01-04T05:04:16.446: [SHOP_WIZARD] Finding: Tetraberry Tea
+2018-01-04T05:04:25.951: [SHOP_WIZARD] Finding: Goparokko Meerca Tail Fruit Tape
+2018-01-04T05:17:38.839: [DAILIES] Sleeping 2.000 minutes.
