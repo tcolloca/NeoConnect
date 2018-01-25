@@ -1,0 +1,17 @@
+/target/
+logs/*
+credentials.properties
+.classpath
+.project
+.settings/*
+bin/*
+*.log
+cookies/*
+buyLog/*
+eq/*
+neopets.bat
+jar/*
+
+
+
+
