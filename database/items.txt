@@ -3069,7 +3069,7 @@ Gnorbu Transmogrification Potion;300000
 Kauvaras Marvellous Potion;
 Eye Of Mortog;990
 Ylana Skyfires Valentines Day;
-Jelly World Stamp;35800
+Jelly World Stamp;24700
 Claw Of The Bori;1200
 The Mischievous Silver Lupe;
 Chocolate Cybunny Negg;150000
@@ -4494,7 +4494,7 @@ JubJub Day Ideas;18500
 Glowing Draik Morphing Potion;
 Pirate Kacheek Morphing Potion;700000
 Yellow Hissi Morphing Potion;150000
-Magma Pool Guard Stamp;33000
+Magma Pool Guard Stamp;10700
 Easter Treats Stamp;99999
 Spotted Kau Morphing Potion;500000
 How to Frost Cookies;300000
