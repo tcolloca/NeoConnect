@@ -6,6 +6,7 @@ credentials.properties
 .settings/*
 bin/*
 *.log
+*.html
 cookies/*
 buyLog/*
 eq/*

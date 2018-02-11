@@ -1,5 +1,6 @@
-Faerie Quests and Shop Wizard shouldn't work on this case. Visit shopwiz first.
-Edna after failed.
+	Add sleeping hours
+improve restocking ban
+add post to tp
 
 Inventory:
 
@@ -8,14 +9,7 @@ moveAllToShop()
 
 moveToShopAndAddPrice(...)
 
-improve RestockBan
-improve restocking times
-
-add snowager
 add stock market boon
-add post in TP
 add process name
 add parse games forum for buried treasure
-add training school level up based on current level
 add food club collect winnings
-faerie quests support
