@@ -6,11 +6,12 @@ import com.httphelper.main.HttpContentType;
 import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpRequest;
 import com.httphelper.main.HttpResponse;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 
-public class HealingSprings implements ConfigProperties {
+public class HealingSprings implements Categories {
 
   private static final String CATEGORY = HEALING_SPRINGS;
 
@@ -21,13 +22,16 @@ public class HealingSprings implements ConfigProperties {
   }
 
   public int call() {
+    if (!ConfigProperties.isHealingSpringsEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
     parseMain();
     if (heal()) {
       Logger.out.log(CATEGORY, "Healed :)");
     } else {
       Logger.out.log(CATEGORY, "Have to wait :(");
     }
-    return HEALING_SPRINGS_FREQ;
+    return ConfigProperties.getHealingSpringsFreq();
   }
 
   private boolean parseMain() {

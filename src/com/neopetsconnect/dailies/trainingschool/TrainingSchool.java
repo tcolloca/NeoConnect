@@ -22,12 +22,13 @@ import com.neopetsconnect.dailies.status.WaitingStatus;
 import com.neopetsconnect.main.Item;
 import com.neopetsconnect.main.Main;
 import com.neopetsconnect.shopwizard.ShopWizard;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 
-public class TrainingSchool implements ConfigProperties {
+public class TrainingSchool implements Categories {
 
   private static final String CATEGORY = TRAINING_SCHOOL;
 
@@ -54,6 +55,9 @@ public class TrainingSchool implements ConfigProperties {
   }
 
   public int call() {
+    if (!ConfigProperties.isTrainingSchoolEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
     Status status;
     Status prev = null;
     while (!((status = getStatus()) instanceof WaitingStatus)) {
@@ -69,8 +73,8 @@ public class TrainingSchool implements ConfigProperties {
         }
       }
       if (status instanceof NoneStatus) {
-        String statType = STAT_TYPE;
-        if (Strings.isNullOrEmpty(STAT_TYPE)) {
+        String statType = ConfigProperties.getStatType();
+        if (Strings.isNullOrEmpty(ConfigProperties.getStatType())) {
           statType = getStatToTrain();
         }
         train(statType);
@@ -160,7 +164,8 @@ public class TrainingSchool implements ConfigProperties {
     List<Item> codestones = ((PendingPayStatus) status).getItems();
     Logger.out.log(CATEGORY,
         "Needed: " + codestones.stream().map(it -> it.getName()).collect(Collectors.toList()));
-    if (shopWizard.buyItems(codestones, SHOP_WIZ_SEARCH_TIMES).size() == codestones.size()) {
+    if (shopWizard.buyItems(codestones, ConfigProperties.getShopWizSearchTimes()).size() 
+        == codestones.size()) {
       Logger.out.log(CATEGORY, "Bought all.");
       if (pay()) {
         Logger.out.log(CATEGORY, "Started training.");

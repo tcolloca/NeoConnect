@@ -22,12 +22,13 @@ import com.neopetsconnect.exceptions.ShopWizardBannedException;
 import com.neopetsconnect.itemdb.JellyneoItemDatabase;
 import com.neopetsconnect.main.Main;
 import com.neopetsconnect.shopwizard.ShopWizard;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 
-public class MyShop implements ConfigProperties {
+public class MyShop implements Categories {
 
   public static final String CATEGORY = "MY_SHOP";
 
@@ -35,7 +36,8 @@ public class MyShop implements ConfigProperties {
 
   public static void main(String[] args) throws FaerieQuestException {
     HttpHelper helper = Main.initHelper();
-    Main.handleSession(helper, SIDE_USERNAME, SIDE_PASSWORD, null);
+    Main.handleSession(helper, ConfigProperties.getSideUsername(), 
+        ConfigProperties.getSidePassword(), null);
 
     MyShop shop = new MyShop(helper);
     shop.changePrice("Spyder", 799, 1);
@@ -86,6 +88,10 @@ public class MyShop implements ConfigProperties {
 
   public void updatePrices(int iterations, boolean ignorePriced, boolean useJellyneo,
       double secsDelay, double percent) throws FaerieQuestException {
+    // TODO: Update type of flag
+    if (!ConfigProperties.isOrganizeInventoryEnabled()) {
+      return;
+    }
     for (int j = 0; j < getPageCount(); j++) {
       Map<String, List<MyShopItem>> items = getItemsFromPage(j);
       Set<String> itemNames = items.keySet();

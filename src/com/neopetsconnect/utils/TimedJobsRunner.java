@@ -23,7 +23,7 @@ public class TimedJobsRunner<T> {
    * @throws Exception
    */
   public void run() throws Exception {
-    while (!ConfigProperties.getStatus().equals(Status.OFF)) {
+    while (!ConfigProperties.getStatus().isStoppedOrOff()) {
       if (ConfigProperties.getStatus().equals(Status.PAUSED)) {
         Utils.sleep(0.01);
         continue;
@@ -68,6 +68,9 @@ public class TimedJobsRunner<T> {
 
   private void runTimedJobs(Set<TimedJob<T>> updatedTimedJobs) throws Exception {
     for (TimedJob<T> job : updatedTimedJobs) {
+      if (ConfigProperties.getStatus().isStoppedOrOff()) {
+        break;
+      }
       timedJobSet.remove(job);
       if (job.getRemaining() <= 0) {
         timedJobSet.remove(job);

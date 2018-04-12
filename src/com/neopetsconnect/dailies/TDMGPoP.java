@@ -6,12 +6,13 @@ import com.httphelper.main.HttpContentType;
 import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpRequest;
 import com.httphelper.main.HttpResponse;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.DailyLog;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 
-public class TDMGPoP implements ConfigProperties {
+public class TDMGPoP implements Categories {
 
   private static final String CATEGORY = TDMGPOP;
   private final HttpHelper helper;
@@ -21,15 +22,18 @@ public class TDMGPoP implements ConfigProperties {
   }
 
   public int call() {
-    if (!DailyLog.props.getBoolean(CATEGORY, "done", false)) {
+    if (!ConfigProperties.isTdmgpopEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
+    if (!DailyLog.props().getBoolean(CATEGORY, "done", false)) {
       parseMain();
       if (talkToThePlushie()) {
         Logger.out.log(CATEGORY, "Talked to plushie.");
       }
     }
     Logger.out.log(CATEGORY, "Done.");
-    DailyLog.props.addBoolean(CATEGORY, "done", true);
-    return DAILIES_REFRESH_FREQ;
+    DailyLog.props().addBoolean(CATEGORY, "done", true);
+    return ConfigProperties.getDailiesRefreshFreq();
   }
 
   private boolean parseMain() {

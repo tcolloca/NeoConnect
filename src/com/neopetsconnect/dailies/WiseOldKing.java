@@ -6,12 +6,13 @@ import com.httphelper.main.HttpContentType;
 import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpRequest;
 import com.httphelper.main.HttpResponse;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.DailyLog;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 
-public class WiseOldKing implements ConfigProperties {
+public class WiseOldKing implements Categories {
 
   private static final String CATEGORY = WISE_OLD_KING;
 
@@ -22,14 +23,17 @@ public class WiseOldKing implements ConfigProperties {
   }
 
   public int call() {
-    if (!DailyLog.props.getBoolean(CATEGORY, "done", false)) {
+    if (!ConfigProperties.isWiseOldKingEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
+    if (!DailyLog.props().getBoolean(CATEGORY, "done", false)) {
       if (parseMain()) {
         loadPhrase();
-        DailyLog.props.addBoolean(CATEGORY, "done", true);
+        DailyLog.props().addBoolean(CATEGORY, "done", true);
       }
     }
     Logger.out.log(CATEGORY, "Done.");
-    return DAILIES_REFRESH_FREQ;
+    return ConfigProperties.getDailiesRefreshFreq();
   }
 
   private boolean parseMain() {

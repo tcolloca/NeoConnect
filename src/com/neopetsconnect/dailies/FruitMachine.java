@@ -6,12 +6,13 @@ import com.httphelper.main.Headers;
 import com.httphelper.main.HttpContentType;
 import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpRequest;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.DailyLog;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 
-public class FruitMachine implements ConfigProperties {
+public class FruitMachine implements Categories {
 
   private static final String CATEGORY = FRUIT_MACHINE;
 
@@ -22,7 +23,10 @@ public class FruitMachine implements ConfigProperties {
   }
 
   public int call() {
-    if (!DailyLog.props.getBoolean(CATEGORY, "done", false)) {
+    if (!ConfigProperties.isFruitMachineEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
+    if (!DailyLog.props().getBoolean(CATEGORY, "done", false)) {
       String ck = parseMain();
       if (ck != null) {
         if (spin(ck)) {
@@ -31,8 +35,8 @@ public class FruitMachine implements ConfigProperties {
       }
     }
     Logger.out.log(CATEGORY, "Done.");
-    DailyLog.props.addBoolean(CATEGORY, "done", true);
-    return DAILIES_REFRESH_FREQ;
+    DailyLog.props().addBoolean(CATEGORY, "done", true);
+    return ConfigProperties.getDailiesRefreshFreq();
   }
 
   private String parseMain() {

@@ -4,11 +4,12 @@ import com.httphelper.main.Headers;
 import com.httphelper.main.HttpContentType;
 import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpResponse;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.DailyLog;
 import com.neopetsconnect.utils.Logger;
 
-public class LabRay implements ConfigProperties {
+public class LabRay implements Categories {
 
   private static final String CATEGORY = LAB_RAY;
   private final HttpHelper helper;
@@ -18,21 +19,24 @@ public class LabRay implements ConfigProperties {
   }
 
   public int call() {
-    if (!DailyLog.props.getBoolean(CATEGORY, "done", false)) {
+    if (!ConfigProperties.isLabRayEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
+    if (!DailyLog.props().getBoolean(CATEGORY, "done", false)) {
       loadMain();
       loadEnter();
       loadZap();
-      DailyLog.props.addBoolean(CATEGORY, "done", true);
+      DailyLog.props().addBoolean(CATEGORY, "done", true);
     }
     Logger.out.log(CATEGORY, "Done.");
-    return DAILIES_REFRESH_FREQ;
+    return ConfigProperties.getDailiesRefreshFreq();
   }
 
   private HttpResponse loadZap() {
     return helper.post("/process_lab2.phtml")
         .addHeader(Headers.contentType(HttpContentType.APP_X_WWW_FORM_ENCODED))
         .addHeader(Headers.referer("http://www.neopets.com/lab2.phtml"))
-        .addFormParameter("chosen", LAB_RAY_PET_NAME).send();
+        .addFormParameter("chosen", ConfigProperties.getLabRayPetName()).send();
   }
 
   private HttpResponse loadEnter() {

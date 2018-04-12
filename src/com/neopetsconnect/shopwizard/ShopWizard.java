@@ -18,13 +18,14 @@ import com.neopetsconnect.exceptions.FaerieQuestException;
 import com.neopetsconnect.exceptions.ItemNotFoundException;
 import com.neopetsconnect.exceptions.ShopWizardBannedException;
 import com.neopetsconnect.main.Item;
-import com.neopetsconnect.utils.ConfigProperties;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 
-public class ShopWizard implements ConfigProperties {
+public class ShopWizard implements Categories {
 
+  private final static String CATEGORY = SHOP_WIZARD;
   private final HttpHelper helper;
 
   public ShopWizard(HttpHelper helper) {
@@ -37,9 +38,9 @@ public class ShopWizard implements ConfigProperties {
     int totalCost = shopItems.entrySet().stream()
         .mapToInt(entry -> entry.getValue().get(0).forceGetPrice() * entry.getKey().getAmount())
         .sum();
-    Logger.out.log(SHOP_WIZARD, "Total cost: %d, max cost: %d.", totalCost, maxCost);
+    Logger.out.log(CATEGORY, "Total cost: %d, max cost: %d.", totalCost, maxCost);
     if (totalCost > maxCost) {
-      Logger.out.log(SHOP_WIZARD, "Too expensive :/");
+      Logger.out.log(CATEGORY, "Too expensive :/");
       return new HashMap<>();
     }
 
@@ -53,7 +54,7 @@ public class ShopWizard implements ConfigProperties {
   private Map<Item, List<ShopItem>> buyShopItems(Map<Item, List<ShopItem>> items) {
     return items.entrySet().stream().collect(Collectors.toMap(Entry::getKey, entry -> {
       try {
-        Logger.out.log(SHOP_WIZARD, "Buying: " + entry.getKey());
+        Logger.out.log(CATEGORY, "Buying: " + entry.getKey());
         return buyItem(entry.getValue(), entry.getKey().getAmount());
       } catch (ItemNotFoundException e) {
         throw new RuntimeException("Failed buying item.", e);
@@ -65,7 +66,7 @@ public class ShopWizard implements ConfigProperties {
     List<ShopItem> bought = new ArrayList<>();
     for (int i = 0; i < shopItems.size() && i < 3 * amount; i++) {
       for (int j = 0; j < shopItems.get(i).getAvailable() && bought.size() < amount; j++) {
-        Logger.out.log(SHOP_WIZARD, "Buying item: " + shopItems.get(i));
+        Logger.out.log(CATEGORY, "Buying item: " + shopItems.get(i));
         if (buyItem(shopItems.get(i))) {
           bought.add(shopItems.get(i));
         } else {
@@ -83,6 +84,9 @@ public class ShopWizard implements ConfigProperties {
     HttpUtils httpUtils = HttpUtils.newInstance();
     try {
       Element content = httpUtils.getContent(shopPageRequest(shopItem));
+      if (content.text().contains("owner of this shop has been frozen")) {
+        return false;
+      }
       try {
         Elements links =
             content.select(":root > div").get(3).select(":root > table > tbody > tr > td > a");
@@ -132,10 +136,10 @@ public class ShopWizard implements ConfigProperties {
   private Map<Item, List<ShopItem>> findItems(List<Item> items, int searchTimes) {
     return items.stream().collect(Collectors.toMap(item -> item, item -> {
       try {
-        Logger.out.log(SHOP_WIZARD, "Finding: " + item.getName());
+        Logger.out.log(CATEGORY, "Finding: " + item.getName());
         return findItem(item.getName(), searchTimes);
       } catch (ItemNotFoundException | ShopWizardBannedException | FaerieQuestException e) {
-        Logger.out.log(SHOP_WIZARD, "Failed finding item: " + item.getName());
+        Logger.out.log(CATEGORY, "Failed finding item: " + item.getName());
         throw new RuntimeException(e);
       }
     }));
@@ -223,6 +227,7 @@ public class ShopWizard implements ConfigProperties {
   }
 
   private HttpResponse loadBuyPageFromOwner(String link, String username) {
+    Logger.out.log(CATEGORY, "buy from owner: " + username);
     if (!link.startsWith("/")) {
       link = "/" + link;
     }
@@ -232,6 +237,7 @@ public class ShopWizard implements ConfigProperties {
   }
 
   private HttpResponse loadBuyPage(ShopItem item, String link) {
+    Logger.out.log(CATEGORY, "buy: " + item.getName());
     if (!link.startsWith("/")) {
       link = "/" + link;
     }
@@ -240,18 +246,22 @@ public class ShopWizard implements ConfigProperties {
   }
 
   private HttpRequest shopPageRequest(ShopItem shopItem) {
+    Logger.out.log(CATEGORY, "shop item: " + shopItem.getName());
     return helper.get(shopItem.getLink());
   }
 
   private HttpRequest shopWizardRequest() {
+    Logger.out.log(CATEGORY, "main");
     return helper.get("/market.phtml").addQueryParameter("type", "wizard");
   }
 
   private HttpRequest userShopRequest(String username) {
+    Logger.out.log(CATEGORY, "user: " + username);
     return helper.get("/browseshop.phtml").addQueryParameter("owner", username);
   }
 
   public HttpRequest searchRequest(String name) {
+    Logger.out.log(CATEGORY, "search: " + name);
     return helper.post("/market.phtml")
         .addHeader(Headers.contentType(HttpContentType.APP_X_WWW_FORM_ENCODED))
         .addHeader(Headers.referer("http://www.neopets.com/market.phtml?type=wizard"))

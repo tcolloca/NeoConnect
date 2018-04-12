@@ -14,13 +14,14 @@ import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpRequest;
 import com.httphelper.main.HttpResponse;
 import com.neopetsconnect.dailies.stocks.Stock;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.DailyLog;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 
-public class StockMarket implements ConfigProperties {
+public class StockMarket implements Categories {
 
   private final static String CATEGORY = STOCK_MARKET;
   private final HttpHelper helper;
@@ -30,22 +31,25 @@ public class StockMarket implements ConfigProperties {
   }
 
   public int call() {
-    if (!DailyLog.props.getBoolean(CATEGORY, "done", false)) {
+    if (!ConfigProperties.isStockMarketEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
+    if (!DailyLog.props().getBoolean(CATEGORY, "done", false)) {
       // Optional<Stock> bestStock = parseList();
       // if (bestStock.isPresent()) {
       // buy(bestStock.get(), 1000);
       // Logger.out.log(CATEGORY, "Bought 100 of " + bestStock.get().getTickerName()
       // + " at " + bestStock.get().getCurr());
-      // DailyLog.props.addBoolean(CATEGORY, "done", true);
+      // DailyLog.props().addBoolean(CATEGORY, "done", true);
       // }
     }
     Logger.out.log(CATEGORY, "Buy done.");
-    List<Stock> sold = sell(STOCK_MARKET_MIN_SELL);
+    List<Stock> sold = sell(ConfigProperties.getStockMarketMinSell());
     if (!sold.isEmpty()) {
       sold.forEach(stock -> Logger.out.log(CATEGORY,
           "Sold " + stock.getShares() + " at " + stock.getChange()));
     }
-    return DAILIES_REFRESH_FREQ;
+    return ConfigProperties.getDailiesRefreshFreq();
   }
 
   private List<Stock> sell(double minChange) {
@@ -107,8 +111,8 @@ public class StockMarket implements ConfigProperties {
     try {
       Element content = httpUtils.getContent(listRequest());
       Elements rows = content.select(":root > div > table > tbody > tr");
-      int minBuy = STOCK_MARKET_MIN_BUY;
-      int maxBuy = STOCK_MARKET_MAX_BUY;
+      int minBuy = ConfigProperties.getStockMarketMinBuy();
+      int maxBuy = ConfigProperties.getStockMarketMaxBuy();
       rows.remove(0);
       return rows.stream().map(elem -> {
         Elements cols = elem.select(":root > td");

@@ -2,7 +2,7 @@ package com.neopetsconnect.main;
 
 public enum Status {
 
-  ON, PAUSED, OFF;
+  ON, PAUSED, STOPPED, OFF;
 
   public static Status get(String name) {
     for (Status value : values()) {
@@ -11,5 +11,9 @@ public enum Status {
       }
     }
     throw new IllegalArgumentException("Uknown status: " + name);
+  }
+  
+  public boolean isStoppedOrOff() {
+    return this.equals(STOPPED) || this.equals(OFF);
   }
 }
