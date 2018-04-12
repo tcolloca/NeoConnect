@@ -10,9 +10,8 @@ import org.jsoup.nodes.Element;
 import com.neopetsconnect.dailies.trainingschool.Stats;
 import com.neopetsconnect.exceptions.FaerieQuestException;
 import com.neopetsconnect.exceptions.ShopWizardBannedException;
-import com.neopetsconnect.utils.ConfigProperties;
 
-public class DomTester implements ConfigProperties {
+public class DomTester {
 
   private static final int[] STATS_TIERS =
       {7, 12, 19, 34, 54, 84, 124, 199, 249, 349, 399, 449, 499, 549, 599, 649, 699, 749};

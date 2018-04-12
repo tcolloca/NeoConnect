@@ -6,12 +6,13 @@ import com.httphelper.main.HttpContentType;
 import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpRequest;
 import com.httphelper.main.HttpResponse;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.DailyLog;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 
-public class YeOldeFishingVortex implements ConfigProperties {
+public class YeOldeFishingVortex implements Categories {
 
   private static final String CATEGORY = FISHING_VORTEX;
 
@@ -22,18 +23,21 @@ public class YeOldeFishingVortex implements ConfigProperties {
   }
 
   public int call() {
-    if (!DailyLog.props.getBoolean(FISHING_VORTEX, "done", false)) {
+    if (!ConfigProperties.isFishingVortexEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
+    if (!DailyLog.props().getBoolean(CATEGORY, "done", false)) {
       parseMain();
       if (fish()) {
         Logger.out.log(CATEGORY, "Fished :)");
-        DailyLog.props.addBoolean(FISHING_VORTEX, "done", true);
+        DailyLog.props().addBoolean(CATEGORY, "done", true);
       } else {
         Logger.out.log(CATEGORY, "Have to wait :(");
       }
     } else {
       Logger.out.log(CATEGORY, "Done.");
     }
-    return DAILIES_REFRESH_FREQ;
+    return ConfigProperties.getDailiesRefreshFreq();
   }
 
   private boolean fish() {

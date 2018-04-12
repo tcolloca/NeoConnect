@@ -12,12 +12,13 @@ import com.httphelper.main.HttpResponse;
 import com.neopetsconnect.main.Item;
 import com.neopetsconnect.main.Main;
 import com.neopetsconnect.shopwizard.ShopWizard;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.DailyLog;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 
-public class KitchenQuest implements ConfigProperties {
+public class KitchenQuest implements Categories {
 
   private final static String CATEGORY = KITCHEN_QUEST;
   private final HttpHelper helper;
@@ -38,21 +39,24 @@ public class KitchenQuest implements ConfigProperties {
   }
 
   public int call() {
-    int maxSpend = KITCHEN_QUEST_DAILY_MAX_SPEND;
-    int maxCost = KITCHEN_QUEST_MAX_COST;
-    int questsDone = DailyLog.props.getInt(QUESTS, "quests_done", 0);
-    int spent = DailyLog.props.getInt(QUESTS, "spent", 0);
+    if (!ConfigProperties.isKitchenQuestEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
+    int maxSpend = ConfigProperties.getKitchenQuestDailyMaxSpend();
+    int maxCost = ConfigProperties.getKitchenQuestMaxCost();
+    int questsDone = DailyLog.props().getInt(QUESTS, "quests_done", 0);
+    int spent = DailyLog.props().getInt(QUESTS, "spent", 0);
     if (spent <= maxSpend && questsDone < 10) {
-      int wasted = completeQuest(maxCost, SHOP_WIZ_SEARCH_TIMES);
+      int wasted = completeQuest(maxCost, ConfigProperties.getShopWizSearchTimes());
       spent += wasted;
       if (wasted > 0) {
-        DailyLog.props.addInt(QUESTS, "spent", spent);
-        DailyLog.props.addInt(QUESTS, "quests_done", questsDone + 1);
+        DailyLog.props().addInt(QUESTS, "spent", spent);
+        DailyLog.props().addInt(QUESTS, "quests_done", questsDone + 1);
         return 5;
       }
     }
     Logger.out.log(CATEGORY, "Done.");
-    return DAILIES_REFRESH_FREQ / 2;
+    return ConfigProperties.getDailiesRefreshFreq() / 2;
   }
 
   private int completeQuest(int maxCost, int searchTimes) {

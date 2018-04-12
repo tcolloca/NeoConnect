@@ -10,7 +10,7 @@ import com.neopetsconnect.utils.Utils;
 import de.btobastian.sdcf4j.Command;
 import de.btobastian.sdcf4j.CommandExecutor;
 
-public class LogCommand implements CommandExecutor, ConfigProperties {
+public class LogCommand implements CommandExecutor {
 
   @Command(aliases = {"!log"}, description = "Display all the logs.", usage = "!log [list|<type>]")
   public String onCommand(String command, String[] args) {
@@ -52,14 +52,16 @@ public class LogCommand implements CommandExecutor, ConfigProperties {
                     end = Integer.parseInt(args[3]);
                   }
                   content =
-                      Utils.maxLength(logFile.readBetweenLines(start, end), DISCORD_MAX_LENGTH);
+                      Utils.maxLength(logFile.readBetweenLines(start, end), 
+                          ConfigProperties.DISCORD_MAX_LENGTH);
                   break;
                 case "first":
                   if (args.length < 3) {
                     return "Requires at least 1 number.";
                   }
                   int n = Integer.parseInt(args[2]);
-                  content = Utils.maxLength(logFile.readFirstLines(n), DISCORD_MAX_LENGTH);
+                  content = Utils.maxLength(logFile.readFirstLines(n), 
+                      ConfigProperties.DISCORD_MAX_LENGTH);
                   break;
                 case "last":
                   if (args.length < 3) {
@@ -84,8 +86,9 @@ public class LogCommand implements CommandExecutor, ConfigProperties {
               content = logFile.readAll();
             }
             System.out.println(content.length());
-            System.out.println(Utils.maxLengthReversed(content, DISCORD_MAX_LENGTH).length());
-            return Utils.maxLengthReversed(content, DISCORD_MAX_LENGTH);
+            System.out.println(Utils.maxLengthReversed(content, ConfigProperties.DISCORD_MAX_LENGTH)
+                .length());
+            return Utils.maxLengthReversed(content, ConfigProperties.DISCORD_MAX_LENGTH);
           } catch (NumberFormatException e) {
             return "Expected a number.";
           }

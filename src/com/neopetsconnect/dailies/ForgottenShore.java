@@ -6,12 +6,13 @@ import com.httphelper.main.Headers;
 import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpRequest;
 import com.httphelper.main.HttpResponse;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.DailyLog;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 
-public class ForgottenShore implements ConfigProperties {
+public class ForgottenShore implements Categories {
 
 
   private static final String CATEGORY = FORGOTTEN_SHORE;
@@ -23,13 +24,16 @@ public class ForgottenShore implements ConfigProperties {
   }
 
   public int call() {
-    if (!DailyLog.props.getBoolean(CATEGORY, "done", false)) {
+    if (!ConfigProperties.isForgottenShoreEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
+    if (!DailyLog.props().getBoolean(CATEGORY, "done", false)) {
       retrieve();
       Logger.out.log(CATEGORY, "Retrieved :)");
-      DailyLog.props.addBoolean(CATEGORY, "done", true);
+      DailyLog.props().addBoolean(CATEGORY, "done", true);
     }
     Logger.out.log(CATEGORY, "Done.");
-    return DAILIES_REFRESH_FREQ;
+    return ConfigProperties.getDailiesRefreshFreq();
   }
 
   private void retrieve() {

@@ -10,33 +10,35 @@ import com.neopetsconnect.main.Status;
 import com.neopetsconnect.shopwizard.ShopItem;
 import com.neopetsconnect.stores.NeopetsStore;
 import com.neopetsconnect.stores.NeopetsStoreId;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 
-public class Restocker implements ConfigProperties {
+public class Restocker implements Categories {
 
   private final HttpHelper helper;
   private NeopetsStore store;
 
   public Restocker(HttpHelper helper) {
     this.helper = helper;
-    this.store = new NeopetsStore(helper, STORE_ID);
+    this.store = new NeopetsStore(helper, ConfigProperties.getStoreId());
   }
 
   public void restockLoop() {
-    while (!ConfigProperties.getStatus().equals(Status.OFF)) {
+    while (!ConfigProperties.getStatus().isStoppedOrOff()) {
       if (ConfigProperties.getStatus().equals(Status.PAUSED)) {
-        Utils.sleep(0.01);
+        Utils.sleep(0.1);
         continue;
       }
       try {
-        restock();
+          restock();
       } catch (RestockBannedException e) {
         int i = 0;
         do {
           Logger.out.log(RESTOCK, "Banned!");
-          Utils.sleepAndLog(RESTOCK, BAN_SLEEP_TIME * (Math.pow(BAN_SLEEP_FACTOR, i)),
+          Utils.sleepAndLog(RESTOCK, ConfigProperties.getBanSleepTime() * 
+              (Math.pow(ConfigProperties.getBanSleepFactor(), i++)),
               TimeUnits.MINUTES);
         } while (checkBan());
       }
@@ -47,7 +49,14 @@ public class Restocker implements ConfigProperties {
    * Blocking function.
    */
   private void restock() {
-    while (true) {
+    while (!ConfigProperties.getStatus().isStoppedOrOff()) {
+      if (!ConfigProperties.isRestockEnabled()) {
+        if (ConfigProperties.getStatus().isStoppedOrOff()) {
+          break;
+        }
+        Utils.sleep(0.1);
+        continue;
+      }
       try {
         Logger.out.logTimeStart("", TimeUnits.SECONDS);
         List<ShopItem> list = reload();
@@ -63,12 +72,14 @@ public class Restocker implements ConfigProperties {
   }
 
   private List<ShopItem> reload() {
+    System.out.println("reload");
     long time = 0, startTime = System.currentTimeMillis();
     long rsBanStartTime = System.currentTimeMillis();
 
     boolean soldOutWaiting = false;
 
-    while (time < MAX_RESTOCK_TIME * 1000) {
+    while (time < ConfigProperties.getMaxRestockTime() * 1000
+        && !ConfigProperties.getStatus().isStoppedOrOff()) {
       if (ConfigProperties.getStatus().equals(Status.PAUSED)) {
         Utils.sleep(0.01);
         continue;
@@ -80,19 +91,21 @@ public class Restocker implements ConfigProperties {
         if (!soldOutWaiting) {
           soldOutWaiting = true;
           Logger.out.log(RESTOCK, "Sold out!");
-          Utils.sleepAndLog(RESTOCK, Utils.random(MIN_SOLD_OUT_WAIT_TIME, MAX_SOLD_OUT_WAIT_TIME));
+          Utils.sleepAndLog(RESTOCK, Utils.random(ConfigProperties.getMinSoldOutWaitTime(), 
+              ConfigProperties.getMaxSoldOutWaitTime()));
         }
       } else {
         soldOutWaiting = false;
-        List<ShopItem> worthyItems = store.getWorthyItems(items, MIN_PROFIT);
+        List<ShopItem> worthyItems = store.getWorthyItems(items, ConfigProperties.getMinProfit());
         if (!worthyItems.isEmpty()) {
           return worthyItems;
         }
       }
-      Utils.sleepAndLog(RESTOCK, Utils.random(MIN_REFRESH_TIME, MAX_REFRESH_TIME));
+      Utils.sleepAndLog(RESTOCK, Utils.random(ConfigProperties.getMinRefreshTime(), 
+          ConfigProperties.getMaxRefreshTime()));
 
       time = System.currentTimeMillis() - startTime;
-      if (System.currentTimeMillis() - rsBanStartTime > CHECK_BAN_TIME * 1000) {
+      if (System.currentTimeMillis() - rsBanStartTime > ConfigProperties.getCheckBanTime() * 1000) {
         rsBanStartTime = System.currentTimeMillis();
         if (checkBan()) {
           throw new RestockBannedException();
@@ -100,7 +113,7 @@ public class Restocker implements ConfigProperties {
       }
     }
     Logger.out.log(RESTOCK, "Max time reached.");
-    Utils.sleepAndLog(RESTOCK, MAX_TIME_SLEEP, TimeUnits.MINUTES);
+    Utils.sleepAndLog(RESTOCK, ConfigProperties.getMaxTimeSleep(), TimeUnits.MINUTES);
     return null;
   }
 
@@ -117,8 +130,10 @@ public class Restocker implements ConfigProperties {
         if (wasBought) {
           Inventory inventory = new Inventory(helper);
           inventory.moveToShop(item);
-          if (item.getPrice().map(price -> price > MIN_STOP_PROFIT).orElse(true)) {
-            Utils.sleepAndLog(RESTOCK, AFTER_BOUGHT_SLEEP_TIME, TimeUnits.MINUTES);
+          if (item.getPrice().map(price -> price > ConfigProperties.getMinStopProfit())
+              .orElse(true)) {
+            Utils.sleepAndLog(RESTOCK, ConfigProperties.getAfterBoughtSleepTime(),
+                TimeUnits.MINUTES);
           }
         }
       } catch (Exception e) {

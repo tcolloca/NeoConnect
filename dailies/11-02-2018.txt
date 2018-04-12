@@ -13,6 +13,10 @@ done = true
 [COLTZANS_SHRINE]
 done = true
 
+[QUESTS]
+quests_done = 5
+spent = 15534
+
 [FISHING_VORTEX]
 done = true
 

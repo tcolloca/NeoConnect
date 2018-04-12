@@ -9,19 +9,17 @@ import java.time.format.DateTimeFormatter;
 import java.util.Optional;
 import org.filemanager.core.Properties;
 
-public class DailyLog implements ConfigProperties {
+public class DailyLog {
 
-  public static Properties props;
-
-  static {
+  public static Properties props() {
     createIfNecessary();
-    props = new Properties(getDailyLogFilePath(Utils.neopetsNow().toLocalDate()).toString());
+    return new Properties(getDailyLogFilePath(Utils.neopetsNow().toLocalDate()).toString());
   }
 
   private DailyLog() {}
 
   public static void createIfNecessary() {
-    Path dailiesPath = Paths.get(DAILIES_LOG_PATH);
+    Path dailiesPath = Paths.get(ConfigProperties.getDailiesLogPath());
     Path dailyLogPath = getDailyLogFilePath(Utils.neopetsNow().toLocalDate());
     try {
       if (Files.notExists(dailiesPath)) {
@@ -38,8 +36,10 @@ public class DailyLog implements ConfigProperties {
   }
 
   private static Path getDailyLogFilePath(LocalDate date) {
-    Path dailiesPath = Paths.get(DAILIES_LOG_PATH);
+    Path dailiesPath = Paths.get(ConfigProperties.getDailiesLogPath());
     return dailiesPath.resolve(
-        Paths.get(date.format(DateTimeFormatter.ofPattern(DAILIES_LOG_FILE_FORMAT)) + ".txt"));
+        Paths.get(
+            date.format(DateTimeFormatter.ofPattern(ConfigProperties.getDailiesLogFileFormat())) 
+            + ".txt"));
   }
 }

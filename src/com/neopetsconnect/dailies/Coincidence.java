@@ -22,12 +22,13 @@ import com.neopetsconnect.main.Item;
 import com.neopetsconnect.main.Main;
 import com.neopetsconnect.shopwizard.ShopItem;
 import com.neopetsconnect.shopwizard.ShopWizard;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 
-public class Coincidence implements ConfigProperties {
+public class Coincidence implements Categories {
 
   private final static String CATEGORY = COINCIDENCE;
 
@@ -48,6 +49,9 @@ public class Coincidence implements ConfigProperties {
   }
 
   public int call() {
+    if (!ConfigProperties.isCoincidenceEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
     Status status;
     Status prev = null;
     while (!((status = getStatus()) instanceof WaitingStatus) && !status.equals(prev)) {
@@ -76,7 +80,8 @@ public class Coincidence implements ConfigProperties {
     List<Item> items = ((PendingPayStatus) status).getItems();
     Logger.out.log(CATEGORY, "Needed: " + items);
     Map<Item, List<ShopItem>> bought =
-        shopWizard.buyIfWorthIt(items, COINCIDENCE_MAX_SPEND, SHOP_WIZ_SEARCH_TIMES);
+        shopWizard.buyIfWorthIt(items, ConfigProperties.getCoincidenceMaxSpend(), 
+            ConfigProperties.getShopWizSearchTimes());
     if (bought.isEmpty()) {
       sayNo(((PendingPayStatus) status).getKey());
     }

@@ -10,11 +10,12 @@ import com.httphelper.main.Headers;
 import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpResponse;
 import com.logger.main.TimeUnits;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 
-public class Snowager implements ConfigProperties {
+public class Snowager implements Categories {
 
   private static final String CATEGORY = SNOWAGER;
   private final HttpHelper helper;
@@ -24,6 +25,9 @@ public class Snowager implements ConfigProperties {
   }
 
   public int call() {
+    if (!ConfigProperties.isSnowagerEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
     LocalDateTime now = Utils.neopetsNow();
     LocalDateTime nextTime = getNextAwakeTime(now);
     Logger.out.log(CATEGORY, "Next time: " + nextTime);

@@ -13,13 +13,14 @@ import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpRequest;
 import com.httphelper.main.HttpResponse;
 import com.logger.main.TimeUnits;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.DailyLog;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 
-public class Turmaculus implements ConfigProperties {
+public class Turmaculus implements Categories {
 
   private static final String CATEGORY = TURMACULUS;
   private final HttpHelper helper;
@@ -29,7 +30,10 @@ public class Turmaculus implements ConfigProperties {
   }
 
   public int call() {
-    if (!DailyLog.props.getBoolean(CATEGORY, "done", false)) {
+    if (!ConfigProperties.isTurmaculusEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
+    if (!DailyLog.props().getBoolean(CATEGORY, "done", false)) {
       LocalDateTime nextTime = getNextAwakeTime();
       LocalDateTime now = Utils.neopetsNow();
       Logger.out.log(CATEGORY, "Next time: " + nextTime);
@@ -38,7 +42,7 @@ public class Turmaculus implements ConfigProperties {
         if (nextTime.getHour() == now.getHour()) {
           visit();
           Logger.out.log(CATEGORY, "Visited: " + now);
-          DailyLog.props.addBoolean(CATEGORY, "done", true);
+          DailyLog.props().addBoolean(CATEGORY, "done", true);
         } else if (nextTime.isAfter(now)) {
           int returnTime =
               nextTime.toLocalTime().toSecondOfDay() - now.toLocalTime().toSecondOfDay();
@@ -47,11 +51,11 @@ public class Turmaculus implements ConfigProperties {
           return returnTime + 60 * 5;
         }
       } else if (nextTime.isBefore(now)) {
-        DailyLog.props.addBoolean(CATEGORY, "done", true);
+        DailyLog.props().addBoolean(CATEGORY, "done", true);
       }
     }
     Logger.out.log(CATEGORY, "Done.");
-    return DAILIES_REFRESH_FREQ;
+    return ConfigProperties.getDailiesRefreshFreq();
   }
 
   private LocalDateTime getNextAwakeTime() {
@@ -79,7 +83,7 @@ public class Turmaculus implements ConfigProperties {
   }
 
   private void visit() {
-    String prev = makeActive(TURMACULUS_PET_NAME);
+    String prev = makeActive(ConfigProperties.getTurmaculusPetName());
     botherTurmaculus();
     makeActive(prev);
   }
@@ -111,7 +115,8 @@ public class Turmaculus implements ConfigProperties {
     return helper.post("/medieval/process_turmaculus.phtml")
         .addHeader(Headers.contentType(HttpContentType.APP_X_WWW_FORM_ENCODED))
         .addHeader(Headers.referer("http://www.neopets.com/medieval/turmaculus.phtml"))
-        .addFormParameter("type", "wakeup").addFormParameter("active_pet", TURMACULUS_PET_NAME)
+        .addFormParameter("type", "wakeup").addFormParameter("active_pet", 
+            ConfigProperties.getTurmaculusPetName())
         .addFormParameter("wakeup", 8).send();
   }
 

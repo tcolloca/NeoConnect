@@ -3,6 +3,7 @@ package com.neopetsconnect.bot;
 import com.google.common.util.concurrent.FutureCallback;
 import com.logger.main.LogListener;
 import com.neopetsconnect.main.Status;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
@@ -11,20 +12,26 @@ import de.btobastian.javacord.Javacord;
 import de.btobastian.sdcf4j.CommandHandler;
 import de.btobastian.sdcf4j.handler.JavacordHandler;
 
-public class Bot implements ConfigProperties, LogListener {
+public class Bot implements LogListener, Categories {
 
   private final DiscordAPI api;
 
   public Bot() {
-    this.api = Javacord.getApi(TOKEN, true);
+    this.api = Javacord.getApi(ConfigProperties.TOKEN, true);
     CommandHandler cmdHandler = new JavacordHandler(api);
     cmdHandler.registerCommand(new LogCommand());
     cmdHandler.registerCommand(new StatusCommand());
+    cmdHandler.registerCommand(new CategoryCommand());
+    cmdHandler.registerCommand(new GetCommand());
+    cmdHandler.registerCommand(new SetCommand());
+    cmdHandler.registerCommand(new EnableCommand());
+    cmdHandler.registerCommand(new DisableCommand());
+    cmdHandler.registerCommand(new HelpCommand(cmdHandler));
     Logger.out.addListener(EXCEPTION, this);
   }
 
   /**
-   * Blocking function.
+   * Non-blocking function.
    */
   private void connect() {
     api.connect(new FutureCallback<DiscordAPI>() {
@@ -34,18 +41,24 @@ public class Bot implements ConfigProperties, LogListener {
       @Override
       public void onSuccess(DiscordAPI api) {
         Logger.out.log(BOT, "Connected :)");
-        api.getChannels().stream().forEach(channel -> channel.sendMessage("Hey! :)"));
+        send("Hey! :)");
       }
     });
   }
+  
+  public void send(String message) {
+    api.getChannels().stream().forEach(channel -> channel.sendMessage(message));
+  }
+  
+  public void disconnect() {
+    api.disconnect();
+  }
 
+  /**
+   * non-blocking.
+   */
   public void run() {
     connect();
-    while (!ConfigProperties.getStatus().equals(Status.OFF)) {
-      Utils.sleep(0.01);
-    }
-    Utils.sleep(0.1);
-    System.exit(0);
   }
 
   public static void main(String[] args) {
@@ -57,6 +70,7 @@ public class Bot implements ConfigProperties, LogListener {
   public void onLog(String category, String logMessage) {
     api.getChannels().stream().forEach(channel -> channel.sendMessage("There was an exception!"));
     api.getChannels().stream()
-        .forEach(channel -> channel.sendMessage(Utils.maxLength(logMessage, DISCORD_MAX_LENGTH)));
+        .forEach(channel -> channel.sendMessage(Utils.maxLength(logMessage, 
+            ConfigProperties.DISCORD_MAX_LENGTH)));
   }
 }

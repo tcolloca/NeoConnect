@@ -6,6 +6,7 @@ import org.jsoup.nodes.Element;
 import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpRequest;
 import com.httphelper.main.HttpResponse;
+import com.neopetsconnect.exceptions.LoggedOutException;
 
 public class HttpUtils {
 
@@ -24,6 +25,12 @@ public class HttpUtils {
   }
 
   private static Document getDocument(HttpResponse res) {
+    String content = res.getContent().get();
+    if (content.contains("Log in")) {
+      Logger.out.log("Logged out!");
+      HttpHelper.log(res);
+      throw new LoggedOutException("Couldn't find username.");
+    }
     return Jsoup.parse(res.getContent().get());
   }
 

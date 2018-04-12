@@ -3,6 +3,7 @@ package com.neopetsconnect.dailies.foodclub;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,13 +17,14 @@ import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpRequest;
 import com.httphelper.main.Parameter;
 import com.neopetsconnect.main.Main;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.DailyLog;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 
-public class FoodClub implements ConfigProperties {
+public class FoodClub implements Categories {
 
   private static final String CATEGORY = FOOD_CLUB;
   private final HttpHelper helper;
@@ -41,16 +43,19 @@ public class FoodClub implements ConfigProperties {
   }
 
   public int call() {
+    if (!ConfigProperties.isFoodClubEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
     FoodClubBets bets = getLeftysBetInfo();
     if (!bet(bets)) {
-      return DAILIES_REFRESH_FREQ / 2; // TODO : Configure
+      return ConfigProperties.getDailiesRefreshFreq() / 2; // TODO : Configure
     }
     Logger.out.log(CATEGORY, "Done.");
-    return DAILIES_REFRESH_FREQ;
+    return ConfigProperties.getDailiesRefreshFreq();
   }
 
   private boolean bet(FoodClubBets bets) {
-    if (DailyLog.props.getBoolean(CATEGORY, "done", false)) {
+    if (DailyLog.props().getBoolean(CATEGORY, "done", false)) {
       return true;
     }
     LocalDate foodClubDate = Utils.neopetsNow().toLocalDate();
@@ -66,7 +71,7 @@ public class FoodClub implements ConfigProperties {
         placeBet(betForm);
       }
       Logger.out.log(CATEGORY, "Done :D");
-      DailyLog.props.addBoolean(CATEGORY, "done", true);
+      DailyLog.props().addBoolean(CATEGORY, "done", true);
       return true;
     }
     return false;
@@ -126,7 +131,13 @@ public class FoodClub implements ConfigProperties {
       String dateStr = content.select("h1").get(1).text().split("-")[0].trim();
       DateTimeFormatter formatter =
           DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy", Locale.ENGLISH);
-      LocalDate date = LocalDate.parse(dateStr, formatter);
+      LocalDate date;
+      try {        
+        date = LocalDate.parse(dateStr, formatter);
+      } catch (DateTimeParseException e) {
+        Logger.out.log(FOOD_CLUB, "Error parsing date.");
+        return new FoodClubBets(Utils.neopetsNow().toLocalDate(), new ArrayList<>());
+      }
 
       List<Element> rows = content.select(":root > center > center > table > tbody > tr");
 

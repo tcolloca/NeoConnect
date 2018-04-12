@@ -8,6 +8,8 @@ import com.logger.main.TimeUnits;
 import com.neopetsconnect.bot.Bot;
 import com.neopetsconnect.dailies.DailyDoer;
 import com.neopetsconnect.exceptions.FaerieQuestException;
+import com.neopetsconnect.exceptions.LoggedOutException;
+import com.neopetsconnect.exceptions.ShopWizardBannedException;
 import com.neopetsconnect.faeriequest.FaerieQuestSolver;
 import com.neopetsconnect.itemdb.JellyneoItemDatabase;
 import com.neopetsconnect.restock.Restocker;
@@ -17,92 +19,145 @@ import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 import com.neopetsconnect.utils.captcha.CaptchaSolver;
 
-public class Main implements ConfigProperties, Categories {
+public class Main implements Categories {
 
-  private static int MAX_EXCEPTION = 4;
+  private static int MAX_EXCEPTION = 5;
   private static int exception_count = 0;
   public static Session session;
+  
+  private final ExecutorService execService;
+  private final Bot bot;
+  
+  private Main(ExecutorService execService, Bot bot) {
+    this.execService = execService;
+    this.bot = bot;
+  }
 
   public static void main(String[] args) {
+    JellyneoItemDatabase.init();
+
+    Logger.out.disableCategories(STORE);
+    
+    final Bot bot = new Bot();
+
+    ExecutorService execService = Executors.newCachedThreadPool();
+    
+    execService.submit(() -> {
+      while (!ConfigProperties.getStatus().equals(Status.OFF)) {          
+        try {
+          bot.run();
+          while (!ConfigProperties.getStatus().equals(Status.OFF)) {
+            Utils.sleep(0.01);
+          }
+        } catch (Throwable th) {
+          Logger.out.log(EXCEPTION, Utils.stackTraceToString(th));
+        }
+        Logger.out.log(BOT, "Bot ended.");
+      }
+    });
+    
+    ConfigProperties.updateStatus(Status.ON);
+    while (!ConfigProperties.getStatus().equals(Status.OFF)) { 
+      if (ConfigProperties.getStatus().equals(Status.STOPPED)) {
+        Utils.sleep(0.1);
+        continue;
+      }
+      Logger.out.log(MAIN, "Running...");
+      Main main = new Main(execService, bot);
+      main.run();
+      Logger.out.log(MAIN, "Stopped.");
+    }
+    
+    bot.disconnect();
+    
+    execService.shutdown();
+    System.exit(0);
+  }
+  
+  private void run() {
     try {
-      JellyneoItemDatabase.init();
-
-      ConfigProperties.updateStatus(Status.ON);
-
-      Logger.out.disableCategories(STORE);
-
-      HttpHelper.log = LOG_REQUESTS;
-      CaptchaSolver.logImages = LOG_CAPTCHA_IMAGES;
+      HttpHelper.log = ConfigProperties.isLogRequests();
+      CaptchaSolver.logImages = ConfigProperties.isLogCaptchaImages();
       HttpHelper helper = initHelper();
       handleSession(helper);
-      if (DEBUG_ENABLED) {
-        helper.setRandomDelay(DELAY, DELAY);
+      if (ConfigProperties.isDebugEnabled()) {
+        helper.setRandomDelay(ConfigProperties.getDelay(), ConfigProperties.getDelay());
       }
 
-      ExecutorService execService = Executors.newCachedThreadPool();
-
+      System.out.println("submitting dailies job.");
       execService.submit(() -> {
-        while (true) {
-          try {
-            new Bot().run();
-          } catch (Throwable th) {
-            Logger.out.log(EXCEPTION, Utils.stackTraceToString(th));
-          }
-        }
-      });
-
-      execService.submit(() -> {
-        while (true) {
+        while (!ConfigProperties.getStatus().isStoppedOrOff()) {
           try {
             try {
+              System.out.println("new dailies");
               new DailyDoer(helper).run();
+            } catch (LoggedOutException e) {
+              System.out.println(e);
+              session.login();
             } catch (FaerieQuestException | RuntimeException e) {
-              if (!(e instanceof FaerieQuestException)
-                  && !(e.getCause() instanceof FaerieQuestException)) {
-                throw e;
+              System.out.println(e);
+              if (e instanceof FaerieQuestException
+                  || e.getCause() instanceof FaerieQuestException) {
+                if (ConfigProperties.isFaerieQuestEnabled()) {
+                  System.out.println("enabling");
+                  new FaerieQuestSolver(helper).solveQuest();
+                } else {
+                  System.out.println("syso!!");
+                  throw new FaerieQuestException(e.getMessage());
+                }
               }
-              if (ConfigProperties.FAERIE_QUEST_ENABLED) {
-                System.out.println("enabling");
-                new FaerieQuestSolver(helper).solveQuest();
-              } else {
-                System.out.println("syso!!");
-                throw new FaerieQuestException(e.getMessage());
+              if (e instanceof ShopWizardBannedException
+                  || e.getCause() instanceof ShopWizardBannedException) {
+                Logger.out.log(SHOP_WIZARD, "Shop wizard banned!");
+                Utils.sleepAndLog(SHOP_WIZARD, 60 * 60);
               }
+              throw e;
             }
           } catch (Throwable th) {
             System.out.println(th);
-            if (!checkExceptionLimit()) {
-              System.exit(1);
-            }
             Logger.out.log(EXCEPTION, Utils.stackTraceToString(th));
+            if (!checkExceptionLimit()) {
+              break;
+            }
           }
         }
+        bot.send("Dailies stopped!");
+        Logger.out.log(DAILIES, "Dailies ended.");
       });
 
       Logger.out.log("Waiting for dailies to be finished.");
-      Utils.sleepAndLog(DAILIES, DAILIES_WAIT_SLEEP, TimeUnits.MINUTES);
+      Utils.sleepAndLog(DAILIES, ConfigProperties.getDailiesWaitSleep(), TimeUnits.MINUTES);
 
-      if (ConfigProperties.RESTOCK_ENABLED) {
-        execService.submit(() -> {
-          while (true) {
-            try {
-              new Restocker(helper).restockLoop();
-            } catch (Throwable th) {
-              if (!checkExceptionLimit()) {
-                System.exit(1);
-              }
-              Logger.out.log(EXCEPTION, Utils.stackTraceToString(th));
+      System.out.println("submitting restock");
+      execService.submit(() -> {
+        while (!ConfigProperties.getStatus().isStoppedOrOff()) {
+          try {
+            System.out.println("new restock");
+            new Restocker(helper).restockLoop();
+          } catch (LoggedOutException e) {
+            session.login();
+          } catch (Throwable th) {
+            Logger.out.log(EXCEPTION, Utils.stackTraceToString(th));
+            if (!checkExceptionLimit()) {
+                break;
             }
           }
-        });
-      }
+        }
+        bot.send("Restock stopped!");
+        Logger.out.log(RESTOCK, "Restock ended.");
+      });
     } catch (Throwable th) {
       Logger.out.log(EXCEPTION, Utils.stackTraceToString(th));
-      System.exit(1);
     }
+    System.out.println("after submitting");
+    while (!ConfigProperties.getStatus().isStoppedOrOff()) {
+      Utils.sleep(0.1);
+    }
+    bot.send("Main stopped!");
+    Logger.out.log(MAIN, "Main ended.");    
   }
 
-  private static boolean checkExceptionLimit() {
+  private boolean checkExceptionLimit() {
     exception_count++;
     Logger.out.log(EXCEPTION, "Count: " + exception_count);
     if (exception_count > MAX_EXCEPTION) {
@@ -112,7 +167,8 @@ public class Main implements ConfigProperties, Categories {
   }
 
   public static void handleSession(HttpHelper helper) {
-    handleSession(helper, USERNAME, PASSWORD, MY_SHOP_USING_PIN ? PIN : null);
+    handleSession(helper, ConfigProperties.getUsername(), ConfigProperties.getPassword(),
+        ConfigProperties.isMyShopUsingPin() ? ConfigProperties.getPin() : null);
   }
 
   public static void handleSession(HttpHelper helper, String username, String password,
@@ -120,7 +176,6 @@ public class Main implements ConfigProperties, Categories {
     Main.session = new Session(helper, username, password, pin);
 
     String indexContent = index(helper).getContent().get();
-
 
     if (!indexContent.contains(">" + username + "<")) {
       if (indexContent.contains("Welcome")) {

@@ -18,12 +18,13 @@ import com.neopetsconnect.exceptions.ShopWizardBannedException;
 import com.neopetsconnect.main.Item;
 import com.neopetsconnect.main.Main;
 import com.neopetsconnect.shopwizard.ShopWizard;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 
-public class Inventory implements ConfigProperties {
+public class Inventory implements Categories {
 
   public static final String category = INVENTORY;
 
@@ -42,6 +43,9 @@ public class Inventory implements ConfigProperties {
   }
 
   public void organize(int minPrice) {
+    if (!ConfigProperties.isOrganizeInventoryEnabled()) {
+      return;
+    }
     ShopWizard wiz = new ShopWizard(helper);
     Map<String, List<InventoryItem>> items =
         getItems().entrySet().stream().filter(entry -> !entry.getValue().get(0).isBlocked())
@@ -49,7 +53,7 @@ public class Inventory implements ConfigProperties {
     Map<String, List<InventoryItem>> discard = items.entrySet().stream().filter(entry -> {
       try {
         Logger.out.log(category, "Finding price for " + entry.getKey());
-        int price = wiz.findPrice(entry.getKey(), 3);
+        int price = wiz.findPrice(entry.getKey(), ConfigProperties.getShopWizSearchTimes());
         Logger.out.log(category, "Price for \"" + entry.getKey() + "\" is " + price);
         Utils.sleep(2);
         return price < minPrice;

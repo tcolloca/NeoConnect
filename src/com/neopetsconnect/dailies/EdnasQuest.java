@@ -12,12 +12,13 @@ import com.httphelper.main.HttpResponse;
 import com.neopetsconnect.main.Item;
 import com.neopetsconnect.main.Main;
 import com.neopetsconnect.shopwizard.ShopWizard;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.DailyLog;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 
-public class EdnasQuest implements ConfigProperties {
+public class EdnasQuest implements Categories {
 
   private final static String CATEGORY = EDNAS_QUEST;
   private final HttpHelper helper;
@@ -38,20 +39,23 @@ public class EdnasQuest implements ConfigProperties {
   }
 
   public int call() {
-    int maxSpend = EDNAS_QUEST_DAILY_MAX_SPEND;
-    int questsDone = DailyLog.props.getInt(QUESTS, "quests_done", 0);
-    int spent = DailyLog.props.getInt(QUESTS, "spent", 0);
+    if (!ConfigProperties.isEdnasQuestEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
+    int maxSpend = ConfigProperties.getEdnasQuestDailyMaxSpend();
+    int questsDone = DailyLog.props().getInt(QUESTS, "quests_done", 0);
+    int spent = DailyLog.props().getInt(QUESTS, "spent", 0);
     if (spent <= maxSpend && questsDone < 10) {
-      int wasted = completeQuest(SHOP_WIZ_SEARCH_TIMES);
+      int wasted = completeQuest(ConfigProperties.getShopWizSearchTimes());
       spent += wasted;
       if (wasted > 0) {
-        DailyLog.props.addInt(QUESTS, "spent", spent);
-        DailyLog.props.addInt(QUESTS, "quests_done", questsDone + 1);
+        DailyLog.props().addInt(QUESTS, "spent", spent);
+        DailyLog.props().addInt(QUESTS, "quests_done", questsDone + 1);
         return 5;
       }
     }
     Logger.out.log(CATEGORY, "Done.");
-    return DAILIES_REFRESH_FREQ;
+    return ConfigProperties.getDailiesRefreshFreq();
   }
 
   private int completeQuest(int searchTimes) {
@@ -70,11 +74,11 @@ public class EdnasQuest implements ConfigProperties {
   private int getMaxCost(int size) {
     switch (size) {
       case 1:
-        return EDNAS_QUEST_1_IT_MAX_COST;
+        return ConfigProperties.getEdnasQuest1ItMaxCost();
       case 2:
-        return EDNAS_QUEST_2_IT_MAX_COST;
+        return ConfigProperties.getEdnasQuest2ItMaxCost();
       case 3:
-        return EDNAS_QUEST_3_IT_MAX_COST;
+        return ConfigProperties.getEdnasQuest3ItMaxCost();
     }
     throw new IllegalStateException("Ednas quests should have between 1 and 3 items.");
   }

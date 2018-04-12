@@ -6,12 +6,13 @@ import com.httphelper.main.HttpHelper;
 import com.httphelper.main.HttpRequest;
 import com.httphelper.main.HttpResponse;
 import com.logger.main.TimeUnits;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 
-public class BuriedTreasure implements ConfigProperties {
+public class BuriedTreasure implements Categories {
 
   private static final String CATEGORY = BURIED_TREASURE;
 
@@ -22,11 +23,14 @@ public class BuriedTreasure implements ConfigProperties {
   }
 
   public int call() {
+    if (!ConfigProperties.isBuriedTreasureEnabled()) {
+      return ConfigProperties.getDailiesRefreshFreq();
+    }
     parseMain();
     int waitTime = parseBuriedTreasure();
     if (waitTime == 0) {
-      int x = BURIED_TREASURE_X;
-      int y = BURIED_TREASURE_Y;
+      int x = ConfigProperties.getBuriedTreasureX();
+      int y = ConfigProperties.getBuriedTreasureY();
       play(x, y);
       Logger.out.log(CATEGORY, String.format("Played (%d, %d).", x, y));
     } else {
@@ -34,7 +38,7 @@ public class BuriedTreasure implements ConfigProperties {
           TimeUnits.MINUTES);
       return waitTime;
     }
-    return DAILIES_REFRESH_FREQ;
+    return ConfigProperties.getDailiesRefreshFreq();
   }
 
   private boolean parseMain() {

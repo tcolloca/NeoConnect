@@ -16,14 +16,15 @@ import com.neopetsconnect.exceptions.NotEnoughNeopointsException;
 import com.neopetsconnect.itemdb.ItemDatabase;
 import com.neopetsconnect.main.Item;
 import com.neopetsconnect.shopwizard.ShopItem;
-import com.neopetsconnect.utils.ConfigProperties;
+import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
 import com.neopetsconnect.utils.Utils;
 import com.neopetsconnect.utils.captcha.CaptchaSolver;
 
-public class NeopetsStore implements ConfigProperties {
+public class NeopetsStore implements Categories {
 
+  private static final String CATEGORY = STORE;
   private static final int UNKNOWN_PRICE = 151000;
 
   final HttpHelper helper;
@@ -40,15 +41,15 @@ public class NeopetsStore implements ConfigProperties {
 
   public List<ShopItem> getWorthyItems(List<ShopItem> items, int minDiff) {
     ItemDatabase itemDb = ItemDatabase.getInstance();
-    Logger.out.log(STORE, items.size());
+    Logger.out.log(CATEGORY, items.size());
     return items.stream().collect(Collectors.toMap(item -> item, item -> {
       Item jellyItem = itemDb.getItem(item.getName());
       if (jellyItem != null && jellyItem.getPrice().isPresent()) {
-        Logger.out.log(STORE,
+        Logger.out.log(CATEGORY,
             item.getName() + " " + (jellyItem.forceGetPrice() - item.forceGetPrice()));
         return jellyItem.forceGetPrice() - item.forceGetPrice();
       }
-      Logger.out.log(STORE, item.getName() + " " + (UNKNOWN_PRICE - item.forceGetPrice()));
+      Logger.out.log(CATEGORY, item.getName() + " " + (UNKNOWN_PRICE - item.forceGetPrice()));
       return UNKNOWN_PRICE;
     })).entrySet().stream().filter(e -> e.getValue() >= minDiff)
         .sorted(Map.Entry.<ShopItem, Integer>comparingByValue().reversed()).map(Map.Entry::getKey)
@@ -63,7 +64,7 @@ public class NeopetsStore implements ConfigProperties {
       Element itemsForSale = content.select(":root > form[name=items_for_sale]").first();
 
       if (itemsForSale == null) {
-        Logger.out.log(STORE, "Sold out!");
+        Logger.out.log(CATEGORY, "Sold out!");
         return items;
       }
 
@@ -90,9 +91,9 @@ public class NeopetsStore implements ConfigProperties {
     try {
       Logger.out.logTimeStart("", TimeUnits.SECONDS);
       Document doc = httpUtils.getDocument(huggleRequest(item.getLink()));
-      Logger.out.logTimeEnd("", STORE, "Load huggle link: %.3f");
+      Logger.out.logTimeEnd("", CATEGORY, "Load huggle link: %.3f");
       Logger.out.logTimeStart("", TimeUnits.SECONDS);
-      Logger.out.logTimeEnd("", STORE, "Parse huggle link: %.3f");
+      Logger.out.logTimeEnd("", CATEGORY, "Parse huggle link: %.3f");
 
       int nps = Integer.parseInt(doc.getElementById("npanchor").text().replaceAll(",", ""));
 
@@ -110,7 +111,7 @@ public class NeopetsStore implements ConfigProperties {
 
       Logger.out.logTimeStart("", TimeUnits.SECONDS);
       int[] point = CaptchaSolver.solve(helper, imgUrl);
-      Logger.out.logTimeEnd("", STORE, "Solve Captcha: %.3f");
+      Logger.out.logTimeEnd("", CATEGORY, "Solve Captcha: %.3f");
       return parseBuyItemRequest(item.getLink(), item.forceGetPrice(), point);
     } catch (Throwable th) {
       httpUtils.logRequestResponse();

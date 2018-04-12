@@ -17,6 +17,8 @@ public class Logger implements Categories {
             FISHING_VORTEX, COINCIDENCE, FRUIT_MACHINE, BURIED_TREASURE, TRAINING_SCHOOL, LAB_RAY,
             TURMACULUS, SNOWAGER, EDNAS_QUEST, WISE_OLD_KING, COLTZANS_SHRINE, FORGOTTEN_SHORE,
             STOCK_MARKET, FAERIE_QUEST}));
+    
+    out.enableCategories(MAIN);
 
     out.addFileLog(DAILIES, "dailies.log");
     out.addFileLog(SHOP_WIZARD, "dailies.log");
@@ -24,6 +26,7 @@ public class Logger implements Categories {
     out.addFileLog(RESTOCK, "restock.log");
     out.addFileLog(BUY, "buy.log");
     out.addFileLog(INVENTORY, "inventory.log");
+    out.addFileLog(MAIN, "main.log");
   }
 
   private Logger() {}
