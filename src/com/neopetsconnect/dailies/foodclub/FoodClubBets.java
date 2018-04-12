@@ -5,19 +5,19 @@ import java.util.List;
 
 public class FoodClubBets {
 
-	private LocalDate date;
-	private List<BetInfo> betInfos;
-	
-	public FoodClubBets(LocalDate date, List<BetInfo> betInfos) {
-		this.date = date;	
-		this.betInfos = betInfos;
-	}
+  private LocalDate date;
+  private List<BetInfo> betInfos;
 
-	public LocalDate getDate() {
-		return date;
-	}
+  public FoodClubBets(LocalDate date, List<BetInfo> betInfos) {
+    this.date = date;
+    this.betInfos = betInfos;
+  }
 
-	public List<BetInfo> getBetInfos() {
-		return betInfos;
-	}
+  public LocalDate getDate() {
+    return date;
+  }
+
+  public List<BetInfo> getBetInfos() {
+    return betInfos;
+  }
 }

@@ -22,11 +22,11 @@
 			<id>javacord-repo</id>
 			<url>http://repo.bastian-oppermann.de</url>
 		</repository>
+		<repository>
+			<id>sdcf4j-repo</id>
+			<url>http://repo.bastian-oppermann.de</url>
+		</repository>
 	</repositories>
-	<repository>
-		<id>sdcf4j-repo</id>
-		<url>http://repo.bastian-oppermann.de</url>
-	</repository>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
 		<dependency>

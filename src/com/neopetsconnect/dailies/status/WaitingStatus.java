@@ -3,20 +3,20 @@ package com.neopetsconnect.dailies.status;
 import java.time.LocalTime;
 
 public class WaitingStatus implements Status {
-	
-	private final LocalTime waitTime;
 
-	public WaitingStatus(LocalTime waitTime) {
-		super();
-		this.waitTime = waitTime;
-	}
+  private final LocalTime waitTime;
 
-	public LocalTime getWaitTime() {
-		return waitTime;
-	}
+  public WaitingStatus(LocalTime waitTime) {
+    super();
+    this.waitTime = waitTime;
+  }
 
-	@Override
-	public String toString() {
-		return "WaitingStatus [waitTime=" + waitTime.toString() + "]";
-	}
+  public LocalTime getWaitTime() {
+    return waitTime;
+  }
+
+  @Override
+  public String toString() {
+    return "WaitingStatus [waitTime=" + waitTime.toString() + "]";
+  }
 }
