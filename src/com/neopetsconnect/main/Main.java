@@ -177,15 +177,16 @@ public class Main implements Categories {
 
     String indexContent = index(helper).getContent().get();
 
-    if (!indexContent.contains(">" + username + "<")) {
+    if (!indexContent.contains("Welcome, <a href=\"/userlookup.phtml?user=" + username + "\">")) {
       if (indexContent.contains("Welcome")) {
+    	Logger.out.log(SESSION, "Logging out.");
         session.logout();
       }
       HttpResponse loginResp = session.login();
-      Logger.out.log("SESSION",
+      Logger.out.log(SESSION,
           loginResp.getContent().get().contains(username) ? "Logged in!" : "Something went wrong");
     } else {
-      Logger.out.log("SESSION", "Already logged :)");
+      Logger.out.log(SESSION, "Already logged :)");
     }
   }
 

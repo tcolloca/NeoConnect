@@ -1,7 +1,7 @@
 Desert Survival Guide;1200
-Sentient Headstones Stamp;25900
+Sentient Headstones Stamp;13200
 stamp_seashell;
-Jade Scorchstone Stamp;24300
+Jade Scorchstone Stamp;13300
 Mynci Defender Book;98500
 Rainbow Kacheek Morphing Potion;650000
 Christmas Koi Morphing Potion;110000
@@ -21,7 +21,7 @@ stamp_tyrannian_magnus;
 Gardens of Neopia;3875
 Scoops of Friendship on the Run;5000
 Heists that Jump;11300
-Foil Slorg Stamp;13000000
+Foil Slorg Stamp;12000000
 Dimensional Poogle Morphing Potion;150000
 Baby Usul Morphing Potion;375000
 The Art of Avoiding Mines;7000
@@ -35,8 +35,8 @@ Love Poems for the Lovelorn;1675
 Symol Claws 101;1275
 Wocky Cookies;1900
 The Chocolate Scorchio Recipe Book;
-Rohanes Mother Stamp;5200
-Slime Titan Stamp;1500
+Rohanes Mother Stamp;3275
+Slime Titan Stamp;1600
 How to Spot a Gormball;1600
 Chomby Diary;3625
 How to be a Gaming Champ;
@@ -54,7 +54,7 @@ Maractite Krawk Morphing Potion;1100000
 An Inside Look At A Plushie Meerca;
 Transparent Elephante Morphing Potion;700000
 Puzzle Magazine;8700
-The Cyodrakes Gaze Stamp;
+The Cyodrakes Gaze Stamp;550000
 Miniature Altador Cup Story;43900
 Patter Feet;18000
 Flotsam Colour Time;1800
@@ -72,22 +72,22 @@ Computing the Kreludan Way;2525
 Camouflage Mynci Morphing Potion;28900
 Sarahs Guide To Neopia;1675
 Banana Wars;5450
-Moltara Town Hall Stamp;99999
-Christmas Kougra Stamp;1850
+Moltara Town Hall Stamp;77500
+Christmas Kougra Stamp;1675
 Pirate Meerca Morphing Potion;40800
 White Ixi Morphing Potion;400000
 Book of Ideas;
 Journey Through the Ice: A Tuskaninnys Tale;1350
 How Purples Got Their Spots;
 Collecting Letters;61000
-The Great Battle Stamp;20000000
+The Great Battle Stamp;14000000
 Optimal Care for Chariot Alabrisses;10000
 The Blue Lutari Tail;1000
 Guide to Maraquan Myncies;1125
 Spotted Blumaroo Morphing Potion;59500
 Decorative Towel Folding;150000
 The Legend of Scordrax;240000
-Stone Armchair Stamp;1650
+Stone Armchair Stamp;1500
 Birthday Clues;6550
 The Bat Wielding Jelly Poogle;
 Yellow Ruki Morphing Potion;60000
@@ -95,19 +95,19 @@ Lisha Of Meridell;1625
 365.25 Borovan Recipes;2350
 The Velveteen Draik;180000
 Plushie Wocky Morphing Potion;190000
-Tyrannian Elephante Stamp;84500
+Tyrannian Elephante Stamp;60000
 Neopia Fashion Trends Magazine;2600
-Dark Graspberry Stamp;4300
+Dark Graspberry Stamp;2475
 Zafara War;
 Xweetok Grooming;2900
 The Mysterious Case of the Merchandise Hunt Neggs;9000
 10th Birthday Book;
 Koi Beauty Tips;1100
 My Eyrie Friend;4000
-Seasonal Stamp;39000
+Seasonal Stamp;60000
 Fire Skeith Morphing Potion;200000
 My Little Mynci Book;1850
-Mayor of Moltara Stamp;6000
+Mayor of Moltara Stamp;7700
 1001 Roguish Insults;99999
 Blue Blumaroo Morphing Potion;150000
 Cloud Wocky Morphing Potion;93000
@@ -117,16 +117,16 @@ The Red Wocky Cook Book;2625
 Taming The Hair;2525
 Book of Bizarre Tales;900000
 Pirates vs. Ninjas: The Novel;69500
-Rohane Stamp;2650
+Rohane Stamp;2550
 Relic Chia Morphing Potion;350000
 Hannah and the Pirate Caves;1500
 Medieval Petpets;10200
 Ixi Glade;84500
-Kentari Spyglass Stamp;17000
+Kentari Spyglass Stamp;6850
 Thieving Guide for Coleopterans;8900
 Green Uni Morphing Potion;8300
 Home Surgery for Jetsams;1825
-Tomos Stamp;250000
+Tomos Stamp;330000
 The Eyrie Guard;
 Advanced Basket Weaving;4200
 Kasuki Lu Biography;3350
@@ -136,14 +136,14 @@ Favourite Elephante Recipes;3400
 Blue Ogrin Morphing Potion;2000
 Pteri Pop-Up Book;500000
 The Speckled Bruce;
-Bone Chair Stamp;2700
+Bone Chair Stamp;2800
 The Big Red Bruce Tied Up With A Big Red Bow;
 Silver Aisha Book;
 Extreme Shenkuu;100
-Faerie Techo Plushie Stamp;750
+Faerie Techo Plushie Stamp;1125
 Slorg Slime;8950
 My 1st Shovel;1000
-Count Von Roo Stamp;1800000
+Count Von Roo Stamp;1600000
 Le Blu;2075
 Sticker Album;1000
 Ghost Hissi Morphing Potion;350000
@@ -152,7 +152,7 @@ Christmas Blumaroo Morphing Potion;375000
 Cooking for your Petpet;3100
 How to Serve Meepits;19500
 Space Station Schematics;2000000
-Goregas Stamp;4850
+Goregas Stamp;4600
 My Life As A Lenny;250000
 Rainbow Kyrii Morphing Potion;200000
 The Hunt For The Red Gelert;2875
@@ -174,14 +174,14 @@ Crepe Recipes;1350
 The Bori Handbook;3050
 Cybunny Down;1150
 Toast Tasting;38000
-SHFISS Stamp;3000
+SHFISS Stamp;4200
 The Sun and You;2625
-Aethia Stamp;1200000
+Aethia Stamp;900000
 The Great Cybunny Theft;1000
 Mynci Tails;800
-Mist Kougra Stamp;950
+Mist Kougra Stamp;880
 What Me Cheat;18300
-Ramtor Stamp;2500000
+Ramtor Stamp;1600000
 Brown Techo Morphing Potion;27200
 Halloween Tonu Morphing Potion;23000
 Darigan Storytime;5900
@@ -189,12 +189,12 @@ Faerie Usul Morphing Potion;950000
 Baby Ixi Book;1850
 Desert Flotsam Morphing Potion;350000
 stamp_island_juppie;
-Terror Mountain Scene Stamp;2200
+Terror Mountain Scene Stamp;2600
 Mounted Certificate;2925
 My Best Friend;6750
 Fake Arcane Bow;
 Island Uni Morphing Potion;600000
-Skeith Defender Stamp;2000000
+Skeith Defender Stamp;1800000
 Toffee Dubloon;6500
 Yellow Cybunny Morphing Potion;325000
 When Your Meercas Hurt;18000
@@ -203,12 +203,12 @@ How to Draw for Programmers;6700
 Kau Battle Tactics;560
 Space Exploration;2225
 The Mighty Royal Uni;
-Ruins of Faerieland Stamp;5000
+Ruins of Faerieland Stamp;5600
 stamp_mys_tekkitu;
 Spooky Kau Story;170
 Grey Ixi Morphing Potion;850000
 Fuhnah: Fire of the Heart;2200
-Princess Sankara Stamp;5400
+Princess Sankara Stamp;5250
 The Lupe Pack;975
 Tropical Flora and Fauna;2000
 Heroic Hissi;1250
@@ -217,14 +217,15 @@ The Big Book of Intermediate Evil Plots;1200000
 Gnorbu Mane Care;1200
 Guide to the Neocola Machine;7000000
 Raising Young Kau;12500
-Christmas Meerca Stamp;2800
+Christmas Meerca Stamp;3575
 The Biographies of Mostly Important Neopians;1375
+Crumpetmonger Stamp;5750
 Striped Ixi Morphing Potion;150000
 Sunshine in Neopia;550000
 Sweetest Memories;3475
-Chomby Stamp;90000
+Chomby Stamp;100000
 Extreme Arbourism;5000
-Trapped Tomos Stamp;5200
+Trapped Tomos Stamp;5750
 The Groovy Disco Grundo;
 Fyoras Pumpkin Recipes;
 Chocolate King Skarl;12000
@@ -240,7 +241,7 @@ Starry Kougra Dreams;7800
 Speak Moehog;1700
 Striped Kacheek Book of Sketches;
 Aerial Shots of Neopia;500000
-Darkest Faerie Stamp;2800000
+Darkest Faerie Stamp;2200000
 A Buzz Life;1050
 Candy Whistle;17000
 Backpacking Across Neopia;1850
@@ -256,7 +257,7 @@ Round About Yurbles;4000
 Great Grarrl Adventures;1000
 A Gnorbu Novel;7000
 Island Uni Stamp;
-Scarab Stamp;10000
+Scarab Stamp;6000
 Blue Uni Morphing Potion;150000
 Lava Art Projects;3200
 A Squires Life;6800
@@ -264,28 +265,28 @@ The Ixi Book;3600
 The Spotted Kau;
 Quiggle Facts;1200
 Rainbow Candy Floss;2500000
-Drooling Quadrapus Stamp;1050
+Drooling Quadrapus Stamp;1000
 Red Cybunny Morphing Potion;750000
 Tell Me Why;5800
-Tyrannian Grarrl Stamp;2625
+Tyrannian Grarrl Stamp;3200
 Scurlaxs Lucky Charm;
 The Life of a Double Crosser;540
 The Technical Mind of the Robot JubJub;
 Ednas Potion;6500
 Finding Illusen;350000
 Scorchio Sketch Book;600
-Draik Guard Stamp;1800
+Draik Guard Stamp;2600
 Plushie Buzz Morphing Potion;200000
 Yellow Quiggle Morphing Potion;34400
-The Drenched Stamp;25000
+The Drenched Stamp;7500
 Green Korbat Morphing Potion;350000
 Guide to Wild Petpets;8000
 Mystic Neggs Book;2400
-Dark Faerie Stamp;160000
+Dark Faerie Stamp;140000
 Baby Buzz Morphing Potion;400000
 Red Quiggle Morphing Potion;30000
-Darigan Elemental Stamp;3350
-Suteks Tomb Stamp;2050
+Darigan Elemental Stamp;3400
+Suteks Tomb Stamp;2000
 Pretty Peophins;1700
 Writers Tips;99999
 Mystical Tea Caddy;18800
@@ -327,15 +328,15 @@ Space Station Holidays;12300
 Baby Eyrie Basket Book;1000
 The Wheels of Fate;
 How to Give Gifts;1550
-Pineapple Dessert Stamp;7350
-Neopian Hospital Stamp;5400
+Pineapple Dessert Stamp;5900
+Neopian Hospital Stamp;3500
 Baby Hissi Morphing Potion;800000
 Faerie Secrets;250000
 Dark Chocolate Poogle;9800
-Happy Lutari Stamp;4000000
+Happy Lutari Stamp;3100000
 On the Wing of a Silver Shoyrus;
-Hubrid Nox Stamp;4250
-3D Camp AAA Stamp;
+Hubrid Nox Stamp;4200
+3D Camp AAA Stamp;70000000
 Shenkuu Floral Arrangement;125000
 Snow Bori Morphing Potion;130000
 Stealthy Blumaroo Morphing Potion;1700000
@@ -346,7 +347,7 @@ Popular Games Guidebook;4000
 Grey Mynci Morphing Potion;250000
 Pretty Pink Yurbles;3400
 Scorchio Scrapbook;1800
-Shiny Monoceraptor Stamp;950000
+Shiny Monoceraptor Stamp;595000
 Island Pteri Morphing Potion;33900
 More Than Carrot Cake;370
 Galactic Adventures II;3250
@@ -358,12 +359,12 @@ Striped Kau Morphing Potion;200000
 Starry Flotsam Morphing Potion;30000
 Faerie Cloud Racing;2300
 Run;2500
-Grimtooth Stamp;4000000
+Grimtooth Stamp;2000000
 Kougra Tales;950
 The JubJubs Secret;7800
-Healing Springs Stamp;1200
+Healing Springs Stamp;1000
 Purple Uni Morphing Potion;99999
-Qasalan Delights Stamp;2850
+Qasalan Delights Stamp;2700
 The Kou-Jong Strategy;28500
 Hocus Focus;2500
 Hidden Among Clouds;1550
@@ -374,18 +375,18 @@ Red Eyrie Morphing Potion;99000
 Masks of Mystery Island;18400
 Grarrg The Great;1300
 Ghost Gelert Morphing Potion;1000000
-Charms Stamp;30100
+Charms Stamp;100000
 Tyrannian Winters;1900
 Codestone Truffle;21500
 Acara Battle Book;1200
 Captain Meerca;
-Negg Faerie Stamp;64000
-Negg Noodles Stamp;2125
+Negg Faerie Stamp;71000
+Negg Noodles Stamp;1700
 stamp_destruct_luperun;
 Dark Chocolate Skeith;21300
 The Slippery Silver Grundo;
 Custom Doll Making;1875
-Fyora Faerie Doll Stamp;40000
+Fyora Faerie Doll Stamp;23000
 Spooky Usul Stories;250000
 Brucicles;2000
 Skyward an Eyries Guide to Flying;3225
@@ -399,20 +400,20 @@ King Kacheek;3000
 The Confused Mynci;7000
 Starry Shoyru Morphing Potion;59000
 Big Book of Big Laughs;2325
-Jelly Pop Stamp;5000
+Jelly Pop Stamp;4100
 Fun with Macrame;3000
 pot_kadoatie_morph;
 Maraquan Mynci Morphing Potion;375000
 Robot Lenny Repair Manual;5400
 Halloween Techo Morphing Potion;300000
 Cheat In Style;1200
-Kari and Topsi Stamp;600000
-Lava Monster Stamp;57000
+Kari and Topsi Stamp;450000
+Lava Monster Stamp;40000
 Uni Cycles;450000
 Kiko Boo Boos;7000
 Gathering Food Effectively;1275
 Maraqua Altador Cup Media Book;44000
-Underwater Chef Stamp;4200
+Underwater Chef Stamp;4625
 A Flotsam Christmas;2775
 Paper Cutting Secrets;930
 BattleGlowJewel;
@@ -420,16 +421,16 @@ Gold JubJub Spiral Bound Book;
 Book of Bones;800000
 Fire Kiko Morphing Potion;120000
 Blue Wocky Morphing Potion;180000
-Sticky Snowflake Stamp;
+Sticky Snowflake Stamp;100000000
 Mystery Of The Kougra Paw;70
 Great Reefs of Neopia;2700
 stamp_destruct_orb;
 Scary Peophin Tales;1250
 Oh, What a Negg!;99000
 Zombie Legends;50500
-Edna the Zafara Stamp;13200
+Edna the Zafara Stamp;7150
 The History of the Origami Warf;1250
-Isca Stamp;6500000
+Isca Stamp;5000000
 Disco Kacheek Morphing Potion;500000
 Weak Bottled Dark Faerie;25
 On Gelert Pond;1300
@@ -445,7 +446,7 @@ History of the Ski Lodge v3;
 Scary Sloth Stories;1700
 History of the Ski Lodge v2;
 The Annals of Insanity;2500000
-Maraquan Troops Stamp;3
+Maraquan Troops Stamp;18
 The Grizzly Gruslen;200000
 History of the Ski Lodge v1;
 Sinister Skeith;1000
@@ -456,8 +457,8 @@ Negg Crafts;11600
 Maraquan Kacheek Morphing Potion;2000000
 Red Buzz Lolly;14000
 Lenny Crosswords;11
-NeoQuest Logo Stamp;1750000
-Turmaculus Stamp;3850
+NeoQuest Logo Stamp;1400000
+Turmaculus Stamp;3325
 Down the Symol Hole;4150
 Chocolate Crown of the Faeries;1750000
 Grarrl Comics;1975
@@ -480,8 +481,8 @@ Neopian Knitting Patterns;10400
 Kreludan Encyclopedia;800
 How To Draw Flip Book;
 Yellow Elephante Morphing Potion;99999
-Library Faerie Stamp;2750
-Trestin Stamp;5500
+Library Faerie Stamp;2200
+Trestin Stamp;2200
 Book of Swords;1350
 Brown Shoyru Morphing Potion;
 Eventide Gelert Morphing Potion;500000
@@ -509,7 +510,7 @@ Buzz Guide to Magics;1700
 How to Draw Guide;990
 Grey Tonu Tales;3500
 Conservancy Newsletter;5500
-Swordsmaster Talek Stamp;1200000
+Swordsmaster Talek Stamp;430000
 bd_botfae2_dark;
 Living a Healthy Neopian Life;
 Shop Wizard Tips;900
@@ -587,11 +588,11 @@ Fountain Faerie Quest How To Guide;2200
 Meerca Fashion Season 1;1425
 Blue Draik Morphing Potion;700000
 Meerca Fashion Season 2;1975
-Fruit Bomb Stamp;1800
+Fruit Bomb Stamp;1850
 stamp_neo_plushies;
 Cloud Cybunny Morphing Potion;600000
 Tyrannian Nimmo Morphing Potion;34500
-Yellow Knight Stamp;170000
+Yellow Knight Stamp;190000
 Dark Chocolate Shoyru;12900
 Acara Transmogrification Potion;5000000
 Grey Korbat Morphing Potion;325000
@@ -601,7 +602,7 @@ Halloween Nimmo Morphing Potion;700000
 Roo Island Paperback Book;1600
 Win!;2175
 Gallion Care;150
-Tazzalor Stamp;7550
+Tazzalor Stamp;5450
 Shadow Shoyru Morphing Potion;81000
 The Tale of a Plushie Wocky;
 Book of Origami Paper;500
@@ -621,9 +622,9 @@ The Joys of Fried Foods;5900
 Kickin Kikos;400000
 Naughty Slorg!;1325
 Wocky Long Jumping;1825
-Linae Stamp;5
-Abandoned Water Tower Stamp;180000
-Morax Dorangis Stamp;2600
+Linae Stamp;4
+Abandoned Water Tower Stamp;85500
+Morax Dorangis Stamp;2250
 A Quiggles Life;1200
 Jungle Survival Tips;2000
 Shoyru Summer;1700
@@ -631,18 +632,18 @@ A Day At The Races;4850
 Striped Meerca Morphing Potion;49000
 Green Kyrii Morphing Potion;1925
 Secret Acara Halloween Recipes;
-Family Portrait Stamp;5750
+Family Portrait Stamp;5500
 Uni Days;5750
-Castle Defender Stamp;20000
+Castle Defender Stamp;9500
 Little-known Towel Facts;2000
 Math Puzzles;1600
 Moon Missions;780
 Royal Boy Kyrii Morphing Potion;1500000
 Bruce Bruise;2000
-Chasm Beast Stamp;6400
+Chasm Beast Stamp;4475
 The Many Adventures of Ylana Skyfire;
 Pink Korbat Morphing Potion;98000
-Kentari Stamp;16
+Kentari Stamp;7
 Magic Vial;1200
 Pink Shoyru Morphing Potion;300000
 Faerie Bubbles;1200
@@ -685,7 +686,7 @@ Purple Draik Morphing Potion;1000000
 Booth Repair Manual;1300
 Elegant Elephante;1550
 Koi Collector;100
-Veggie Pizza Stamp;1300
+Veggie Pizza Stamp;2000
 Nova;3
 Ylanas Summer Adventure Tales;
 Elkies Secret Message;
@@ -711,7 +712,7 @@ Basic Spelling Songs;2900
 Romantic Shenkuu;
 Christmas Wocky Carols;
 Baby Kiko Morphing Potion;330000
-Exploding Space Bugs Stamp;2700
+Exploding Space Bugs Stamp;3525
 Checkered Poogle Morphing Potion;200000
 Things To Do in Sakhmet;
 Grarrl Picture Book;1950
@@ -726,7 +727,7 @@ The Happy Orange Grundo;3225
 stamp_mys_codestones;
 Care of Koi;700000
 Message in a Bottle;1300
-Zyrolon Stamp;57000
+Zyrolon Stamp;43000
 Breakfast Treats;1375
 Quick Reference Dictionary;2325
 Checkered Koi Morphing Potion;31300
@@ -737,27 +738,27 @@ Hissi Alphabet;780
 Shadow Ogrin Morphing Potion;
 Bori Transmogrification Potion;
 Altador Cup Through the Ages;700
-Misprint Meuka Stamp;
-Osiris Pottery Stamp;2900
+Misprint Meuka Stamp;14500000
+Osiris Pottery Stamp;2975
 How to be Roothless;300000
 Ice Cream Potion;47500
 Illusens Book of Charm;99999
-Pirate Troops Stamp;2500
-Meridell Shield Stamp;11000
+Pirate Troops Stamp;1950
+Meridell Shield Stamp;7200
 Lemon Sherbert Jelly Beans;42000
 Faerie Poogle Morphing Potion;750000
-NeoQuest II Logo Stamp;4675
+NeoQuest II Logo Stamp;3250
 Baby Blumaroo Morphing Potion;300000
 Christmas Magic Wand;5750
 Orange Koi Morphing Potion;5000
 Plushie Kiko Morphing Potion;850000
 Ice Cream Factory Game Guide;1050
 Mystery Island Paperback Book;220
-Angry Janitor Stamp;3050
+Angry Janitor Stamp;2575
 Rainbow Gnorbu Morphing Potion;71500
 Green Grarrl Morphing Potion;175000
 Kiko Christmas Story;6250
-Shenkuu Helmet Stamp;240000
+Shenkuu Helmet Stamp;225000
 Blue Tuskaninny Tales;1200
 Shell Hunters Guide Book;
 The Groovy Disco Uni;
@@ -765,9 +766,9 @@ Kreludan Fashion;1000
 The Loneliest Xweetok;1000
 Still With the Times;27000
 Chia Quotes;150000
-Fruit Machine Stamp;2675
+Fruit Machine Stamp;3000
 Creatures From Afar;1500
-Dice-A-Roo Stamp;1250
+Dice-A-Roo Stamp;1000
 Fading Bottled Air Faerie;750
 Eventide Draik Morphing Potion;950000
 Kreludan Recipes;1125
@@ -794,10 +795,10 @@ Neopian Chandeliers;1500
 Halloween Meerca Morphing Potion;700000
 Guide to Holiday Tackling;1800
 The Voodoo Techo;
-Esophagor Stamp;1050
+Esophagor Stamp;700
 Red Koi Morphing Potion;250000
 Brain Trees Brainiac;1500000
-Thyoras Tear Stamp;2400
+Thyoras Tear Stamp;2900
 Beak Shining;1900
 Mote Magic;
 The Negg Faerie Diaries;950
@@ -810,7 +811,7 @@ Fire Poogle Morphing Potion;68000
 Tail Tales;1425
 Illusens Guide to Gardening;5950
 Getting Ready For Bed;
-Grundo Snow Throw Stamp;2225
+Grundo Snow Throw Stamp;2500
 Camouflage Meerca Morphing Potion;26400
 Forever Ferny;2000
 Astrophysics for Beginners;8300
@@ -818,7 +819,7 @@ stamp_nq_denethrir;
 Places to Visit During the Altador Cup;13500
 Guide to Bruces;850
 Red Scorchio Morphing Potion;30800
-Sliding Darblat Stamp;11900
+Sliding Darblat Stamp;14000
 Learning To Sing Notes;1200
 Get Organised Stay Organised;7200
 Chocolate Dr Sloth;200000
@@ -828,7 +829,7 @@ Starry Koi Morphing Potion;25000
 Yellow Techo Morphing Potion;74500
 Most Memorable Dr Sloth Quotes;3150
 Blurtle Adventure;4000
-Destruction of Faerieland Stamp;130000
+Destruction of Faerieland Stamp;105000
 Baby Buzz Manual;2000
 Techo Dance;1000
 Intro To Altadorian Verbage;2250
@@ -869,7 +870,7 @@ I Love Games;20000
 Noise-Making Practice Manual;
 Lutari Dental Hygiene;1000
 The Coffee Cave - Coffee Table Menu;1550
-Zafara Double Agent Stamp;400000
+Zafara Double Agent Stamp;215000
 Now You Can Fry Anything;24800
 Gnorbu Gum;37500
 Ruffled Feathers;1750
@@ -889,10 +890,10 @@ Pink Peophin Morphing Potion;150000
 Gelert Sporting Records;980
 Zombie Blumaroo Morphing Potion;24500
 Treasure Hunting for Pirates;99999
-Captain Scarblade Stamp;45000000
+Captain Scarblade Stamp;50000000
 Y11 Illustrated Altador Cup Program;6500
 Meteor Sites;1525
-Geb Stamp;2850
+Geb Stamp;3300
 Strawberry Pteri Morphing Potion;52500
 Shadow Lenny Morphing Potion;400000
 Orange Gummy Stamp;2175
@@ -902,7 +903,7 @@ Wocky Hide and Seek Book;8850
 Carafe of Corruption;3500
 Geraptiku Recipes;190
 Rainbow Aisha Morphing Potion;150000
-Shield Of Pion Troect Stamp;3900
+Shield Of Pion Troect Stamp;5000
 The Missing King;1750
 Skunk Kyrii Morphing Potion;33500
 Monsters of the Deep;2100
@@ -921,7 +922,7 @@ Eventide Poogle Morphing Potion;400000
 Faerie Krawk Morphing Potion;2000000
 Party Invitation;
 Shadow Korbat Morphing Potion;78000
-Governor Mansion Stamp;5500000
+Governor Mansion Stamp;3000000
 Camouflage Techo Morphing Potion;24900
 The Joys Of Shearing;2200
 Red Hissi Morphing Potion;140000
@@ -959,7 +960,7 @@ Meerca Practical Joke Guide;1075
 Season Greetings;1350
 Rejuvenating Negg Serum;
 Kacheek Totem;47900
-Destruct-O-Match Stamp;1250
+Destruct-O-Match Stamp;950
 The Pink Kacheek;
 Modern Lupe Magazine;
 The Wicked Little Uni;1200
@@ -982,13 +983,13 @@ Swim;2400
 Locked Book;900000
 The Great Betrayal;1300
 Flotsam Style;2500
-Frosty Snowman Stamp;2375
-Eraser of the Dark Faerie Stamp;8400
+Frosty Snowman Stamp;2400
+Eraser of the Dark Faerie Stamp;4400
 The Grouchiest Neopian;8100
 Mint Chocolate Tuskaninny;11400
-Lutari Uni Stamp;150000
+Lutari Uni Stamp;270000
 Fyoras Royal Address Book;
-Siyana Stamp;1750
+Siyana Stamp;1550
 Baby Grundo Morphing Potion;300000
 Book of Awesome;80000
 101 Uni Treats;4700
@@ -1000,12 +1001,12 @@ Gummy Dice and Other Candies You Can Make at Home;75000
 How to Eat Ice Blocks;3000
 Grundos Guide to Brain Washing;10000
 Purple Grundo Morphing Potion;150000
-Snowglobe Faerie Stamp;2800
+Snowglobe Faerie Stamp;2750
 Feathered Friends;2000
 Space Fashions;2000000
 Super Strength Healing Potion;370
 Red Usul Morphing Potion;150000
-Tangor Stamp;84000
+Tangor Stamp;63000
 The Pineapple Chia;17500
 Stealing Through the Holidays;1500
 Hissi History;1000
@@ -1019,13 +1020,14 @@ The Tournament Handbook;1000
 Mop and Chop;37400
 Ice Cybunny Totem;24700
 The Angry Orange Bruce;
+Recovered Shoyru Collectable Charm;139000
 JubJub Know How;800
 The Great Slugawoo Mystery;2650
 Blumaroo Love Stories;1800
 Ultimate Neopets Tips!;
 Roller Coaster Design;90000
 Magic Tiki Mask;
-Capn Threelegs Stamp;300000
+Capn Threelegs Stamp;175000
 Snowager Saga;2000000
 Christmas Chomby Morphing Potion;200000
 Rainbow Cybunny Morphing Potion;400000
@@ -1037,7 +1039,7 @@ Aisha Totem;
 All About Water Faeries;1400
 Triple Slushie Mix;25000
 Baby Bath Time;700
-Yiko Stamp;6500
+Yiko Stamp;5800
 Walking Book;19900
 Kreludor Colouring Book;10500
 Caramel and Custard Drops;
@@ -1049,18 +1051,18 @@ Yurble Adventures;1500
 Snow Aisha Morphing Potion;300000
 Desert Yurble Morphing Potion;200000
 Irritable Genie-in-a-Bottle;900000
-Delina Stamp;4000
-Snow Wars Catapult Stamp;1850
+Delina Stamp;4800
+Snow Wars Catapult Stamp;1425
 Extinct Neopian Languages;300000
 Olde Zafara;2750000
 Seeing Stars;
 Multifold Book;2800
-Qasalan Coffee Set Stamp;3950
+Qasalan Coffee Set Stamp;3800
 All In A Days Work;2350
 Cooking For Kougras;1750
 Acara Facts;1150
 Ghost Lenny Morphing Potion;150000
-Devilpuss Stamp;9250
+Devilpuss Stamp;6400
 Shadow Blumaroo Morphing Potion;550000
 Puce Elixir;1825
 stamp_neo_group;
@@ -1075,7 +1077,7 @@ Heirloom Courgettes;2425
 Koi Scales;4500
 The Faerie Ixi;
 How to Make a Bonfire;150000
-Desert Arms Stamp;14000
+Desert Arms Stamp;6950
 Green Jetsam Morphing Potion;300000
 stamp_mys_gadgads;
 Fyoras Favourite Summer Recipes;
@@ -1086,16 +1088,16 @@ Lennies in Love;1100
 Woodland Grundo Morphing Potion;200000
 Raindorf Dances;1025
 Striped Scorchio Morphing Potion;37900
-Golden Khamette Stamp;1600
+Golden Khamette Stamp;1150
 Fading Bottled Water Faerie;700
-Snow Faerie Stamp;600
+Snow Faerie Stamp;1375
 Christmas JubJub Morphing Potion;350000
 Island Korbat Morphing Potion;200000
 Connect the Dots;1200
 Halloween Uni Morphing Potion;1500000
 Handmade Yooyu Book;9400
 Darigan Kyrii Morphing Potion;380000
-Evil Fuzzles Stamp;19000
+Evil Fuzzles Stamp;10300
 Starry Techo Morphing Potion;17400
 Mint Chocolate Blumaroo;10500
 The Big Book of Hate and Anger;1100
@@ -1150,7 +1152,7 @@ stamp_383;
 Plushie Draik Morphing Potion;
 stamp_386;
 Faerie Chombies;300000
-Blugthak Stamp;
+Blugthak Stamp;400000
 A Tale of Stripes;
 The Cloud Uni;1000000
 stamp_380;
@@ -1161,12 +1163,12 @@ Thornberry Candy Gavel;8700
 Techo Cooking Recipes;1675
 Learn to Swim;8400
 Techo Fun Art;1400
-King Skarl Stamp;5000
+King Skarl Stamp;1450
 Purple Pteri Morphing Potion;
 Plushie Bruce Morphing Potion;570000
 Altadorian Defences;2100
 Pink Uni Morphing Potion;200000
-Wheel of Extravagance Stamp;39000
+Wheel of Extravagance Stamp;14200
 The Shadow Usul;2000000
 Learning Your ABCs and 123s;
 Empower Your Tail;4950
@@ -1179,7 +1181,7 @@ Island Grundo Morphing Potion;350000
 The Strawberry JubJub;
 Starry Kau Morphing Potion;200000
 Bubble Power;1725
-Altador Travel Stamp;300000
+Altador Travel Stamp;335000
 stamp_368;
 Starry Bori Morphing Potion;50000
 Tales From the Left Wing;
@@ -1187,7 +1189,7 @@ stamp_369;
 Ice Cream Machine Game Guide;900
 Kreludor: Places of Interest;3850
 Situational Gravity Pranks;13900
-Brain Tree Stamp;4050
+Brain Tree Stamp;4550
 stamp_365;
 Hatching a Bruce Egg;1300
 Beyond Neopia;1100
@@ -1208,9 +1210,9 @@ Green Poogle Morphing Potion;84500
 Fire Buzz Morphing Potion;150000
 Square Puzzles;1150
 Magic Apple;
-Shop Wizard Stamp;3975
+Shop Wizard Stamp;3875
 Stream of Light;970
-Riches of Krawk Island Stamp;2200
+Riches of Krawk Island Stamp;2175
 White Skeith Morphing Potion;190000
 Korbat Halloween;270
 A History of Chias;4000000
@@ -1226,14 +1228,14 @@ Shoyru Shenanigans;1075
 The Ultimate Sticker Book;39300
 Baby Buzz Book;1750
 First Aid for Deep Wounds;6650
-Altador Cup XI Commemorative Stamp;700000
+Altador Cup XI Commemorative Stamp;795000
 Dimensional Moehog Morphing Potion;44000
 Faerie Totem;65000
-Quilin Stamp;
+Quilin Stamp;6000000
 Blue Hissi Morphing Potion;120000
 Behind Brexis;3500
 Hook Line and Sinker;2475
-Talinia Stamp;150000
+Talinia Stamp;128000
 Quiggle Health and Fitness;3425
 The Racing Red Poogle;
 Lennies Who Lie;7700
@@ -1246,7 +1248,7 @@ Skeith Tails;2050
 Yellow Chia Morphing Potion;200000
 Faerie Bori Morphing Potion;650000
 The Nose Knows;850
-Boraxis the Healer Stamp;2100
+Boraxis the Healer Stamp;1200
 Red Korbat Morphing Potion;94000
 Diary of a Baby Space Fungus;450000
 The Love Buzz;1800
@@ -1259,9 +1261,9 @@ Curious Korbats;400000
 Too Hot;2750
 Chocolate Peach;150000
 Knights Of Meridell;6250
-Words of Antiquity Stamp;2975
+Words of Antiquity Stamp;2750
 Large White Chocolate Cybunny;7450
-Marak Stamp;3300
+Marak Stamp;2950
 Starry Hissi Morphing Potion;150000
 How to Draw a Raindorf;900
 The Secret Past of Albert the Kacheek;2000
@@ -1269,12 +1271,12 @@ Quiggle Transmogrification Potion;200000
 My Hobby Book;30000
 Tree Homes;1100
 How to be a Cheat! Champion;1475
-Petpet Growth Syrup Stamp;1000
+Petpet Growth Syrup Stamp;900
 How To Cheat At Bagatelle;
 Yellow Krawk Morphing Potion;600000
 The Spotted Flotsam;15500
 Checkered Kiko Morphing Potion;150000
-Coltzan Stamp;
+Coltzan Stamp;250000000
 Defenders Of Neopia Annual;4500
 The Happy-Go-Lucky Red Pteri;
 Kiko Food;2000
@@ -1334,7 +1336,7 @@ Yellow Lenny Morphing Potion;98500
 The Wrath of Scorchio;
 105 Castle Toilets;
 Grey Cybunny Morphing Potion;600000
-King Altador Stamp;
+King Altador Stamp;30000000
 Ice Aisha Totem;16400
 Woodland Peophin Morphing Potion;195000
 Buzz Speech 101;1225
@@ -1348,7 +1350,7 @@ Golden Elephante Morphing Potion;9250
 Baby Draik Morphing Potion;
 Mystery Island Grarrl Stamp;
 Wraith Shoyru Morphing Potion;700000
-Fauna Stamp;3
+Fauna Stamp;5
 The Long History of Isca;
 Tubular Kiko Racing Game Guide;2925
 101 Negg Recipes;3000
@@ -1364,7 +1366,7 @@ Island Ogrin Morphing Potion;350000
 Plushie Bori Morphing Potion;1000000
 Green Ogrin Morphing Potion;2000
 The Lone Ruki;2275
-Hubrid Noxs Mountain Fortress Stamp;5950
+Hubrid Noxs Mountain Fortress Stamp;4350
 Midnight Jelly World Stamp;
 Clash of Moehogs;1150
 Postcard From Shenkuu;
@@ -1374,7 +1376,7 @@ Kau Faerie Tales;2025
 Improving Your Hut;1725
 Red Meerca Morphing Potion;28900
 Desert Chomby Morphing Potion;1200000
-Tar Pit Stamp;
+Tar Pit Stamp;22000000
 Acara Acrostics;900
 Faerie Lenny Morphing Potion;675000
 Yellow Chomby Morphing Potion;175000
@@ -1389,18 +1391,18 @@ The Last Kau;1000
 Shoyru Totem;84000
 Book of Bruno;330000
 Desert Scorchio Morphing Potion;600000
-Astronomy Club Stamp;54000
+Astronomy Club Stamp;60500
 stamp_haunted_scarecrow;
 Bottled Grey Faerie;
-Halloween Ona Stamp;400
+Halloween Ona Stamp;280
 How to Stay Fit;1150
 Jimmi;3050
 Defence for Elephantes;910
-Captain Tuan Stamp;30
+Captain Tuan Stamp;45
 Fyoras Elixir;2000
-Splat-A-Sloth Stamp;2950
+Splat-A-Sloth Stamp;4500
 Ghost Tuskaninny Morphing Potion;67000
-Grand Theft Ummagine Stamp;2225
+Grand Theft Ummagine Stamp;2300
 Baby Blumaroos;9150
 The Hidden Temple;1175
 artifact_mystery_potion;
@@ -1418,7 +1420,7 @@ Moehug Visits Altador;34900
 Worst. Poetry. Ever.;10100
 Mud Lollipop;14300
 Famous Moehogs;1400
-Purple Grundo Stamp;1200
+Purple Grundo Stamp;1250
 Draik Legends;2500
 Spotting Seaweed;125000
 Potato Counting For Beginners;1600
@@ -1427,7 +1429,7 @@ Only the Best!;8800
 Fun Lava Facts;1900
 101 Cures Using Health Food;4550
 Altador Cup Rule Book;20000
-Faerie City Stamp;2225
+Faerie City Stamp;1900
 Plushie JubJub Morphing Potion;130000
 Green Wocky Morphing Potion;140000
 How to Avoid Holiday Parties;8700
@@ -1436,7 +1438,7 @@ Lenny Adventures;4600
 From Egg to Feathers;930
 Tales of a Shiny Silver Cybunny;
 Catch It If You Can;800
-Von Roos Castle Stamp;375000
+Von Roos Castle Stamp;650000
 Hissi Secrets;1500
 Dig it!;1600
 Where Neggs Grow;1950
@@ -1447,18 +1449,18 @@ Faerie Shoyru Morphing Potion;1150000
 Galactic Adventures;950
 Zombie JubJub Morphing Potion;99999
 Ghost Elephante Morphing Potion;350000
-Tylix Stamp;14200
+Tylix Stamp;6000
 The Lost Grundo;19300
-Rusty Door Stamp;3000
+Rusty Door Stamp;2800
 The Plushie Krawk Book;1000
 Growing Chokato;1300
 Cherry Aboogala Lolly;98000
 Rainbow Uni Morphing Potion;200000
 Supernova;2
 Chomby Mysteries;1750000
-Kings Lens Stamp;5900
+Kings Lens Stamp;5500
 The Old Mynci and the Sea;1250
-Altador Colosseum Stamp;
+Altador Colosseum Stamp;35000000
 Snow Techo Morphing Potion;200000
 Kougra Adventures;3000
 Deep Inside the Kreludan Mines;125000
@@ -1482,7 +1484,7 @@ String of Toy Books;5100
 Winter in Faerieland;4950
 The Adventures of Ylana Skyfire;
 Which Brush?;3800
-Hot Dog Hero Stamp;40700
+Hot Dog Hero Stamp;61000
 Christmas Lupe Morphing Potion;200000
 Sightseeing on the Virtupets Space Station;68500
 Chocolate Balthazar;14900
@@ -1497,7 +1499,7 @@ Plushie Collector;3200
 Ruki-Style Traveling Guide;1900
 The Life of Cylara;1250
 Sun Pop-Up Book;1800
-Double Printed Evil Fuzzle Stamp;14000000
+Double Printed Evil Fuzzle Stamp;13000000
 Advanced Magic;11000
 Interesting Ixi;1000
 Neopian Autumns;25000
@@ -1510,7 +1512,7 @@ The Festival of Neggs Cybunny;10200
 Green Cybunny Morphing Potion;350000
 Island Cybunny Guide;130
 Blue Chomby Morphing Potion;200000
-Peopatra Stamp;3500
+Peopatra Stamp;4000
 Plushie Hissi Morphing Potion;1700000
 Lenny Language;1075
 Shadow Uni Morphing Potion;400000
@@ -1518,25 +1520,25 @@ Baby Kacheek Morphing Potion;1000000
 Playtime for the Baby Gelert;
 Camouflage Wocky Morphing Potion;150000
 Jeran the Lupe;
-The Lighthouse Stamp;2750
+The Lighthouse Stamp;2775
 Tales of Gnorbu Tails;975
 stamp_hal_edna;
 Faerieland Colouring Book;1775
 Its Aisha Time;6050
 The Strawberry Poogle;
-One Hundred Million Neopoint Stamp;6000000
+One Hundred Million Neopoint Stamp;5500000
 Howl;1150
 Beverage Recipes Book;1550
 Green Yurble Morphing Potion;28400
 Luxury Chocolate Easter Negg;2000000
 Osiris Pottery Catalogue;175000
 Where is Bonju;1450
-Senator Palpus Stamp;1400
-Molten Morsels Stamp;3700
+Senator Palpus Stamp;1900
+Molten Morsels Stamp;4350
 Getting Better;2250
 The Art Of Cybunnies;14800
 In The Clouds;
-Blumaroo Court Jester Stamp;77500
+Blumaroo Court Jester Stamp;63000
 Shenkuu Lunar Festival Commemorative Guide;4
 The First Decade;26700
 Baby Lenny Book;4000
@@ -1546,9 +1548,9 @@ The Babaa Who Jumped Over the Moon;13600
 Yellow Ogrin Morphing Potion;2000
 Island Tuskaninny Morphing Potion;500000
 Red Moehog Morphing Potion;4200
-The Revenge Stamp;93000
+The Revenge Stamp;43600
 Lawyerbot Poetry Vol. 1;
-Battle Slices Stamp;85000000
+Battle Slices Stamp;65000000
 The Electric Shoyru;
 Unusual Buzz Recipes;2000
 10th Birthday Illusen Birthday Book;
@@ -1556,8 +1558,8 @@ The Art of Apple Bobbing;130
 Island Ixi Morphing Potion;425000
 Wings of Steel;8950
 Kacheeks Going Island;
-Fyoras Castle Stamp;400000
-The Three Stamp;10000000
+Fyoras Castle Stamp;490000
+The Three Stamp;15500000
 Faellie Handbook;120
 A Tricky Tale;1150
 Gigglers;1300
@@ -1573,8 +1575,8 @@ Dimensional Aisha Morphing Potion;400000
 Island Kacheek Morphing Potion;800000
 Negg Crafts Volume II;38000
 From Beyond: A Guide to Ghostly Gifting;2600
-Plushie Slorg Stamp;11600
-Shenkuu Bridge Stamp;3000
+Plushie Slorg Stamp;9000
+Shenkuu Bridge Stamp;3200
 Green Quiggle Morphing Potion;88000
 A Beginners Guide to Choosing a Seat on the Merry Go Round;100000
 Island Mynci Morphing Potion;600000
@@ -1587,13 +1589,13 @@ Jelly Mysteries;8750
 Mynci Defence;1000
 Trick-or-Treat Tips;1825
 Striped Flotsam Morphing Potion;110000
-Gatekeeper Stamp;8950
+Gatekeeper Stamp;5300
 Brown Aisha Morphing Potion;58000
 Snowy Flotsam Morphing Potion;37000
 The Fuzzy Orange JubJub;
 Doglefox Colouring Book;
 Baby Lenny Basket Book;1400
-Darigan Spectre Stamp;
+Darigan Spectre Stamp;20000000
 Ghost Draik Morphing Potion;850000
 Peanut Butter Gormball Truffle;16000
 Darigan Blumaroo Morphing Potion;325000
@@ -1602,20 +1604,20 @@ Blumaroo Stickers;2175
 Plushie Flotsam Morphing Potion;400000
 Lumberjacks Guidebook;58500
 Red JubJub Morphing Potion;36500
-Shenkuu Mask Stamp;58000
+Shenkuu Mask Stamp;8800
 Island Acara Morphing Potion;175000
 Nimmo Yoga;900
 The Magic Paw;1600
 Faerie Peophin Morphing Potion;700000
 Altador Paperback Book;72000
-Ruins of Qasala Stamp;2950
+Ruins of Qasala Stamp;2400
 Ultra Fire Gem;
 Checkered Acara Morphing Potion;120000
 Haunted Diary;1400
 Counting Potatoes;1450
-Quiggle Scout Stamp;2625
+Quiggle Scout Stamp;2550
 Blueberry Gummy Slorg;25000
-Mr Irgo Stamp;1300
+Mr Irgo Stamp;1700
 Second Annual Neopies - Whos Who;65500
 A Tail Of Two Krawks;2975
 Brilliant Sun and Moon Potion;51500
@@ -1648,7 +1650,7 @@ Blue Tuskaninny Morphing Potion;87000
 Maraquan Korbat Morphing Potion;450000
 Famous Kois;3350
 How Many Books?;1800
-Senator Barca Stamp;4200
+Senator Barca Stamp;4100
 Orange Mylife Journal;2000
 Tree Magic;
 Spotted Grundo Morphing Potion;93500
@@ -1656,10 +1658,10 @@ Mint Chocolate Easter Negg;1300000
 stamp_destruct_knights;
 Faerie Blumaroo Morphing Potion;400000
 Chocolate Chia Cookbook;19400
-Kauvara Stamp;4450
+Kauvara Stamp;4350
 Disco Korbat Morphing Potion;200000
 Pirate Eyrie Morphing Potion;2000
-Shenkuu Stamp;
+Shenkuu Stamp;50000000
 Quiggle Adventures;2200
 Water Usul Morphing Potion;400000
 Maraquan Spring Cleaning;
@@ -1670,7 +1672,7 @@ Miss Prissy Kacheek Halloween Tales;
 JubJub Hair Styling;1000
 Hissi Exercise;1800
 Springtime Defence;2000000
-Shenkuu Draik Stamp;1650
+Shenkuu Draik Stamp;1925
 Magic Key;54000
 The Adventures of Armin;1900
 Deciphering Your Dreams;500000
@@ -1682,13 +1684,13 @@ Crochet Patterns;5350
 Purple Yurble Morphing Potion;43000
 Green Lutari Morphing Potion;1000000
 Red Grarrl Morphing Potion;160000
-Golden Dubloon Stamp;1200000
+Golden Dubloon Stamp;675000
 stamp_destruct_three;
 Skies Above Tyrannia;1700
 8-bit Power-Up Potion;3700000
 Red Bruce Morphing Potion;150000
 Antigravity Games;850
-Luperus Right Head Stamp;275000
+Luperus Right Head Stamp;265000
 Faerie Aisha Morphing Potion;150000
 I Love Moo-cee;33000
 Tonu Tails;11000
@@ -1702,11 +1704,11 @@ Rainy Day;1300
 Tyrannian Usul Morphing Potion;81000
 Wocky Magic;15800
 Mynci Horror;2700
-Celestial Talisman Stamp;5550
+Celestial Talisman Stamp;5850
 How to Knit;1175
 Poetry For Peophins;1900
 Waterlogged Book;4
-Lost Desert Sphinx Stamp;2125
+Lost Desert Sphinx Stamp;2400
 Kiko Encyclopedia;1300
 On the Wings of a Striped Scorchio;
 The Secret Journal of Agent A;2300
@@ -1716,7 +1718,7 @@ Defenders Of Neopia Battle Log;5250
 Usukicon Y17 Diary;2000000
 Summertime Connect-the-Dots;1900
 Gypsy Colouring Book;1100
-Jhudoras Bewitched Ring Stamp;2475
+Jhudoras Bewitched Ring Stamp;3000
 Potion of Strategic Maneuvers;275000
 A Yurbles True Story;1800
 Gypsy Dances;1850
@@ -1741,7 +1743,7 @@ Techo Mountain;2700
 Cloud Elephantes;1725
 Happy Times with Rainbow Blumaroo;
 Dark Faerie Magic;1400
-Spooky Gravestone Stamp;130
+Spooky Gravestone Stamp;190
 Aisha Book;1900
 Antique Furniture;1025
 How To Keep Your Spikes Bright!;
@@ -1753,12 +1755,12 @@ Ice Fanatics Monthly Issue 5;950
 The Chomby Secret;140000
 The Great Kau Caper;1000
 Faerie Caverns Stamp;
-Faerieland Justice Stamp;3100
-Zurroball Stamp;50500
+Faerieland Justice Stamp;2900
+Zurroball Stamp;26200
 Happiness and the Money Tree;5700
 Koi Fashion and Accessories;2225
 Motivational Neopian Phrases;
-Zeenana Stamp;640
+Zeenana Stamp;550
 Who is Number Two?;1900
 pot_faellie_morph;
 Cave Batterflies;27400
@@ -1769,20 +1771,20 @@ Caring For Your Ill Kau;2475
 Desert Krawk Morphing Potion;1000000
 Ultimate Wocky Manual;1150
 Usul Health;33000
-Taelia Vs. Ember Stamp;1200000
+Taelia Vs. Ember Stamp;900000
 Pteri Bust Out;7650
 Quest Spells;
 Darigan Grarrl Morphing Potion;220000
 The Art of Grundo Diplomacy;40000
-Plains Aisha Stamp;1125
-Space Faerie Stamp;125000
+Plains Aisha Stamp;990
+Space Faerie Stamp;104000
 Gallion Colouring Book;200
 Plushie Cybunny Morphing Potion;2200000
 Snow Sculpting for Beginners;1000
 Guide to Catching Spooky Furniture;250000
 Zafara Music;1800
 My First Book;4000
-Magma Pool Stamp;2400
+Magma Pool Stamp;2250
 Kougras of Tyrannia;2050
 Game Manual: Pterattack;3800
 Crossword Puzzle Almanac;12700
@@ -1806,7 +1808,7 @@ Neopian Encyclopedia A - E;21500
 Yummy Drops;95500
 Big Book of Miracle Curatives;1900
 Zombie Eyrie Morphing Potion;600000
-Guardian Of Spectral Magic Stamp;950000
+Guardian Of Spectral Magic Stamp;1400000
 stamp_tyrannia_skeithinvade;
 bd_botfae2_earth;
 Poogle Poetry;2000
@@ -1815,7 +1817,7 @@ Revenge of All Hallows Eve;99000
 Draik Tales;150000
 Fun Salads;1575
 Baby Ruki Board Book;1950
-Mystery Island Aishas Stamp;450000
+Mystery Island Aishas Stamp;265000
 Grundo Ballet;1000
 The Space Ace;900000
 Flotsam Facts;3350
@@ -1830,7 +1832,7 @@ Candy Making;1750
 Holiday Connect the Dots;750
 The Great Coconut;
 Purple Power;17000
-Pile of Dung Stamp;2775
+Pile of Dung Stamp;2500
 Tyrannian Peophin Morphing Potion;200000
 Beginner Magician Rope Tricks;1825
 Brucey B Biography;1150
@@ -1838,22 +1840,22 @@ Koi Owners Manual;10000
 Math Workbook;2150
 JubJub Transmogrification Potion;300000
 101 Uses Of Bacon;6750
-Roast Gargapple Stamp;200
+Roast Gargapple Stamp;180
 The Un-Lost Desert;
 Green Buzz Morphing Potion;88000
 Kreludan Mysteries;2225
-Desert Paint Brush Stamp;20000
+Desert Paint Brush Stamp;11000
 The Importance of Being Punctual;1625
 Gnorbu Lollipop;99500
 Jacques Stamp;3500000
 Maraquan Bed Time Stories;35
 Puzzles of Space;58500
 Cloud Bruce Morphing Potion;200000
-Altador Cup VII Commemorative Stamp;5000000
+Altador Cup VII Commemorative Stamp;2750000
 stamp_neoquest_firemagic;
 Island Cybunny Morphing Potion;900000
 Lime Skidget Lolly;27800
-Snowbunny Stamp;
+Snowbunny Stamp;50000000
 Poogle Profile;5000
 The Curious Speckled Scorchio;
 Tale of Woe;
@@ -1875,7 +1877,7 @@ Lets Play Deckball;850
 Pirate Bori Morphing Potion;37000
 Go Home Moehog!;150000
 Jubble Bubble Game Guide;10400
-Seaweed Necklace Stamp;2000
+Seaweed Necklace Stamp;2150
 Spotted Korbat Morphing Potion;70000
 Disappearing Ink Book;1000
 Blue Korbat Morphing Potion;140000
@@ -1911,19 +1913,19 @@ Disco Acara Morphing Potion;120000
 Royal Ixi 101;2150
 Kreludan Cookie Cookbook;500000
 Mr. Sloth - The Tale of Dr. Sloth Senior - A Biography;3050
-Alien Aisha Myriad Stamp;8500
+Alien Aisha Myriad Stamp;3000
 Blue Nimmo Morphing Potion;250000
 The Legend of Ishtar;1650
 Jetsam Tall Tails;2400
 Blue Jetsam Morphing Potion;325000
-Mystery Island Hut Stamp;340
+Mystery Island Hut Stamp;250
 The Book of Love;4000
 Eye Of The Grarrl;12500
 Giving Not Gifting;4900
 Viras Revenge;2150
-Deluxe Money Tree Stamp;4200
+Deluxe Money Tree Stamp;3900
 Lag-B-Gone Serum;60000
-Dark Battle Duck Stamp;16000000
+Dark Battle Duck Stamp;11500000
 Classic Uni Jokes;1850
 Countdown to the Holidays;6450
 Rags to Asparagus: a Heartwarming Tale;1050
@@ -1931,12 +1933,12 @@ Halloween Eyrie Morphing Potion;550000
 Big Book of Dots;1750
 Bruces Guide to Combat Eating;1500000
 Fire Pteri Morphing Potion;250000
-Assorted Fruits Stamp;250
+Assorted Fruits Stamp;690
 Avatar Collector Guide;2950
-Nibbled Cooking Pot Stamp;10000000
+Nibbled Cooking Pot Stamp;9500000
 Iscas Great Seashell Collection;
 stamp_valentine;
-Hanso Stamp;8450
+Hanso Stamp;8100
 Keeping Your Krawk Happy;12000
 Maraquan Study Guide;
 Island Wocky Morphing Potion;250000
@@ -1957,7 +1959,7 @@ Flying Without Wings - A Warriors Tale;7000
 Radio Active Pteri Part 2;15800
 Radio Active Pteri Part 1;15000
 The Negg Strategy;87000
-Lord Darigan Stamp;2900
+Lord Darigan Stamp;2425
 Blue Shoyru Morphing Potion;170000
 Mortog Music;500000
 Usukicon Y12: A Dozen Years;
@@ -1966,7 +1968,7 @@ Yellow Mynci Morphing Potion;110000
 pot_noil_morph;
 Cobrall Charming 101;9000
 Desert Ixi Morphing Potion;300000
-Faerie Furniture Shopkeeper Stamp;8100
+Faerie Furniture Shopkeeper Stamp;8000
 Faerie Quiggle Morphing Potion;250000
 Tyrannian Eyrie Morphing Potion;80500
 Managing Anger;2200
@@ -1991,9 +1993,9 @@ Book of Cooperation;1800
 Purple Chia Morphing Potion;120000
 Bumper Cars Guide Book;18600
 Stealthy Kyrii Morphing Potion;1000000
-Moonlit Esophagor Stamp;5
+Moonlit Esophagor Stamp;9
 Dreaming of Candy;1775
-Alien Aisha Ray Gun Stamp;3400
+Alien Aisha Ray Gun Stamp;3900
 Plushie Korbat Morphing Potion;450000
 Robots Rule;7200
 The Bruce and The Darblat;94500
@@ -2001,7 +2003,7 @@ Island Lenny Morphing Potion;250000
 Chocolate Maractite Coins;97000
 Little book of puzzles;1500
 Robot Fashions;1950
-Dark Ilere Stamp;225000
+Dark Ilere Stamp;280000
 GoGoGo Handbook;2850
 Undiscovered Treasure;1000000
 Buzz Colouring Book;1100
@@ -2025,26 +2027,26 @@ Battledome Techniques;2675
 Lovely Lennys;350000
 Woodland Skeith Morphing Potion;300000
 Darigan Kau Morphing Potion;300000
-Jewelled Scarab Stamp;14500
+Jewelled Scarab Stamp;7900
 Nerkmid Mania;1025
 Desert Grundo Morphing Potion;130000
 How to Earn NP the Easy Way;4500000
 Brunos Mysterious Potion;
 Chocolate Orange Easter Negg;1200000
 The Presence of Presents;1000
-Bruno Stamp;23000
-Spyder Stamp;35500
+Bruno Stamp;12000
+Spyder Stamp;11400
 Holiday Naughty List;13700
 Techo Battle Tactics;750
 The Loveliest Uni;1000
-Leirobas Stamp;2000
+Leirobas Stamp;1850
 Green Gnorbu Morphing Potion;21400
 Choosing Kacheeks;2725
 Nimmo Battle Cry;1500000
 101 Snowman Jokes;79000
 The Yellow Yurble;99999
-Glowing Brain Tree Stamp;8500
-Master Vex Stamp;200
+Glowing Brain Tree Stamp;6850
+Master Vex Stamp;150
 Snow Days;180
 Faerie Eyrie Morphing Potion;50000
 Princess in Pink;1500
@@ -2054,7 +2056,7 @@ Brown Kougra Morphing Potion;37300
 Postcard From The Haunted Woods;
 The Kau Files;1225
 Starry Nimmo Morphing Potion;93500
-Altador Cup X Commemorative Stamp;69500
+Altador Cup X Commemorative Stamp;94000
 Faerie Acara Morphing Potion;900000
 Royal Girl Kyrii Morphing Potion;1500000
 Jeran My Hero;2475
@@ -2066,12 +2068,12 @@ Jazan and Nabiles Memory Book;
 Twisted Tales Of The Mutant Ruki;21100
 A Grundo Christmas;2150
 Blue Pteri Morphing Potion;33000
-Scorchio Mummy Stamp;7000
+Scorchio Mummy Stamp;7650
 Time To Fly;2150
 History of Neopian Wheels;99999
 Plushie Grundo Morphing Potion;750000
 Dice of Destiny Rule Book;
-The Wave Stamp;1250
+The Wave Stamp;1650
 Kreludor Mining Corridor Maps;8500000
 How The Red Faellie Climbed The Tree;
 The Big Book of Blue;1475
@@ -2082,7 +2084,7 @@ Chocolate Lipstick;
 Destruct-O-Match Tips;3625
 Barallus The Brave;9000
 Book of Vision;2000000
-Flying Korbats Stamp;9050
+Flying Korbats Stamp;6600
 How To Escape;6000
 Wheres the Green Acara?;
 Raspberry Chocolate Tuskaninny;8800
@@ -2090,7 +2092,7 @@ Book of Usuki Pumpkin Carving;
 Kite Care;3375
 101 Recipes for Disaster;2900
 Grammar On The Go;1500
-Nabile Stamp;625000
+Nabile Stamp;865000
 Advanced NeoHTML;1225
 King Skarl the I;15000
 Spotted Koi Morphing Potion;400000
@@ -2103,10 +2105,10 @@ Usukicon Y9 Guide;
 Rainy Day Activities;1725
 How to Roll Cheese;7200
 Wintery Petpet Shop Stamp;1000
-Faerieland Petpet Shopkeeper Stamp;3900
+Faerieland Petpet Shopkeeper Stamp;3000
 Mystery Island Chef Stamp;
 Collecting Moon Rock;800
-Usuki Doll Stamp;1300000
+Usuki Doll Stamp;900000
 Kau Comics;1800
 Cloud Usul Book;
 Ixi Heroes;1900
@@ -2123,7 +2125,7 @@ Polkadot Tonu Morphing Potion;600000
 Kreludan Cookie Book;500
 Lenny Comics;1350
 Cybunny Soap Opera;2200
-Bottled Faerie Stamp;13000
+Bottled Faerie Stamp;5250
 Its Beginning to Look A Lot Like the Month of Celebrating;10000
 Lupe Transmogrification Potion;1200000
 Meepit Carols;1700
@@ -2138,13 +2140,13 @@ Starry Skeith Morphing Potion;200000
 Pteri Games;1875
 Tales of the Esophagor;500
 Mynci Pop-Up Holiday Card;
-Docked Ship Stamp;6400
-Jahbal Stamp;1200000
+Docked Ship Stamp;6600
+Jahbal Stamp;1500000
 stamp_neopia_usukicheer;
 All About Plushie Acaras;
 Alien Aisha Invasion;7500000
-Shenkuu City Stamp;9
-King Jazan Stamp;15000000
+Shenkuu City Stamp;5
+King Jazan Stamp;13500000
 Blue Cybunny Morphing Potion;500000
 Tales of a Pink Kacheek;
 Craters of Kreludor;1100
@@ -2157,18 +2159,18 @@ Rainbow Quiggle Morphing Potion;52000
 Skunk Lupe Morphing Potion;200000
 Boomerang Throwing Techniques;2700
 Strawberry Fondant Surprise;1500
-Jhuidah Stamp;330
+Jhuidah Stamp;540
 Nimmo Meditation;1000
-Wise Gnorbu Stamp;
+Wise Gnorbu Stamp;2000000
 Goodnight, Pink Blumaroo!;
 The Ring of Noodles Book;4225
-Florin Stamp;26000
+Florin Stamp;11100
 Blue Lupe Morphing Potion;
 Christmas Grundo Morphing Potion;250000
 Zafaras Rainy Day;800
 Spotted Hissi Morphing Potion;300000
 Official Usukicon Y6 Guide Book;
-Threelegs vs. Techo Master Stamp;7500000
+Threelegs vs. Techo Master Stamp;5500000
 I HATE Carrots!;7000
 Visiting Kreludor;3500
 Snicklebeast Adventures;1000
@@ -2176,7 +2178,7 @@ Blue Kougra Morphing Potion;125000
 Nimmo Winter Tales;900
 stamp_haunted_thing;
 Mynci Colouring Book;1775
-Sasha Stamp;
+Sasha Stamp;30000000
 Just the Corn Facts;1775
 My Garden Book;1975
 The Inside Secret;99999
@@ -2203,20 +2205,20 @@ Kacheek History;5900
 Halloween Lenny Morphing Potion;650000
 Snow Bruce Morphing Potion;175000
 Pink Lutari Morphing Potion;1000000
-King Skarl Plushie Stamp;9500
+King Skarl Plushie Stamp;5850
 The Guide to Tonu Armour;2850
 Kauvara Spell Scroll;
 Zombie Cybunny Morphing Potion;300000
 Faerie Kau Handbook;8900
 How to make Origami Creatures;8700
 National Neopian Log;48500
-NeoQuest Hero Stamp;800000
+NeoQuest Hero Stamp;1400000
 DIY Fashion for Beginners;2225
 Fire Gnorbu Morphing Potion;73000
 Striped Korbat Morphing Potion;36800
 Meridell Altador Cup Media Book;50500
-Altador Magic Stamp;225000
-Zafara Princess Stamp;2600
+Altador Magic Stamp;175000
+Zafara Princess Stamp;2200
 Sugar Rush;1700
 Inside The Mind Of A Blue Yurble;
 Emergency Shuttle Procedures;2125
@@ -2234,8 +2236,8 @@ Fun Tree Facts;1525
 book_buzz3;
 Invisible Wocky Morphing Potion;250000
 book_buzz2;
-Gelert Prince Stamp;100
-Ruler of the Five Seas Stamp;15000
+Gelert Prince Stamp;55
+Ruler of the Five Seas Stamp;11400
 Petpet Biology;1125
 The Patient Xweetok;3450
 Blue Bori Morphing Potion;150000
@@ -2256,31 +2258,32 @@ Lifestyles of the Royal and the Uni;
 Yellow Jetsam Morphing Potion;250000
 Yellow Kau Morphing Potion;97500
 Elephante and the Peanut;2050
-Anshu Stamp;100
+Anshu Stamp;140
 Jetsam Style;1800
 Red Bori Morphing Potion;
 Noil Colouring Book;
 Recycled Metal Projects;93500
-Zombified Heroes Stamp;99999
+Zombified Heroes Stamp;100000
 Wishing On A Star;700
 Tombola Stamp;
 Baby Lupe Morphing Potion;600000
-105 Castle Secrets Stamp;5900
+105 Castle Secrets Stamp;5450
 Ummagine Dreams;2200
+Fyora Collectable Charm;79000
 Love, Laughs, Xweetoks;2750
 Winter in Mystery Island;
 The View From Virtupets;
 Red Xweetok Morphing Potion;30000
 Evil Spells;200
 My Life As A Sponge;1100
-Mr. Krawley Stamp;120000
+Mr. Krawley Stamp;114000
 The Chomby Champion;22800
 White Kyrii Morphing Potion;39000
 The Many Colours Of A Disco Chomby;
 Blue Flotsam Morphing Potion;34900
 Bombaberry Elixir;100
 Usul Investigations;120000
-Altadorian Farmer Stamp;1900
+Altadorian Farmer Stamp;2500
 Strawberry Mynci Morphing Potion;28900
 stamp_destruct_scorchio;
 Dig Down, Dig Deep;
@@ -2298,12 +2301,12 @@ Behind the Ears;
 Secrets of the Universe;175000
 Commander Garoo Stamp;
 The Mighty Blumaroo;975
-Neopet Version 2 Stamp;2900
-Kou-Jong Tile Stamp;7500
+Neopet Version 2 Stamp;3300
+Kou-Jong Tile Stamp;12000
 Yellow Uni Morphing Potion;17900
 Chocolate Moltenore;950000
 Green Eyrie Morphing Potion;19200
-Rainbow Slushie Stamp;990
+Rainbow Slushie Stamp;1075
 Ancient Negg Scrolls;7750
 Island JubJub Morphing Potion;300000
 Krawk Fighting Techniques;1200
@@ -2321,24 +2324,24 @@ Training Your Flotsam;2800
 Darigan Citadel Altador Cup Media Book;150000
 Purple Poogle Morphing Potion;150000
 Cloud Ixi Morphing Potion;250000
-Qasalan Tablet Stamp;4300
+Qasalan Tablet Stamp;4500
 Toast Treats;650
-Rampaging Grundonoil Stamp;2000
+Rampaging Grundonoil Stamp;990
 Easy Origami Flowers;3000
 The Cooty Avenger;85000
 The Popularity Book;96500
 Love and Caring;2225
 My days with Mumbo Pango;94500
 JubJub Totem;20500
-Monocerous Stamp;
+Monocerous Stamp;75000000
 Potion of Evil;
 The Underdog Story;
 Repairing Your Ship;680
 Baby Koi Morphing Potion;600000
 Red Chia Morphing Potion;250000
 Scenic Kreludan Views;
-Illusen Stamp;30000
-The Academy Stamp;150000
+Illusen Stamp;9350
+The Academy Stamp;84500
 Red Lupe Morphing Potion;250000
 The Sly Little Mazzew;
 Garon the Great;1950
@@ -2351,7 +2354,7 @@ Scary Neopian Stories;
 Disco Shoyru Morphing Potion;200000
 A Fir Story;1425
 Quiggle Joke Book;1300
-Maraquan Charger Stamp;5700
+Maraquan Charger Stamp;4575
 Blumaroo Guide To Dancing;8500
 Gallery Of Toast;400000
 The Slorg and I;10000
@@ -2368,19 +2371,19 @@ A Seasonal Pea;3200000
 My First Faerie;2500
 Brown Grundo Morphing Potion;93000
 Fluff N Stuff Grarrl Gobstopper;16500
-Geraptiku Stamp;3500000
-Virtupets Space Station Stamp;2000000
+Geraptiku Stamp;2000000
+Virtupets Space Station Stamp;1400000
 Neopian Times Year 6 Annual;4100
 Wonder Koi;1700
 Elephante Transmogrification Potion;200000
 Altador in Summer;
 Strawberry Wocky Morphing Potion;13500
-Scordrax Stamp;140000
+Scordrax Stamp;147000
 Nanka Bottle;930
 Collectable Cards;1150
-AAA vs. Abigail Stamp;2250000
-Faerie Slorg Stamp;225000
-Rock Stamp;3000
+AAA vs. Abigail Stamp;900000
+Faerie Slorg Stamp;405000
+Rock Stamp;1875
 Illusens Potion;9
 Cloud Peophin Morphing Potion;82000
 Christmas Kacheek Morphing Potion;480000
@@ -2389,10 +2392,10 @@ Briar The Ixi;2000
 Being Bruce;1000
 stamp_destruct_lupe;
 Maraquan Hissi Morphing Potion;375000
-Gors The Mighty Stamp;550000
-Plesio Stamp;3100
+Gors The Mighty Stamp;860000
+Plesio Stamp;3800
 Maractite Hissi Morphing Potion;800000
-Kreai Stamp;22400
+Kreai Stamp;5000
 stamp_destruct_moehogblock;
 Kyrii Country;3400
 The Natural Decorator;1400
@@ -2402,16 +2405,16 @@ Disco Moehog Dancing;2400
 Techo Says - The Book;1700
 Sands Of The Fire Faerie;
 Wocky Will;2875
-Tyrannian Kyrii Stamp;1700
+Tyrannian Kyrii Stamp;1550
 The Silver Gelert;
 Chia Bomber Game Guide;1100
 Secret Art of Dish Washing;1700
 The Guide to Facial Hair;99999
-Altador Cup VIII Commemorative Stamp;8000000
-Attack of the Slorgs Stamp;2725
+Altador Cup VIII Commemorative Stamp;6000000
+Attack of the Slorgs Stamp;2175
 Draik Ditties;1950
 Neopet Trading for Beginners;
-Orrin Stamp;120000
+Orrin Stamp;99999
 Ownow Petting Techniques;6000
 The Meek Kacheek;2825
 The Yurble Spy;5350
@@ -2423,7 +2426,8 @@ The Mystery Of The Shy Shoyru;900
 Square Roots-n-More;1425
 Curing Kacheeks;4000
 Yurble Style;5000
-Hoban Stamp;40000
+Hulking Wraith Stamp;200000
+Hoban Stamp;11400
 Yellow Poogle Morphing Potion;180000
 Zombie Flotsam Morphing Potion;28700
 Krawks I Have Known;1100
@@ -2431,7 +2435,7 @@ Assembling Chaos Rays;360000
 Secrets of the Disco Elephante;
 book_wocky2002_1;
 Desk Calendar;1450
-Qasalan Mummy Stamp;6000
+Qasalan Mummy Stamp;6400
 Green Lenny Morphing Potion;99999
 Cybunny Carols;1375
 How To Be Wise Like Me;1650
@@ -2462,11 +2466,11 @@ Yellow Koi Morphing Potion;86500
 Faerie Meerca Morphing Potion;600000
 Defeating the Master;
 The Red Paw;22000
-Bottle of Sand Stamp;
+Bottle of Sand Stamp;75000000
 Green Kacheek Morphing Potion;400000
 All is Well;220000
 The Electric Cybunny;
-Spyders Stamp;200000
+Spyders Stamp;127000
 Decorating with Lights;1800
 Eyrie Diary;1200
 Starry Usul Morphing Potion;75000
@@ -2476,9 +2480,9 @@ Peophin Transmogrification Potion;
 Kreludor Versus Neopia;
 Guide to Snot Sculptures;6500
 Caring for Cybunny;1400
-Smugglers Cove Stamp;7650
-Shumi Telescope Stamp;120000
-Sakhmet Palace Stamp;3650
+Smugglers Cove Stamp;9000
+Shumi Telescope Stamp;225000
+Sakhmet Palace Stamp;3375
 Achyfi Recipes;950
 Sugar Moehog Skull;70000
 Fire Bori Morphing Potion;400000
@@ -2493,8 +2497,8 @@ Colour Design;1750
 Kreludan Crosswords;2750
 stamp_hal_witch;
 Poogle Races;4150
-Attack Pea Stamp;1900
-Holographic Magax Stamp;
+Attack Pea Stamp;2000
+Holographic Magax Stamp;17500000
 Orange Lightmite Lollypop;300000
 Chia Ghost Stories;7800
 Bagatelle Joke Book;
@@ -2504,7 +2508,7 @@ Framed Certificate;2850
 Ixi Transmogrification Potion;
 Krawk Dental Care;940
 Illusens Sword Techniques;2350
-Altador Cup VI Commemorative Stamp;5500000
+Altador Cup VI Commemorative Stamp;4000000
 The Techo Adept;2300
 Secret Recipes of Mystery Island;
 Hot Dog Recipes;27000
@@ -2519,7 +2523,7 @@ Caring For Your Neopet 5;
 Joy of Jelly Kaus;350000
 Esophagor Pop-Up Book;1800000
 Neggs and Warlocks, The Secret Link;5700
-Inverted Space Faerie Stamp;8000000
+Inverted Space Faerie Stamp;14500000
 Eventide Hissi Morphing Potion;300000
 Petpetpet Growth Patterns;500000
 Biological Encyclopedia of 14 Basic Neopian Algaes Vol. 12;89500
@@ -2551,35 +2555,35 @@ The Joys of Cooking with Magma;
 Kougra Sugar Skull;50000
 Fancy Free Uni;1000
 Speak Tyrannian;11
-Terask Stamp;20000000
+Terask Stamp;19000000
 Moehog Matching;
 Tyrannian Gnorbu Morphing Potion;300000
 Christmas Shoyru Morphing Potion;62000
-Misaligned Printer Stamp;5500000
-Mutant Techo Plushie Stamp;4450
-Grarrg Stamp;1500000
+Misaligned Printer Stamp;12000000
+Mutant Techo Plushie Stamp;5700
+Grarrg Stamp;990000
 Snowager Collectors Guide;800
 Tugging for War;2300
 Apple Bobbing Barts Journal;
 Altador Cup IX Commemorative Stamp;1700000
 Neopian Encyclopedia U - Z;14000
 Snowy - A White Kougra Story;990
-Garin Stamp;5000000
+Garin Stamp;3500000
 Starry Uni Morphing Potion;47000
 How to Knit Petpets;8400
 The Worldly Pink Mazzew;
 Red Shoyru Morphing Potion;320000
-Ring of Sloth Stamp;55000
+Ring of Sloth Stamp;113000
 A Christmas Quiggle Carol;3250
 Wheel of Excitement Stamp;7500000
 Kacheek Secrets;1675
 The Yellow Lutari;980
-Hannah Stamp;14300
+Hannah Stamp;11500
 Red Flotsam Morphing Potion;70000
 Shenkuu Cooking;2300
 Blue Skeith Morphing Potion;225000
 Starry Bruce Morphing Potion;190000
-Gold Mote Stamp;450000
+Gold Mote Stamp;295000
 Robot Kougra Maintenance;1300
 Red Jetsam Morphing Potion;300000
 Nutz N Bolts;1900
@@ -2591,7 +2595,7 @@ The Complete Nail-Care Guide;1700
 The Taste of Tears;150000
 Flotsam Wok Recipes;22200
 Postcard From Maraqua;
-Jerdana Stamp;1900
+Jerdana Stamp;1875
 Shadow Ruki Morphing Potion;600000
 Games on Kreludor;6000
 Red Gnorbu Morphing Potion;28400
@@ -2617,29 +2621,29 @@ Brown Ruki Morphing Potion;70000
 Congratulatory Book;19300
 Kougra Transmogrification Potion;
 All About Fire Faeries;300000
-Enchanted Pudao Stamp;2900
+Enchanted Pudao Stamp;2000
 Holiday Fashion;900
 Happy Feet;19800
-Lost Desert Scroll Stamp;66500
+Lost Desert Scroll Stamp;17600
 The Uppity Gold Usul;
 Disco Mynci Morphing Potion;160000
 History of the Altador Cup Book (Limited Edition);200000
 Faerie Nimmo Morphing Potion;1500000
 JubJub Pop-Up Book;1500
 Super Lupe Comics;300000
-Battle Eyrie Stamp;6400
+Battle Eyrie Stamp;6950
 Bird Watching;
-Altador Cup V Commemorative Stamp;5000000
+Altador Cup V Commemorative Stamp;3500000
 Dimensional Jetsam Morphing Potion;140000
 Rainbow JubJub Morphing Potion;300000
 pot_doglefox_morph;
 Battle!;1000
-Tyrannian Kougra Stamp;1300000
+Tyrannian Kougra Stamp;945000
 Constellation Spotting;1200
 Kau Sundae;34000
 Sands of the Water Faerie;
 The Problems With Polka Dots;2000
-Games Master Challenge Stamp;350000
+Games Master Challenge Stamp;107000
 Phases of the Moon;150
 Fishy Delight Grarrl Gobstopper;
 The Way Windmills Work;850
@@ -2651,7 +2655,7 @@ Corn Colouring Book;1475
 Attack Of The Meercabots;32500
 The Orange Meerca;
 Kyrii Hair Styles;1075
-Dorak Stamp;60500
+Dorak Stamp;17600
 Acara Magic;1875
 Maraquan Defenders Stamp;11
 Lost City Lanes Lime Gobstopper;18900
@@ -2678,18 +2682,18 @@ Unabridged Dictionary;150000
 Life After Cheat;4000
 Sculpted Books;
 Blue Techo Morphing Potion;77000
-Xantan Stamp;9000000
+Xantan Stamp;7900000
 Scaled Magic Book;
-Illusens Staff Stamp;3200
+Illusens Staff Stamp;3500
 Green Chia Morphing Potion;
 Tissue Dispenser Book;6000
 Yellow Ixi Morphing Potion;94000
 Wanna Play a Game?;2000
 Neocola Book;5
-Holographic Coltzans Shrine Stamp;10000000
-Korbats Lab Stamp;11
+Holographic Coltzans Shrine Stamp;9000000
+Korbats Lab Stamp;25
 Angry Shoyru Friends;1000
-Two Rings Archmagus Stamp;1800
+Two Rings Archmagus Stamp;1500
 The Great Negg Hunt;4200
 Red Uni Morphing Potion;22600
 Star Gazing;1000000
@@ -2698,8 +2702,8 @@ Making Homemade Greeting Cards;2000
 Neopian Encyclopedia F - J;19000
 Identifying Meteorites;1675
 Springy Gelert Book;1625
-Finneus Stamp;68500
-Christmas Scene Stamp;72000
+Finneus Stamp;30000
+Christmas Scene Stamp;27000
 My First Mazzew;3200
 Shootout Showdown: Getting Past the Goalie;13900
 Green Moehog Morphing Potion;96000
@@ -2711,27 +2715,27 @@ Stone Lupe Morphing Potion;
 Snowager Pendant;
 Sneaking Past;770
 Speckled Bruce Morphing Potion;125000
-Petpet Cannonball Stamp;17800
+Petpet Cannonball Stamp;18000
 Jungle Kyrii Tales;1475
 The Evil Dr. Sloth;
 Christmas Scorchio Morphing Potion;200000
 Moehog Than You Can Handle;1500
 Island Eyrie Morphing Potion;400000
 The Safety Deposit Box Guide;150000
-Captain of the Guard Stamp;280000
-Meridell Castle Stamp;85000
-Huberts Hot Dogs Stamp;1000
+Captain of the Guard Stamp;190000
+Meridell Castle Stamp;89500
+Huberts Hot Dogs Stamp;990
 Flamestrike Bottle;530
 Spooky Buzz Tales;1000
-Mumbo Pango Stamp;750000
-Stocking Stamp;2600
+Mumbo Pango Stamp;
+Stocking Stamp;3075
 Book Of Peas;1000000
 Ixi A-Z;5150
 The Solutions to Polka Dots;2200
-Mika Stamp;1500000
+Mika Stamp;1900000
 The Kau Cookbook;1875
 Where The Elephantes Roam;1000
-Psellia Stamp;2100
+Psellia Stamp;2000
 The Female Nimmo Ranger;1000
 Grundo Beauty Book;2275
 Origami Pop-Up Book;4075
@@ -2746,17 +2750,17 @@ Talons and Tails;2600
 The Electric Wocky;
 Lost Spells of Neopia;10000
 Shell Poetry;4450
-Tyrannian Plateau Stamp;7000
-Faerie Foods Stamp;3450
-Kelland Stamp;2800
-Torakor Stamp;600000
+Tyrannian Plateau Stamp;6500
+Faerie Foods Stamp;3000
+Kelland Stamp;2600
+Torakor Stamp;500000
 Christmas Kougra Morphing Potion;200000
 Rial the Red;2250
 Guide to Collecting Altador Cup Gear;7000
 Fire Ogrin Morphing Potion;60000
 The Newest Book;
 The Giggly Cloud Elephante;
-Fetch! Stamp;950
+Fetch! Stamp;800
 Water Gnorbu Morphing Potion;400000
 Tyrannian Dishes Recipe Book;71500
 Faerie Krawk Touch-N-Feel Book;1200
@@ -2774,25 +2778,26 @@ Cooking With Your Wock(y);250000
 Growing Flower Crystals;4850
 Shocking Pranks;2300
 Shenkuu Landscapes;130000
+Recovered Meerca Collectable Charm;290000
 Island Usul Morphing Potion;115000
 Zombie Grave Book;590
 Custard Mysteries;3100
-Eleus Stamp;20300
+Eleus Stamp;6700
 Rainbow Moehog Morphing Potion;
 Draik Secrets;8000
-Rainbow Pool Stamp;54500
+Rainbow Pool Stamp;13000
 Cloud Poogle Morphing Potion;60500
 The Giggling Quiggle;
 Cybunny Transmogrification Potion;
 The Best of Love;9000
 Dark Eyes the Aisha;1275
-Tyrannian Blumaroo Stamp;4500
+Tyrannian Blumaroo Stamp;5000
 Babaa Care;100
-Rainbow Pteri Feather Stamp;99999
-Morris Stamp;450000
-Altador Cup XII Commemorative Stamp;1600000
+Rainbow Pteri Feather Stamp;107000
+Morris Stamp;535000
+Altador Cup XII Commemorative Stamp;1500000
 One Scary Night;200
-Darigan Eyrie Stamp;2450
+Darigan Eyrie Stamp;2250
 Painting Poogles;1900
 stamp_haunted_mask;
 Christmas Aisha Morphing Potion;150000
@@ -2807,7 +2812,7 @@ Poogle Plushie Catalogue;5150
 Brown Lenny Morphing Potion;69000
 Shoyru Mysteries;2700
 109 Cupcake Recipes;1675
-Meridell Heroes Stamp;140000
+Meridell Heroes Stamp;165000
 Jar of Archived Books;14500
 Tuskaninny Chef Recipes;1050
 Yurble Feelings;2900
@@ -2816,14 +2821,14 @@ Uni-versity;1950
 Zenor Kevix: A Biography;17600
 Fun Games;1125
 Murky Waters;2150
-Boris Stamp;15000
+Boris Stamp;6850
 Riverboards and You;2200
 Avoiding Writers Block;7300
 Carnival Of Terror Guide Book;94000
 Electric Ixi Morphing Potion;450000
 Learn Social Skills;1675
 Camouflage Tuskaninny Morphing Potion;43000
-Need a Better Printer Stamp;8000000
+Need a Better Printer Stamp;7500000
 Rainbow Chomby Morphing Potion;250000
 Wraith Ogrin Morphing Potion;350000
 Mint Chocolate Lupe;25500
@@ -2831,7 +2836,7 @@ The Secret Life of Shadow Shoyru;
 Songs For Your Pan Flute;4800
 Uniquely Uni;8300
 The Faerie Aisha;
-Zygorax Stamp;3000
+Zygorax Stamp;3475
 Book of Tangram Puzzles;2700
 Caring for Eyries;500000
 Yellow Shoyru Morphing Potion;53500
@@ -2840,7 +2845,7 @@ Faerie Ruki Morphing Potion;1700000
 Guide to Light Refraction and Water;200000
 Faerie Tuskaninny Morphing Potion;500000
 Sugar Tonu Skull;250000
-Rainbow Sticky Hand Stamp;2800000
+Rainbow Sticky Hand Stamp;2200000
 Book of Pain;1900000
 Watch Out!;1000
 Chocoon;
@@ -2863,7 +2868,7 @@ Shenkuu Hiking;175000
 Wings Over the World;13900
 A Collection of Shenkuu Novels;
 The Book of Paper Cuts;1500000
-Triangular Flotsam Stamp;450
+Triangular Flotsam Stamp;410
 Island Gelert Morphing Potion;1000000
 Easter Concoction;15000
 Notable Neopians;1000
@@ -2884,12 +2889,12 @@ The Art of Surfing in Moltara;3850
 How to Avoid The Holiday Rush;1725
 Natural Wonders of Neopia: Shenkuu;1250
 Sunglasses Book;1500
-Book Shop Nimmo Stamp;1125
+Book Shop Nimmo Stamp;920
 Unidentifiable Weak Bottled Faerie;10
-Hadrak Stamp;
+Hadrak Stamp;1400000
 Goodbye Mel;
 Serious Sadness;1050
-The Black Pawkeet Stamp;3925
+The Black Pawkeet Stamp;2925
 Moehog Colouring Book;2050
 The Snow Faeries Promise;125000
 Red Ruki Morphing Potion;63000
@@ -2912,7 +2917,7 @@ Green Nimmo Morphing Potion;95000
 Tales Of A Red Tuskaninny;
 The Midnight Moehog;27400
 Sunset On Mystery Island;170
-Tyrannian JubJub Stamp;1350
+Tyrannian JubJub Stamp;1825
 Feeding Lupes;10000
 Illusens Diary;
 Maps of Neopia;1050
@@ -2922,7 +2927,7 @@ Gelert Rock and Roll;1925
 Common Cures;78000
 Tombola Tips;500
 Brown Bruce Morphing Potion;300000
-ARGH!!!! DONNA STAMP;30000000
+ARGH!!!! DONNA STAMP;22500000
 Binary Stars and You;3600
 Peophin Legends;3500
 Camouflage Kyrii Morphing Potion;27400
@@ -2938,7 +2943,7 @@ Caring For Bori;2100
 Green Hissi Morphing Potion;150000
 Negg Power - Delicious Alternative Energy;77500
 Hooked on Fishing;1400
-Ryshu Stamp;300
+Ryshu Stamp;490
 Fire Bruce Morphing Potion;230000
 Green Gelert Morphing Potion;600000
 Neopets Puzzles and Games;6000
@@ -2948,22 +2953,23 @@ Mystery Island Pop-Up Book;580
 Buzz Boxing Basics;4425
 The Purple Bruce;
 The Starry Eyed Orange Ona;
+Governor McGill Collectable Charm;955000
 Into the Ice Caves;1050
 Baby Kougra Morphing Potion;500000
-Commemorative Defenders Stamp #4;99999
+Commemorative Defenders Stamp #4;160000
 Jhudoras Secret;14300
 Modern Shenkuu;350000
-Desert Petpet Stamp;900
+Desert Petpet Stamp;1800
 101 Balloon Petpets;1500
 Picnicking on Kreludor Book;990
 Dimensional Shoyru Morphing Potion;125000
-Commemorative Defenders Stamp #1;1700
+Commemorative Defenders Stamp #1;1300
 Maractite Peophin Morphing Potion;600000
 The Joy Of Metal Work;2500
 Yellow Buzz Morphing Potion;250000
-Commemorative Defenders Stamp #3;5000
+Commemorative Defenders Stamp #3;4050
 Fishing For Techos;1400
-Commemorative Defenders Stamp #2;1500
+Commemorative Defenders Stamp #2;1425
 History of the Meerca Boomerang;2500
 King Roos Dice;3500
 Yurble Manual;2350
@@ -2997,7 +3003,7 @@ The Jetsam Ace;450
 stamp_tyrannian_pteri;
 Popular Destinations;40000
 Pete the Polarchuck;8700
-Ready to Roll Stamp;3500000
+Ready to Roll Stamp;2000000
 Chia Book;4200
 The Polarchuck and the Snow Storm;99999
 The Meerca Spy;1950
@@ -3032,7 +3038,7 @@ Wraith Draik Morphing Potion;2000000
 Try Not To Beg;3000
 Kougra Classics;2000000
 Confusing Conundrums;7600
-Darigan Citadel Stamp;120000
+Darigan Citadel Stamp;102000
 Hobans Map Book;900000
 Kaylas Spellbook;1500
 My Neighbour the Zombie;4000
@@ -3040,7 +3046,7 @@ Kougra Plushie Catalogue;1825
 Lawyerbot Collectors Guide;2200
 Rainbow Hissi Morphing Potion;300000
 Gnorbu Fashions;3500
-Haiku Stamp;100
+Haiku Stamp;150
 On The Trot;6100
 Neopias Past;320000
 Air Spell;71000
@@ -3061,7 +3067,7 @@ The Ixi Adventure;890
 The Winding Winter Path;1425
 Infamous Xweetok Guide;59000
 Large Book of Geometry;2200
-Lupe Shopkeeper Stamp;51000
+Lupe Shopkeeper Stamp;20000
 Wonderful World of Gardening;1800
 Tonu Comic Annual;2475
 Island Quiggle Morphing Potion;1300000
@@ -3069,7 +3075,7 @@ Gnorbu Transmogrification Potion;300000
 Kauvaras Marvellous Potion;
 Eye Of Mortog;990
 Ylana Skyfires Valentines Day;
-Jelly World Stamp;24700
+Jelly World Stamp;18000
 Claw Of The Bori;1200
 The Mischievous Silver Lupe;
 Chocolate Cybunny Negg;150000
@@ -3080,10 +3086,10 @@ The Thief Handbook;3000
 Cooking For Skeiths;2400
 Mathematics In Space;150
 Grimoire of Thade;
-The Discarded Magical Blue Grundo Plushie of Prosperity Stamp;150000
+The Discarded Magical Blue Grundo Plushie of Prosperity Stamp;69500
 Vicious Attack Book;97500
 Photo Collage Making;3975
-Grundo Warehouse Stamp;900000
+Grundo Warehouse Stamp;825000
 Red Pteri Morphing Potion;70000
 Split Bruce Morphing Potion;120000
 Chomby Baby Food;1250
@@ -3099,12 +3105,12 @@ Dance Moves For Scorchios;1900
 A Look at a Robot Kacheek;
 Faerie Cybunny Morphing Potion;775000
 Yellow Draik Morphing Potion;600000
-Halloween Aisha Stamp;630
-Rink Runner Stamp;3500
+Halloween Aisha Stamp;600
+Rink Runner Stamp;3250
 Bubbling Healing Goo;370
 Dress For Success;1625
 P is for Peophin;1525
-Mipsy Stamp;525000
+Mipsy Stamp;999999
 Just Rolling Along;15000
 Krawk Pot Recipes;13000
 Meteorite Craft Book;20000
@@ -3125,9 +3131,9 @@ Blue Kacheek Morphing Potion;600000
 Counting Babaas;150
 I Heart Striped Blumaroo!;
 Kreludan Sundaes;1700
-Meridell Gardens Stamp;4000
+Meridell Gardens Stamp;3075
 Fire Xweetok Morphing Potion;625000
-Nova Storm Stamp;2175
+Nova Storm Stamp;1200
 Wocky Jewellery;1000
 Fire Lupe Morphing Potion;350000
 The Curse Of The Pirate Aisha;1325
@@ -3136,27 +3142,27 @@ Saving Your Neopoints;1025
 Princess Vyssas Diary;1500000
 Spotted Shoyru Morphing Potion;59500
 Yurble Hairstyles;3175
-Igloo Garage Sale Stamp;4100
+Igloo Garage Sale Stamp;4450
 Gormball Plays;1275
 Fire Kyrii Morphing Potion;
 Yellow Gnorbu Morphing Potion;27500
 Tonu Tusk Polishing;3600
 Stealthy Techo Morphing Potion;300000
-Zombie Faleinn Stamp;9100
-Anshu Fishing Stamp;1500000
+Zombie Faleinn Stamp;3350
+Anshu Fishing Stamp;1700000
 What A Wonderful Day;2300
-Forgotten Shore Stamp;300000
+Forgotten Shore Stamp;190000
 The Great Defender Returns;
 Cotton Tales;
 Collecting Buzz Plushies;4500
 Sculpting Clay;2075
 The Eyes Have It;
-Discovery of Fire Stamp;
+Discovery of Fire Stamp;65000000
 Baby Acara Morphing Potion;400000
 Karate for Beginners;40
 12 Angry Myncies;250000
 Mouldy Tome;1900
-Bonju Stamp;3725
+Bonju Stamp;3850
 Neopet V2 Guide to Revenge;1000
 Striped Aisha Morphing Potion;61500
 The Smiling Pink Chomby;
@@ -3173,11 +3179,11 @@ JubJub Journal;48500
 The Threat Outside;750
 Advanced Swimming;1575
 Of Leaves and Lutari;4100
-Robot Skeith Stamp;950
+Robot Skeith Stamp;1000
 Turning Your Day Around;1950
 Quivering Quiggles;1175
 The Purple Scorchio;
-Candychan Stamp;
+Candychan Stamp;170000000
 Sweetheart;1900
 The Evil Slorg;
 White Xweetok Morphing Potion;300000
@@ -3196,7 +3202,7 @@ Growing a Vine Yard;250000
 Mr Irgo Explained;840
 A Special Christmas;4000
 Terror Mountain Tales;
-Sword of the Air Faerie Stamp;1400
+Sword of the Air Faerie Stamp;1500
 Green Koi Morphing Potion;74000
 The Story of the Elusive Strawberry Fields;1425
 Faerie Imprisonment for Fun and Profit;
@@ -3204,24 +3210,24 @@ Nimmo Gift Ideas;1800
 Simple Certificate;1550
 The Angry Grundo;2025
 Dark Chocolate Zafara;11300
-Neolodge Stamp;2100
+Neolodge Stamp;2500
 Water Draik Morphing Potion;1000000
 Gebmids;
 Unleashed - The Great Lupe Escape;21000
 When Bruces Fly;1700
-Tyrannia Stamp;925000
+Tyrannia Stamp;990000
 Plushie Techo Morphing Potion;300000
 The Tooth Story;1850
 Mumbo Pango Approved Recipes;1000
-Drackonack Stamp;1500000
+Drackonack Stamp;875000
 Spotted Kougra Morphing Potion;550000
 Cake Recipes for All Occasions;300000
 Nimmo - Now and Zen;60
 Zombie Aisha Morphing Potion;250000
-Cliffhanger Stamp;17100
+Cliffhanger Stamp;9000
 When to have Goals Early;7500
-Mystery Island Travel Stamp;8000
-Petty Crewmate Stamp;2150
+Mystery Island Travel Stamp;4925
+Petty Crewmate Stamp;2100
 Wraith Bruce Morphing Potion;150000
 Who Is Your Secret Admirer?;1775
 Chia Transmogrification Potion;200000
@@ -3236,25 +3242,26 @@ Split Flotsam Morphing Potion;79000
 Autumnal Decorating;2450
 How to Build an Abominable Snowball;52000
 Growling For Beginners;4400
-Mystical Surroundings Stamp;400000
+Mystical Surroundings Stamp;290000
 Happy Meerca Stories;1700
 Atlas of Neopia;750000
+Recovered Skeith Collectable Charm;61000
 When Gelerts Go Bad;2400
 Flotsam Anatomy;2175
 Bananas the Mynci Way;1000
-Ancient Contract Stamp;2900
+Ancient Contract Stamp;2000
 Calculus Basics;450000
 Faerie Lupe Morphing Potion;900000
 The Blue Chomby;
 Jelly Bean Pirate Chest;2350
-Thoughtful Linae Stamp;120000
+Thoughtful Linae Stamp;90000
 Lime Elixir;4
 Christmas Chia Morphing Potion;140000
 Kyrii ABCs;1500
 Mud Pies Dirt Cakes;1350
 Krawk Island Altador Cup Media Book;60000
 Golden Shoyru Book;
-Kolvars Stamp;7400
+Kolvars Stamp;7000
 Faerie JubJub Morphing Potion;750000
 Auction Tips and Tricks;1000
 The Best of Neopian Ice;51500
@@ -3264,8 +3271,8 @@ Orange Kougra Morphing Potion;20000
 Green Mynci Morphing Potion;85000
 The Code;870
 Buzz Acrobatic Stunts;150000
-Pirate Attack Stamp;500
-The Arcanium Stamp;1650
+Pirate Attack Stamp;9
+The Arcanium Stamp;1700
 Growing Exotic Plants;1450
 Kreludor Rainy Day Activity Book;4400
 Korbat Calculus;900
@@ -3278,7 +3285,7 @@ Advert Attack Guide Book;23500
 Mollusk Magazine;150000
 Moehog Decorating Tips;2200
 Clowning Around;3850
-Gargarox Isafuhlarg Stamp;99999
+Gargarox Isafuhlarg Stamp;71500
 Rainbow Flotsam Morphing Potion;200000
 Red Usuki Pictures;1900
 Guide to Knighthood;980
@@ -3286,12 +3293,12 @@ Glowing Mystery Island Rune;
 Theories of Physics;2000
 Ice Wocky Totem;21100
 The Guide to Neggspotting;18400
-Young Sophie Stamp;2000
+Young Sophie Stamp;1800
 Carrot Growing;5950
 Faerie Kadoatie Touch-N-Feel Book;1300
 Jar of Eyeballs;130
 Halloween Aisha Morphing Potion;
-Wheel of Monotony Stamp;900000
+Wheel of Monotony Stamp;275000
 Flying For Eyries;3175
 Darigan Wocky Morphing Potion;900000
 Yellow Flotsam Morphing Potion;20000
@@ -3300,8 +3307,8 @@ When Meteors Crash;1800
 Buzz Gourmet;35
 Collectors Guide to Bobbleheads;2800
 Acara Aquatics;4500
-Mysterious Obelisk Stamp;120000
-Stone Stamp;2000000
+Mysterious Obelisk Stamp;80000
+Stone Stamp;1800000
 book_acara_water;
 The Faerie Acara;
 The Macho Kyrii;975
@@ -3323,7 +3330,7 @@ Making Ice Sculptures;850
 Striped Grarrl Morphing Potion;99000
 The Ultimate Guide to Lucky Charms;975
 The Strawberry Usul;
-Mellow Marauders Plushie Stamp;13600
+Mellow Marauders Plushie Stamp;14500
 Happy Wocky Tails;1225
 Taking the Offensive;90000
 Lord Kass Stamp;14000000
@@ -3346,13 +3353,13 @@ Tales of a Green Kau;
 The Snow Aisha Adventure;1025
 Kitchen Quest Cookbook;
 Solid Steel Book;480000
-Money Tree Stamp;690
-Scurvy Island Stamp;14800
+Money Tree Stamp;1000
+Scurvy Island Stamp;5900
 The Sun Loving Purple Noil;
 Christmas Pteri Morphing Potion;120000
 Jazzmosis Biography;475000
 book_cures;
-Scratchcard Kiosk Stamp;3900
+Scratchcard Kiosk Stamp;4275
 Neogarden Nimmo;1825
 Super Secret Guide to the Defenders of Neopia Headquarters;2000000
 Space Mynci;1975
@@ -3367,7 +3374,7 @@ Neotruffle;500000
 Hazelnut Whirl;200000
 stamp_tyrannian_fossil;
 stamp_mys_sacstatue;
-Chocolate Factory Stamp;11000
+Chocolate Factory Stamp;5250
 Island Kiko Morphing Potion;150000
 The Art of Sleeping In;
 Green Ixi Morphing Potion;89000
@@ -3376,8 +3383,9 @@ Glowing Lupe Morphing Potion;200000
 Offensive Mopping;1725
 A Faerie Beautiful Day;250000
 Decoding a Coded Decoding Book;1800000
-Altador Cup X Collectible Gold Coin;2750000
+Altador Cup X Collectible Gold Coin;3000000
 Secrets of Sloth;10000
+Malum Collectable Charm;98500
 Altadorian Archives Book;1850
 Desert Chia Morphing Potion;150000
 Roo Island Altador Cup Media Book;39000
@@ -3387,7 +3395,7 @@ Tales Of A Blue Shoyru;
 Plushie Poogle Morphing Potion;2500000
 Pop Quiz Preparedness;2175
 Sleepy Time;3125
-The Krawken Stamp;115000
+The Krawken Stamp;70000
 Meerca in the Clouds;
 Snow Wocky Morphing Potion;200000
 Sketch Peophin Morphing Potion;80000
@@ -3402,7 +3410,7 @@ Altador Strength Potion;400000
 Swamp Gas Ogrin Morphing Potion;17900
 Chocolate Ogrin Cookbook;1750
 Mynci Law;3650
-Yes-Boy Ice Cream Stamp;9500
+Yes-Boy Ice Cream Stamp;8000
 Desert Lutari Morphing Potion;2600000
 Ruling The Universe;
 Shoyru Heroes;1850
@@ -3410,7 +3418,7 @@ Faerie Yurble Morphing Potion;250000
 Discover Xweetoks;1800
 Blue Quiggle Morphing Potion;130000
 Illusions Illusion;350000
-Wand Of The Dark Faerie Stamp;6800
+Wand Of The Dark Faerie Stamp;5000
 Ancient Book;650000
 Users Guide to Underwater Pools;9750
 Brain Of Mirgle;2225
@@ -3443,11 +3451,12 @@ Skeith Inspired Treasure Maps;13
 Terrific Acaras;1700
 Manes;2100
 Gelert Night Vision;1825
+Magax Vs. Nox Stamp;1100000
 Wishing Well Wishes;5950
 Bruces Magic Guide;2150
 Cyodrakes Gaze - Users Manual;99999
 Know Your Neggs Book;2300
-Dubloon-O-Matic Stamp;9500
+Dubloon-O-Matic Stamp;9000
 Camouflage JubJub Morphing Potion;72000
 The Ultimate Drum Practice Book;2375
 Caring For Your Slugawoo;2350
@@ -3472,11 +3481,11 @@ Baby Peophin Morphing Potion;300000
 Camouflage Krawk Morphing Potion;300000
 Christmas Zafara Morphing Potion;175000
 How To Catch A Cybunny;1650
-Cybunny on a Cycle Stamp;225000
+Cybunny on a Cycle Stamp;300000
 Split Lenny Morphing Potion;40400
 Shadow Tonu Morphing Potion;83000
 Hissi Mazes;1250
-Skeith Bank Manager Stamp;2225
+Skeith Bank Manager Stamp;1700
 Daily Care for Ukalies;1675
 The Tricky Ixi;1200
 Book of Clams;4350
@@ -3488,7 +3497,7 @@ Math Flash Cards;870
 Gold Tonu Morphing Potion;125000
 Whoopie Cushions;1400
 Sinsis Puzzle Book;2800
-Chadley Stamp;4500000
+Chadley Stamp;3700000
 History of the Strength Potion;2025
 Pink Lenny Morphing Potion;375000
 Nest Builders Manual;1025
@@ -3496,13 +3505,13 @@ Terror Mountain Colouring Book;2450
 The Hot Scorchio Cook Book;99999
 Notable Neggs;40900
 Tornado in a Bottle;590
-Dark Qasala Stamp;180000
+Dark Qasala Stamp;77000
 Know Your Motes;1200
 The Royal Treasure Collection;18800
 Plushie Skeith Morphing Potion;900000
 Brown Moehog Morphing Potion;5700
 Caring for Onas;1200
-Nightsteed Stamp;2800000
+Nightsteed Stamp;2500000
 200 Puppyblew Tricks;7450
 Kiko Transmogrification Potion;150000
 Striped Xweetok Morphing Potion;215000
@@ -3522,7 +3531,7 @@ Attack On Kreludor;50
 Year 3 Calendar;1950
 Green Elephante Morphing Potion;30000
 Maraquan Kougra Stories;1025
-Upside Down Island Acara Stamp;5500000
+Upside Down Island Acara Stamp;6000000
 Scorchio Summer;2450
 The Grundo Pirate;130
 Steam Jug;2725
@@ -3531,7 +3540,7 @@ Marshmallow Invasion;1450
 The Happy-Go-Lucky Disco Kiko;
 A Tale of Three Bruces;2825
 The Meridellian Pteri;3300
-Caylis Stamp;38500
+Caylis Stamp;12800
 Court Jester Jokes;4400
 Spooky Stories;380
 Ghost Grarrl Morphing Potion;200000
@@ -3555,9 +3564,9 @@ Halloween Kyrii Morphing Potion;
 Potion of Pestilence;9300
 Orange Chocolate Pyramid;9000
 Kreludan Home Decorating;30000
-Velm Stamp;9950
+Velm Stamp;5150
 Week of the Kacheek;3400
-Faerie Bubbles Stamp;3500
+Faerie Bubbles Stamp;3900
 Guitarists Guide;5350
 Elephante Dreams;800
 Split Chia Morphing Potion;220000
@@ -3566,17 +3575,17 @@ Fire Ixi Morphing Potion;300000
 Grarrl Mythology;1125
 Scary Dark Potion;3000000
 Usuki Value Guide;5400
-Limited Edition Scurvy Island Stamp;15000000
+Limited Edition Scurvy Island Stamp;11000000
 Baby Korbat Morphing Potion;600000
 The Definitive Snowglobe Guide;200
 Hanging Out;6050
 Fire Pet Guide;2150
 Starry Grundo Morphing Potion;140000
 Healing Springs Residue;50
-Carnival of Terror Stamp;4950
+Carnival of Terror Stamp;4800
 Tear Jerkers;3075
 Double Tuskaninny Tales;16900
-Pomanna Stamp;3600
+Pomanna Stamp;3100
 The Grarrl Who Crushed Tyrannia;1125
 Green Kougra Morphing Potion;120000
 Gold Scorchio Morphing Potion;41500
@@ -3590,12 +3599,12 @@ Wings of a Ghost;29900
 Meerca Chase II Game Guide;940
 Inside the Mind of Bob;1100000
 Shimmering Amber Jewel;
-Altador Food Stamp;1825
+Altador Food Stamp;2725
 Blueprint Basics;1200
-Neopia Central Scene Stamp;24000
+Neopia Central Scene Stamp;9500
 The Yooyu;1000
 Blue Ruki Morphing Potion;78000
-Sword of Skardsen Stamp;2100
+Sword of Skardsen Stamp;1750
 Professor Hugo Fairweathers Guide to Petpetpets;450000
 A Furry Tale;2800
 Bacon Guide to Bacon;6000
@@ -3613,8 +3622,8 @@ Gardening on Mystery Island;110000
 Language Textbook;1275
 stamp_nq_archmagus;
 Strawberry Tuskaninny Morphing Potion;140000
-Northern Watch Tower Stamp;450000
-Chunk of Meat Stamp;1450
+Northern Watch Tower Stamp;330000
+Chunk of Meat Stamp;2000
 Noodles for ALL;42000
 On the Wings of a Purple Eyrie;1900
 Language Flash Cards;975
@@ -3626,7 +3635,7 @@ Experimental Physics;225000
 stamp_gormball_08;
 The Silver Poogle Set On Revenge;
 stamp_gormball_07;
-RIP Lucy Stamp;54500
+RIP Lucy Stamp;28000
 Grundos In Space;1575
 Eat Or Be Eaten;1200
 stamp_gormball_02;
@@ -3641,6 +3650,7 @@ stamp_gormball_04;
 Kyrii Shopping Guide;1000
 stamp_gormball_03;
 Lemon Pinchit Lollypop;13900
+The Darkest Faerie Collectable Charm;485000
 Grey Lenny Morphing Potion;250000
 Moehog Poetry;900
 Meerca Transmogrification Potion;230000
@@ -3673,14 +3683,14 @@ Speckled Cybunny Morphing Potion;300000
 The Plight of the Pea Chia Gnome;1950
 Negg-citing Tales;2775
 Yurble Skirmishes;2700
-Fountain Faerie Stamp;27300
+Fountain Faerie Stamp;21700
 Apple Bobbing Manual;430
 Best Woods for Chopping;7000
 Essence of Everlasting Apple;500
 Purple Tonu Morphing Potion;200000
 Altador Traffic Guide;2700
 Forbidden Pteri Tales;160000
-Morguss Stamp;2300000
+Morguss Stamp;2000000
 Ruki Transmogrification Potion;400000
 Brain Tree Solutions;
 Plushie Tuskaninny Morphing Potion;600000
@@ -3692,7 +3702,7 @@ Chia Art History;1800000
 The Excitable Yellow JubJub;
 Holidays in Altador;
 Courgette Farming;950
-Krawk Island Governor Stamp;6000
+Krawk Island Governor Stamp;5900
 stamp_space_code;
 Kacheek Transmogrification Potion;500000
 Notable Nimmos;2700
@@ -3704,8 +3714,8 @@ Transparent Skeith Morphing Potion;
 Defenders of Neopia Fun Book;3400
 Simple Assembly Instructions;1600
 2 Much 2 Soon;3275
-Wintery Bruce Stamp;2500
-Anubits Stamp;800000
+Wintery Bruce Stamp;4275
+Anubits Stamp;620000
 Dancing Wockys;1500
 Cooking With Peas;34500
 Everything Eyrie;1900
@@ -3716,10 +3726,10 @@ Daffodil Diary;4850
 Healing Koi;16600
 The Lost Naalala;4000
 Buzz Chocolate Bar;30000
-Faerie Slingshot Stamp;2500
+Faerie Slingshot Stamp;2000
 Water Kau Morphing Potion;200000
-Shadow Gulch Stamp;225000
-Sword Of Apocalypse Stamp;2500000
+Shadow Gulch Stamp;175000
+Sword Of Apocalypse Stamp;1300000
 Kite Races;2750
 That Is Like Such A Boring Book;1350
 Ukali Poetry Journal;4350
@@ -3734,7 +3744,7 @@ Usukicon Y7 Guide Book;
 Acara Nightmare;3875
 Darigan Skeith Adventures;1250
 101 Calamari Recipes;1200
-Neovia Stamp;3550
+Neovia Stamp;2850
 Cooking With Petpets;1100
 Mop Beautiful;1000
 Square Book of Rainy Day Activities;1275
@@ -3746,16 +3756,16 @@ The Hissi Stare;2000
 Unhappy Tails;3425
 Orange Draik Morphing Potion;
 Illusen on Physics;
-Snowball Fight Stamp;8000
-Tasu Stamp;6050
-The Sleeper Constellation Stamp;350000
+Snowball Fight Stamp;7900
+Tasu Stamp;5600
+The Sleeper Constellation Stamp;325000
 Christmas Bruce Morphing Potion;150000
 Spotted Lupe Morphing Potion;750000
 Faeries of Spring;8400
 Perfectly Flat Rock Stamp;2525
 Uni Care;8450
 Sick of Spots;1725
-Rotting Skeleton Stamp;1075
+Rotting Skeleton Stamp;730
 Holiday Nice List;4000
 How to Fold Paper to Make It Look Like Stuff;2400
 Gruslen Grooming;1200
@@ -3775,20 +3785,20 @@ Strawberries and Cream Easter Negg;
 The Night Before the Night Before the Night Before the Day of Giving;14700
 Nimmo of Doom;2275
 Learning Kreludan;1625
-Mokti and Rikti Stamp;6000
+Mokti and Rikti Stamp;5000
 Pirate Ixi Morphing Potion;150000
 Adventures In Space;75
 Koya Korbat Huntress;
 Reading Flash Cards;1000
-Orange Draik Stamp;75
-Lab Ray Stamp;18000000
-Mysterious Vibrant Collectable Scarab;6500000
+Orange Draik Stamp;95
+Lab Ray Stamp;14500000
+Mysterious Vibrant Collectable Scarab;
 Chars Medicine;99999
 Snow Usul Morphing Potion;250000
-Luperus Left Head Stamp;99999
+Luperus Left Head Stamp;92000
 Pop-Up Zafara Book;1150
 The Battles of Jeran;87000
-Grimilix Stamp;750
+Grimilix Stamp;1000
 Christmas Magic Hat;250000
 Skunk Buzz Morphing Potion;250000
 The Secret Behind The Jewel;1650
@@ -3797,18 +3807,19 @@ Effective Confetti Clean Up;2900
 Tuskaninny Transmogrification Potion;
 A Warm Christmas;6600
 Raising Grundos;1950
-Dr. Sloth Stamp;62500
+Dr. Sloth Stamp;21600
 Rainbow Grarrl Morphing Potion;39400
 Cybunny Secrets;25300
 A Magical, Mystical Tour of Roo Island;2700
-Christmas Uni Stamp;1100
+Fiendish Formations Coin;1400000
+Christmas Uni Stamp;950
 101 Recipes For Courgettes;2175
 Your Semidemiquaver & You;1050
 Too Much Island Sun;2000
 The Sneaky Schnelly;57500
 Pteri Battle Manual;1600
 Yellow Kacheek Morphing Potion;600000
-NeoQuest II Esophagor Stamp;2000000
+NeoQuest II Esophagor Stamp;1700000
 Kreludan Engineering;
 Poison Snowball Wand;500
 Becoming A Spy;2925
@@ -3846,13 +3857,13 @@ Kacheek Magic;59000
 Tyrannian Time Travel;
 Lutari Healing Potion;100
 Zombie Handbook;3000
-Island Acara Stamp;30000000
+Island Acara Stamp;
 Scorchio Spring;
 A Vandagyre Picnic;1725
 Blue Eyrie Morphing Potion;30000
 Island Techo Morphing Potion;140000
 A Summer of Borovan;39000
-Exploding Acorns Stamp;7000
+Exploding Acorns Stamp;7850
 Checkered Techo Morphing Potion;20500
 The Grumpy Grundo;3975
 Yellow Gelert Morphing Potion;500000
@@ -3869,7 +3880,7 @@ Red Vandagyre Morphing Potion;55000
 Backyard Willow Dome Guide;1125
 Snow Blumaroo Morphing Potion;300000
 The Adventurous Yellow Kacheek;
-Grackle Bug Stamp;1000
+Grackle Bug Stamp;800
 Spotted Eyrie Morphing Potion;29900
 Mysterious Swirly Potion;1100000
 The Secret Altadorian Spring;
@@ -3878,11 +3889,11 @@ The Shy Blue Wocky;
 The Split Flotsam;1850
 Nightmares and Dreams;1550
 Sore Throat Remedies;
-Bringer of Night Stamp;11400
+Bringer of Night Stamp;4850
 The Dark Peophin;79000
-Mutant Usul Stamp;3350
+Mutant Usul Stamp;3100
 Meepit vs Feepit Game Guide;100
-Moonlit Werelupe Stamp;3600
+Moonlit Werelupe Stamp;2925
 Blumaroo Dance Moves;1350
 Underwater Tour;25
 Into the Forest;300
@@ -3891,14 +3902,14 @@ Plushie Tonu Morphing Potion;140000
 Water Acara Morphing Potion;300000
 A History Of Moehogs;5000
 Learn to Fly;1125
-Holographic Virtupets Stamp;12500000
+Holographic Virtupets Stamp;10500000
 Pink Ruki Morphing Potion;250000
 A Krawks Grey Day;1000
 How to Win Fans;15000
-Battle Uni Stamp;600000
+Battle Uni Stamp;985000
 Meerca Day Recipes;3100
 Cleaning Technology;125000
-Cogs Togs Stamp;24000
+Cogs Togs Stamp;26900
 Blue Aisha Morphing Potion;58500
 Castle Battles Game Guide;1050
 Jokes To Make Skarl Laugh;4600
@@ -3920,14 +3931,14 @@ Blue JubJub Morphing Potion;26000
 Krawk Anthology;2300
 bd_botfae2_fire;
 Inside the Mind of a Lupe;380
-Lisha vs Zombie Lisha Stamp;19000
+Lisha vs Zombie Lisha Stamp;9250
 The Beautiful Shoyru;2750
-Green Knight Stamp;80000
+Green Knight Stamp;29700
 Purple Techo Morphing Potion;175000
-Everlasting Crystal Apple Stamp;40
+Everlasting Crystal Apple Stamp;45
 Spyders;1025
-Pyramid Sun Rise Stamp;975
-Guard Zomutt Stamp;4700
+Pyramid Sun Rise Stamp;1400
+Guard Zomutt Stamp;4250
 The Zombie Chomby;200000
 Nimmo Transmogrification Potion;650000
 Maraquan Skeith Book;1950
@@ -3946,15 +3957,15 @@ The Pterrible Pteri;1100
 The Art of Yooyuball;78000
 Split Mynci Morphing Potion;4000
 The Blue Tiki Sands of Time;500
-Mystery Island Kougra Stamp;950
+Mystery Island Kougra Stamp;1500
 Neohomes and Gardens;1000
 Talk Like A Pirate;32900
 Looking Like A Moehog;1250
 bd_botfae2_meta;
 Painting Zafaras;2000
 Harquins Day;99999
-Singed Tyrannian Volcano Stamp;400000
-Christmas Zafara Stamp;3900
+Singed Tyrannian Volcano Stamp;115000
+Christmas Zafara Stamp;3950
 Valentines Day in Shenkuu;
 Speckled Xweetok Morphing Potion;43900
 Fishing Made Easy;3350
@@ -3964,7 +3975,7 @@ Feepit Pop-Up Book;36500
 Eventide Kougra Morphing Potion;600000
 Hissi Stories;1000
 Brians Guide to Winning Gormball;2575
-Two Rings Crusader Stamp;1850
+Two Rings Crusader Stamp;1750
 Water Spell;83000
 Faerie Rock Touch-N-Feel Book;2350
 Baby Kau Morphing Potion;850000
@@ -3972,11 +3983,11 @@ Usukicon Y13 Pile of Adverts;
 White Chia Morphing Potion;475000
 Neopian Heroes;
 Team Krawk Island: Journey to the Top;
-Slorg Flakes Stamp;1300
+Slorg Flakes Stamp;1375
 Defenders Stand for Justice;800
 Guide to Tuskaninny Plushies;1175
 Mainly Mane Care;2300
-Snowager Stamp;51000
+Snowager Stamp;19500
 Weak Bottled Fire Faerie;25
 Avocado Cookbook;2250
 Witch Hunting Techniques;340
@@ -3985,7 +3996,7 @@ Orange Scoach Lolly;140000
 Grundo Food;2100
 Maniacal Meercas;1425
 The Battle of Shenkuu;
-Blarthrox Stamp;3450
+Blarthrox Stamp;4300
 White Peophin Morphing Potion;200000
 The Korbat From Krawk Island;2475
 Jetsam Teeth Maintenance;2800
@@ -4026,7 +4037,7 @@ Weak Bottled Light Faerie;110
 The Golden Aisha;
 Blue Zafara Morphing Potion;300000
 The Naughty Skeith;2500
-Ski Lodge Stamp;8100
+Ski Lodge Stamp;6000
 Red Acara Morphing Potion;250000
 Kau Defence;1975
 Time For Xweetok Talk;975
@@ -4035,24 +4046,24 @@ Evil Snowball Wand;1275
 Ooga Book;
 Faerie Xweetok Morphing Potion;1100000
 Magic for Beginners;3650
-Year 5 Stamp;40000
-Tyrannian Korbat Stamp;1150
+Year 5 Stamp;75000
+Tyrannian Korbat Stamp;1125
 Ghost Shoyru Morphing Potion;170000
 Kiko Pop-Up Book;140
 The Secret of Tagobo;1900
 Island Bori Morphing Potion;500000
 The High Flying Adventures Of The Cloud Flotsam;
-Midnight Desert Lupe Stamp;3050
+Midnight Desert Lupe Stamp;3300
 Woogy;1100
 Island Lutari Morphing Potion;1300000
-Archmagus of Roo Stamp;1200
+Archmagus of Roo Stamp;840
 Elusive Shenkuu Guide;950
 Giant Book of Crosswords;31000
 Sleep Well, A Holiday Tale;7000
 Gelert Paw Reading;2150
 A Very Tiki Holiday;3300
 Dr Sloth Collectables;1500
-Lady Frostbite Stamp;16500
+Lady Frostbite Stamp;9800
 Starry Kacheek Morphing Potion;600000
 Halloween Chia Morphing Potion;600000
 Tales Of A Yellow Kougra;
@@ -4060,7 +4071,7 @@ Defending The Castle;2700
 Fire Draik Morphing Potion;900000
 JubJub Manual;18000
 Kyrii Tales;2425
-Official Ghoul Catchers Stamp;7000
+Official Ghoul Catchers Stamp;8000
 When Neggs Explode;
 stamp_mys_whaleinmutant;
 The Hungry Techo;830
@@ -4114,19 +4125,19 @@ Baby Cabbage Jelly Beans;14500
 Halloween Hissi Morphing Potion;1200000
 Kookith Infestation Guide;90000
 1002 Spells For You;9100
-Giant Leaf Curtains Stamp;2700
-Gordos Stamp;2425
-Island Mystic Stamp;250
+Giant Leaf Curtains Stamp;2900
+Gordos Stamp;2325
+Island Mystic Stamp;120
 Halloween Bori Morphing Potion;800000
-Piraket Stamp;1500
+Piraket Stamp;2450
 Christmas Kiko Morphing Potion;150000
-Queen Fyora Stamp;
+Queen Fyora Stamp;46000000
 Golden Eye;
-Tyrannian Usul Stamp;3600
+Tyrannian Usul Stamp;3500
 Monstrous Makeovers;175000
 Chef Grarrl;1625
 Potion of Dexterity;150000
-Biyako Stamp;
+Biyako Stamp;180000
 Know Your Seeds;1125
 The Shadowy Shoyru;2475
 Im Not A Gift! A Christmas Kookiths Tale;2700
@@ -4154,8 +4165,8 @@ Yellow Meerca Morphing Potion;31500
 Fire Aisha Morphing Potion;64000
 Untold Pteri Tales;1500
 Neopian Statistics;6000
-Grinning Sloth Stamp;3000
-First Edition Altador Petpet Stamp;1250
+Grinning Sloth Stamp;2250
+First Edition Altador Petpet Stamp;950
 Ylana Skyfire: Protector of Spring;
 Shoyru Secrets;1700
 Mynci Wiggling Eyes Book;900
@@ -4165,12 +4176,12 @@ Plushie Gnorbu Morphing Potion;1600000
 Pressurised Water;190
 Ogrin Cross-Stitch Book;1100
 Whinny Meadows;1000
-Maraquan Blade Specialist Stamp;3100
+Maraquan Blade Specialist Stamp;3150
 Red Yurble Morphing Potion;250000
 Magic Wand;590
 Oranges Are Better;1825
 Mounted Certificate of Mastery;7000
-Captain of Fyoras Guards Stamp;2900
+Captain of Fyoras Guards Stamp;3150
 Volleyball Strategy Plays;225000
 Halloween Ixi Morphing Potion;700000
 101 Candy Cane Recipes;1550
@@ -4189,7 +4200,7 @@ The Adventures of Sir Snots-A-Lot;6700
 The Mane Event;2325
 Concert Hall Pictures;6000
 Krazy Krawks;2075
-Second Edition Altador Petpet Stamp;1150
+Second Edition Altador Petpet Stamp;940
 Raspberry and Vanilla Nova;22100
 Forbidden Zafara;1700000
 Chocolate Ruki Kit;
@@ -4197,7 +4208,7 @@ Decorating Your Hut;1525
 Candle Making;1475
 Lutari Furred Tails;1900
 Haunted Woods Altador Cup Media Book;55000
-Usukiland Stamp;10800
+Usukiland Stamp;4425
 Freaky Factory Employee Handbook;6000
 Pastel Gnorbu Morphing Potion;140000
 Super Fashion Playmate Handbook;1950
@@ -4219,13 +4230,13 @@ Dark Scroll;92500
 Shadow Ixi Morphing Potion;
 boo_lutari_art;
 Almost-Real Aisha Totem;30000
-Lampwyck Stamp;200000
+Lampwyck Stamp;710000
 Gallant Gallions Comic;170
 Ace Adventures;4700
-Gormball Stamp;1300
+Gormball Stamp;2000
 Glowing Jetsam Morphing Potion;250000
 Wock the Wok;13400
-Usul-in-waiting Stamp;8600
+Usul-in-waiting Stamp;7800
 bd_botfae2_air;
 Showing Gelerts;2675
 Time Tunnel Game Guide;2225
@@ -4241,7 +4252,7 @@ Kyruggi Stamp;
 The Island Bruce;
 Do It Yourself Bobbleheads;99999
 Red Draik Morphing Potion;700000
-Wishing Well Stamp;1100
+Wishing Well Stamp;1125
 Alphabet;3500
 Maraquan Cybunny Morphing Potion;1000000
 Myths and Legends of Alien Aishas;44500
@@ -4255,7 +4266,7 @@ Skunk Eyrie Morphing Potion;400000
 The Great King Altador;
 The Bucket Book;1000
 Draik Transmogrification Potion;10000000
-Preoccupied AAA Stamp;600000
+Preoccupied AAA Stamp;420000
 Island Lupe Morphing Potion;550000
 Striped Nimmo Morphing Potion;99999
 Tooth Faerie Cupcake Recipe;7750
@@ -4266,7 +4277,7 @@ Super Roo - The Comic;2150
 How to Roast Chestnuts;1450
 Snow Architecture;85
 Yellow Pteri Morphing Potion;33000
-Spirit of Slumber Stamp;11000
+Spirit of Slumber Stamp;10000
 Mini Wocky Joke Book;18500
 Rainbow Ogrin Morphing Potion;65500
 Transparent Wocky Morphing Potion;350000
@@ -4279,7 +4290,7 @@ Mint Chocolate Peophin;51000
 Island Native Stamp;150
 Neopia In Under 18NP A Day;2150
 Grarrl Power;1900
-Golden Orb Stamp;3000
+Golden Orb Stamp;2800
 Life of a Clone;1400
 Usuki Comic Sampler;
 Jelly Processing Tips;2100
@@ -4292,7 +4303,7 @@ Fading Bottled Dark Faerie;770
 Picking Better Berries;1200
 Desert Peophin Morphing Potion;150000
 Snow Ogrin Morphing Potion;110000
-Librarian Stamp;3500
+Librarian Stamp;2925
 stamp_haunted_cave;
 Camouflage Kougra Expressions;2500
 Decorating Your Garden;2950
@@ -4308,10 +4319,10 @@ Mysterious Book;
 Stripe, the Strange Skeith;1075
 Battledome Guide;2000
 A Chia Story;
-Jhudoras Cloud Stamp;10000000
+Jhudoras Cloud Stamp;12000000
 Stellar Stellar Guide;97500
 Tree Climbing for Beginners;7050
-Scuzzy Stamp;
+Scuzzy Stamp;12000000
 The Grumpy Acara;1425
 Purple Aisha Morphing Potion;89000
 Grey Draik Morphing Potion;2000000
@@ -4336,14 +4347,14 @@ Clay JubJub Fun;3200
 Buzz for Infants;2675
 Neggs Through the Seasons;14000
 A Bad Day Turned Worse;1475
-Jeran Stamp;5550
+Jeran Stamp;3125
 100 Jelly Recipes;76000
-Lost City of Phorofor Stamp;300000
+Lost City of Phorofor Stamp;280000
 One Bad Bruce;1100
 Grape Gummy Slorg;69000
 Buzz Sheet Music;1000
 Cloud Eyrie Morphing Potion;200000
-Advisor Wessle Stamp;2000
+Advisor Wessle Stamp;1650
 Shadow Skeith Morphing Potion;250000
 Chomby Pop-Up Book;1350
 Tropical Sunsets;1725
@@ -4362,9 +4373,9 @@ Draik Sugar Skull;140000
 Fire Breathing Scorchio Stamp;400000
 Spiky Tales;1900
 Mops Throughout the Ages;1000
-New Maraqua Stamp;1325
+New Maraqua Stamp;2000
 Zafara Detective;2200
-Temple Of The Sky Stamp;1600
+Temple Of The Sky Stamp;1750
 Famous Paintings;2150
 Robot Days;1825
 Pastel Xweetok Morphing Potion;700000
@@ -4385,7 +4396,7 @@ Grooming Habits;1575
 Tales of Autumn;31400
 Whirlpool Colouring Book;3000
 Geometry Level 1;2000
-Black Bearog Stamp;1575
+Black Bearog Stamp;1450
 Court Dancer Stamp;1500000
 How to Make Stationery;2175
 Geometry Level 2;1900
@@ -4393,7 +4404,7 @@ Geometry Level 3;2750
 Ye Old Meridellian Vocabulary Workbook;1950
 stamp_nq_rikti_mokti;
 Quiggle Quotes;1850
-Entrance to Moltara Stamp;1500
+Entrance to Moltara Stamp;1450
 Lost Cybunny;3400
 Medieval Dictionary;1700
 Altador From Above;78500
@@ -4406,7 +4417,7 @@ Speckled Bori Morphing Potion;81500
 Blue Koi Morphing Potion;200000
 Green Bruce Morphing Potion;
 Nimmo Faerie Tales;
-Advert Attack Stamp;2575
+Advert Attack Stamp;2025
 Faerie Hissi Morphing Potion;600000
 The Wayward Flotsam;2100
 stamp_destruct_castle;
@@ -4432,28 +4443,28 @@ Once Upon A Chia;3050
 Scientific Flash Cards;1000
 Cloud Elephante Morphing Potion;175000
 Fading Bottled Light Faerie;750
-Lucky Coin Stamp;950000
+Lucky Coin Stamp;800000
 Training Your Moehog;1450
 Glowing Poogle Morphing Potion;49000
 Gnorbu Knitting;1200
 Neopian Lakes;1400
-Razul Stamp;85000
+Razul Stamp;58500
 Shenkuu Altador Cup Media Book;230000
-Tug Of War Stamp;2200
+Tug Of War Stamp;2100
 Yellow Zafara Morphing Potion;170000
-Holographic Sakhmet City Stamp;11100
+Holographic Sakhmet City Stamp;8600
 Professional Sock Collections;1300
 Tying Your Bow;2050
 Blue Ixi Morphing Potion;99999
 Behind the Stripes;
-Darigan Shield Stamp;5000
+Darigan Shield Stamp;4450
 Rare Stamps;21300
 Unofficial Usukicon Y6 Guide Book;
 Orange Chocolate Scorchio;6750
 Eyrie Transmogrification Potion;600000
 Yellow Grarrl Morphing Potion;99999
 Abominable Snowball Fights;81000
-Rod Of Dark Nova Stamp;13000
+Rod Of Dark Nova Stamp;8000
 A Pink Unis Horn;
 The Scaredy Yurble;2700
 Kreludan Facts;1425
@@ -4464,9 +4475,9 @@ Neopian Sunrises;3550
 A Faerie Christmas;20600
 Striped Chia Morphing Potion;200000
 The Vandagyre Nightmare;1825
-Sunblade Stamp;19500
+Sunblade Stamp;8100
 Trectse fo Thade;10000
-Igneots Cavern Stamp;1000000
+Igneots Cavern Stamp;990000
 Famous Flotsams;3125
 Kau Pastures;600000
 stamp_destruct_techo;
@@ -4480,7 +4491,7 @@ Uni in Wonderland;3750
 The Gorgeous Gallion;70
 Tome of Memories;4500
 The JubJub Club;9250
-N4 Bot Stamp;3400
+N4 Bot Stamp;3275
 Illusens Twigs;2375
 The Sinking Neopoint;2825
 Plushie Scorchio Morphing Potion;750000
@@ -4494,24 +4505,24 @@ JubJub Day Ideas;18500
 Glowing Draik Morphing Potion;
 Pirate Kacheek Morphing Potion;700000
 Yellow Hissi Morphing Potion;150000
-Magma Pool Guard Stamp;10700
-Easter Treats Stamp;99999
+Magma Pool Guard Stamp;11200
+Easter Treats Stamp;115000
 Spotted Kau Morphing Potion;500000
 How to Frost Cookies;300000
 Little Book Of Big Volcanos;
 The Day Defence Was Lost;17300
-Mutant Grundo Stamp;7450
+Mutant Grundo Stamp;3200
 Leaf Mosaics and You!;3825
 Chocolate Gum;
 Grimoire of Prosperity;
 Rare Treasure Maps;
 Xweetok Guide to Flying;4150
-Alien Aisha Vending Stamp;2800
+Alien Aisha Vending Stamp;2600
 Cloud Acara Morphing Potion;125000
-King Kelpbeard Stamp;65000000
+King Kelpbeard Stamp;55000000
 Dont Call Me Cute;16200
 Wock Around the Clock;7850
-Meerca Spy Stamp;1750000
+Meerca Spy Stamp;1700000
 Taelias Tips;180000
 Purple Zafara Morphing Potion;170000
 Royal Scorchios;1675
@@ -4523,7 +4534,7 @@ Yellow Nimmo Morphing Potion;81500
 Guide to Neopian Snowflakes;1000
 An Ogrins Wild Life;1650
 The Red Kiko;1275
-Mystery Island Heads Stamp;80
+Mystery Island Heads Stamp;100
 Terror Mountain Altador Cup Media Book;57000
 Babaa Tales;1125
 Maraquan Gelert Morphing Potion;2500000
@@ -4574,7 +4585,7 @@ Bound Magic Book;
 Usul Transmogrification Potion;300000
 Flask of Rainbow Fountain Water;1750000
 Fishing For Zafaras;590
-Maractite Dagger Stamp;2000
+Maractite Dagger Stamp;2125
 Daily Dare Through the Years;26800
 stamp_haunted_bruce;
 Organic Recipes;2150
@@ -4592,8 +4603,8 @@ The Key to being an Altadorian;1000000
 Illusens Novel;850
 Pirate Krawk Morphing Potion;120000
 Lettuce Love;1100
-Cyodrakes Gaze Logo Stamp;9500
-Hubrid Nox Commemorative Stamp;15000
+Cyodrakes Gaze Logo Stamp;6250
+Hubrid Nox Commemorative Stamp;19300
 Plushie Mynci Morphing Potion;200000
 How to Stitch;1050
 Scorchios in the Spring;
@@ -4606,13 +4617,13 @@ The Abandoned Acara;800000
 Yellow Tuskaninny Morphing Potion;36900
 We dont need stinkin apostrophes!;46500
 Flotsam Transmogrification Potion;175000
-Super Bright Rainbow Pool Stamp;50500
+Super Bright Rainbow Pool Stamp;19000
 Chocolate Jeran;99999
 Grundo Transmogrification Potion;180000
 Ghost Stories;3000
 The Meerca Encyclopedia;1975
 Space Fashion;110
-Kazeriu Stamp;250
+Kazeriu Stamp;150
 The Little Kacheek Book;2000
 Cooking With Gargarox;1900
 The Lazy Pink Faellie;
@@ -4620,7 +4631,7 @@ Bobbleheads and Neopian Cultures;2000
 Cloud Bori Morphing Potion;150000
 Star Chronicles;4000
 The Hungry Blue Noil;
-Orange Skeith Stamp;1700
+Orange Skeith Stamp;900
 Starry Wocky Morphing Potion;64000
 Bruce Blues;1000
 The Eye of the Quiggle;2100
@@ -4629,8 +4640,8 @@ Christmas Elephante Morphing Potion;55500
 Tourists Guide to Altador During the Cup;8550
 Gelert Transmogrification Potion;
 Flotsam Arts;1950
-Coco Stamp;3300
-Garin To The Rescue Stamp;30000
+Coco Stamp;4350
+Garin To The Rescue Stamp;8250
 Extraordinary Ice Cream Cookbook;6000
 Meowclops Dietary Guidelines;59000
 Loyal Lupes;1400
@@ -4638,7 +4649,7 @@ My Neohome;6950
 Famous Sculptures;4000
 Cloud Shoyru Morphing Potion;130000
 Last Years Negg;24500
-Haunted Mansion Stamp;120000
+Haunted Mansion Stamp;155000
 Mapping a Mystery;
 stamp_neo_hospital;
 Green Blumaroo Morphing Potion;300000
@@ -4666,7 +4677,7 @@ Island Chomby Morphing Potion;350000
 Blumaroo Comedy;1825
 The Angry Nuk;3400
 The Unlucky Blumaroo;1300
-Brains vs. Brawn Stamp;4000000
+Brains vs. Brawn Stamp;3000000
 Cybunny Cookie Making;1100
 Neverending Noil Day;4300
 Not Quite Red;1300
@@ -4699,14 +4710,14 @@ Woodland Koi Morphing Potion;400000
 All You Need to Know About Your JubJub;12900
 Striped Blumaroo Morphing Potion;56500
 Gypsy Maps;1000
-Hubrids Puzzle Box Stamp;1575
+Hubrids Puzzle Box Stamp;1800
 Musical Math;4250
-Tyrannian Victory Day Stamp;450000
+Tyrannian Victory Day Stamp;275000
 Neohome Plumbing Guide;1375
 Usuki Style;12000
 Cybunny Financing;15500
 1052 Sakhmetian Tales;
-Luperus Centre Head Stamp;150000
+Luperus Centre Head Stamp;125000
 Drum Making for Drummers;1525
 Gifts for your Enemies;
 Neopian Culture;1200
@@ -4716,4 +4727,3 @@ Chocolate Crown of Sinsi;450000
 The Legend of Count von Roo;1800
 Zurroball Tournament Rule Book;800
 Baby Poogle Morphing Potion;250000
-Crumpetmonger Stamp;7850

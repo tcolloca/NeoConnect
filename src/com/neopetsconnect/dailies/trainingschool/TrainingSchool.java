@@ -19,6 +19,8 @@ import com.neopetsconnect.dailies.status.NoneStatus;
 import com.neopetsconnect.dailies.status.PendingPayStatus;
 import com.neopetsconnect.dailies.status.Status;
 import com.neopetsconnect.dailies.status.WaitingStatus;
+import com.neopetsconnect.exceptions.FaerieQuestException;
+import com.neopetsconnect.exceptions.ShopWizardBannedException;
 import com.neopetsconnect.main.Item;
 import com.neopetsconnect.main.Main;
 import com.neopetsconnect.shopwizard.ShopWizard;
@@ -35,9 +37,9 @@ public class TrainingSchool implements Categories {
   private static final int[] STATS_TIERS =
       {7, 12, 19, 34, 54, 84, 124, 199, 249, 349, 399, 449, 499, 549, 599, 649, 699, 749};
 
-  private static final int[] SCHOOL_TIERS = {20, 40, 80, 100, 120, 150, 200, 250};
+//  private static final int[] SCHOOL_TIERS = {20, 40, 80, 100, 120, 150, 200, 250};
 
-  private static final int LEVEL_TIER_OFFSET = 5;
+//  private static final int LEVEL_TIER_OFFSET = 5;
 
   private final HttpHelper helper;
   private final ShopWizard shopWizard;
@@ -47,14 +49,14 @@ public class TrainingSchool implements Categories {
     this.shopWizard = new ShopWizard(helper);
   }
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws FaerieQuestException, ShopWizardBannedException {
     HttpHelper helper = Main.initHelper();
     Main.handleSession(helper);
 
     new TrainingSchool(helper).call();
   }
 
-  public int call() {
+  public int call() throws FaerieQuestException, ShopWizardBannedException {
     if (!ConfigProperties.isTrainingSchoolEnabled()) {
       return ConfigProperties.getDailiesRefreshFreq();
     }
@@ -108,20 +110,19 @@ public class TrainingSchool implements Categories {
     int defenceTier = getStatTier(stats.getDefence());
     int strengthTier = getStatTier(stats.getStrength());
     int minTier = Math.min(healthTier, Math.min(defenceTier, strengthTier));
-    // If the next tier for a stat is over 2 times the current level, probably level should be
-    // trained.
+    // If the next tier for a stat is over 2 times the current level, train stats evenly.
     if (stats.getLevel() < Math.ceil(minTier / 2)) {
-      int levelTier = (int) Math.ceil(minTier / 2.0);
-      int currentTier = getLevelTier(stats.getLevel());
-      // If we are above the target tier, and we are not getting close to tier end, train level.
-      if (currentTier >= levelTier && stats.getLevel() < levelTier - LEVEL_TIER_OFFSET) {
-        return "level";
-      } else {
-        // If not, train evenly min stat.
+//      int levelTier = (int) Math.ceil(minTier / 2.0);
+//      int currentTier = getLevelTier(stats.getLevel());
+//      // If we are above the target tier, and we are not getting close to tier end, train level.
+//      if (currentTier >= levelTier && stats.getLevel() < levelTier - LEVEL_TIER_OFFSET) {
+//        return "level";
+//      } else {
+// //      If not, train evenly min stat.
         int minStat =
             Math.min(stats.getHealth(), Math.min(stats.getDefence(), stats.getStrength()));
         if (minStat == stats.getHealth()) {
-          return "endurance";
+        	return "endurance";
         }
         if (minStat == stats.getStrength()) {
           return "strength";
@@ -129,11 +130,11 @@ public class TrainingSchool implements Categories {
         if (minStat == stats.getDefence()) {
           return "defence";
         }
-      }
+//      }
     }
     // If level is enough for next stat tier, train greedily stat to its next tier.
     if (minTier == healthTier) {
-      return "endurance";
+    	return "endurance";
     }
     if (minTier == strengthTier) {
       return "strength";
@@ -148,9 +149,9 @@ public class TrainingSchool implements Categories {
     return getTier(stat, STATS_TIERS);
   }
 
-  private int getLevelTier(int level) {
-    return getTier(level, SCHOOL_TIERS);
-  }
+//  private int getLevelTier(int level) {
+//    return getTier(level, SCHOOL_TIERS);
+//  }
 
   private int getTier(int value, int[] tiers) {
     int nextTier = tiers[0];
@@ -160,7 +161,7 @@ public class TrainingSchool implements Categories {
     return nextTier;
   }
 
-  private void pay(PendingPayStatus status) {
+  private void pay(PendingPayStatus status) throws FaerieQuestException, ShopWizardBannedException {
     List<Item> codestones = ((PendingPayStatus) status).getItems();
     Logger.out.log(CATEGORY,
         "Needed: " + codestones.stream().map(it -> it.getName()).collect(Collectors.toList()));

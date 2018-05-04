@@ -276,7 +276,7 @@ public class ConfigProperties implements Categories {
   public static boolean isOrganizeInventoryEnabled() {
     return ConfigPropertiesReader.props.getBoolean(ORGANIZE_INVENTORY, "enabled");
   }
-  public static int getStockMinPrice() {
+  public static int getInventoryMinPrice() {
     return ConfigPropertiesReader.props.getInt(ORGANIZE_INVENTORY, "min_price");
   }
   

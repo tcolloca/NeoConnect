@@ -107,7 +107,7 @@ public class MyShop implements Categories {
           int price;
           if (useJellyneo) {
             price = JellyneoItemDatabase.getInstance().findPrice(item.getName());
-            if ((int) (price * percent) > 99999) {
+            if ((int) (price * percent) > 999999) {
               price = 0;
             }
           } else {

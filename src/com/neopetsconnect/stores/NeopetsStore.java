@@ -25,7 +25,7 @@ import com.neopetsconnect.utils.captcha.CaptchaSolver;
 public class NeopetsStore implements Categories {
 
   private static final String CATEGORY = STORE;
-  private static final int UNKNOWN_PRICE = 151000;
+  private static final int UNKNOWN_PRICE = 1000000;
 
   final HttpHelper helper;
   final int id;

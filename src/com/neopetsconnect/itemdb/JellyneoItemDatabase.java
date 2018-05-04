@@ -5,11 +5,13 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
+import org.filemanager.core.FileManager;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+
 import com.httphelper.main.HttpHelper;
-import com.httphelper.main.HttpResponse;
 import com.neopetsconnect.exceptions.ItemNotFoundException;
 import com.neopetsconnect.main.Item;
 import com.neopetsconnect.utils.Logger;
@@ -38,17 +40,18 @@ public class JellyneoItemDatabase {
     HttpHelper.logPath = "jelly/logs";
     HttpHelper.log = true;
     HttpHelper.storeCookies = false;
-    Logger.out.log(category, JellyneoItemDatabase.getInstance().query("choco"));
+    Logger.out.log(category, JellyneoItemDatabase.getInstance().query("jellyneo-idb/stamps1.txt"));
   }
 
-  public HttpResponse search(String query) {
+  public String search(String query) {
+	return FileManager.open(query).readAll(); 
     // HttpHelper helper = new HttpHelper("items.jellyneo.net")
     // .useHttps()
     // .addDefaultHeader("Accept", "text/html")
     // .addDefaultHeader("Cache-Control", "no-cache");
     //
-    // return helper.get("/search/?" + query).send();
-    throw new RuntimeException("Jellyneo IDB has banned me.");
+    // return helper.get("/search/?" + query).send().getContent().get();
+//    throw new RuntimeException("Jellyneo IDB has banned me.");
   }
 
   public int findPrice(String name) throws ItemNotFoundException {
@@ -70,7 +73,7 @@ public class JellyneoItemDatabase {
   }
 
   public List<Item> query(String query) {
-    String content = search(query).getContent().get();
+    String content = search(query);
     Document doc = Jsoup.parse(content);
 
     Element itemList = doc.body().select(":root > div").get(3).select(":root > div").first()
@@ -88,7 +91,12 @@ public class JellyneoItemDatabase {
 
       Element priceElem = itemElem.select(":root > span.text-small").first();
       if (priceElem != null) {
-        price = Optional.of(Utils.getNps(priceElem.select(":root > a").first().text()));
+    	String priceText = priceElem.select(":root > a").first().text();
+    	if (priceText.equals("Inflation Notice")) {	
+    		price = Optional.empty();
+    	} else {
+    		price = Optional.of(Utils.getNps(priceText));    		
+    	}
       }
       items.add(new Item(name, price));
     });

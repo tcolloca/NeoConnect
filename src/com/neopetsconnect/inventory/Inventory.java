@@ -26,7 +26,7 @@ import com.neopetsconnect.utils.Utils;
 
 public class Inventory implements Categories {
 
-  public static final String category = INVENTORY;
+  public static final String CATEGORY = INVENTORY;
 
   private final HttpHelper helper;
 
@@ -46,15 +46,16 @@ public class Inventory implements Categories {
     if (!ConfigProperties.isOrganizeInventoryEnabled()) {
       return;
     }
+    Logger.out.log(CATEGORY, "Organizing...");
     ShopWizard wiz = new ShopWizard(helper);
     Map<String, List<InventoryItem>> items =
         getItems().entrySet().stream().filter(entry -> !entry.getValue().get(0).isBlocked())
             .collect(Collectors.toMap(Entry::getKey, Entry::getValue));
     Map<String, List<InventoryItem>> discard = items.entrySet().stream().filter(entry -> {
       try {
-        Logger.out.log(category, "Finding price for " + entry.getKey());
+        Logger.out.log(CATEGORY, "Finding price for " + entry.getKey());
         int price = wiz.findPrice(entry.getKey(), ConfigProperties.getShopWizSearchTimes());
-        Logger.out.log(category, "Price for \"" + entry.getKey() + "\" is " + price);
+        Logger.out.log(CATEGORY, "Price for \"" + entry.getKey() + "\" is " + price);
         Utils.sleep(2);
         return price < minPrice;
       } catch (ItemNotFoundException e) {
@@ -72,12 +73,14 @@ public class Inventory implements Categories {
   }
 
   public Map<String, List<InventoryItem>> getItems() {
+	  Logger.out.log(CATEGORY, "Getting items...");
     HttpUtils httpUtils = HttpUtils.newInstance();
     try {
       Map<String, List<InventoryItem>> items = new HashMap<>();
-      Element docContent = httpUtils.getDocument(inventoryRequest());
+      Element docContent = httpUtils.getContent(inventoryRequest());
       Element content = docContent.select(":root > div[class=contentModule]").first();
       if (content == null) {
+    	Logger.out.log(CATEGORY, "No items.");
         return items;
       }
       Elements itemElems = content.select(":root table > tbody > tr").get(1)
@@ -95,6 +98,7 @@ public class Inventory implements Categories {
         items.putIfAbsent(name, new ArrayList<>());
         items.get(name).add(new InventoryItem(name, isBlocked));
       });
+      Logger.out.log(CATEGORY, "Items: " + items);
       return items;
     } catch (Throwable th) {
       httpUtils.logRequestResponse();
@@ -172,10 +176,12 @@ public class Inventory implements Categories {
         if (cols.attr("colspan").isEmpty()) {
           String name = cols.get(0).text();
           Element itemInfo = itemElem.select(":root > input").first();
-          String id = itemInfo.attr("value");
-          String rowId = itemInfo.attr("name").split("id_arr")[1];
-          items.putIfAbsent(name, new ArrayList<>());
-          items.get(name).add(new QuickStockItem(name, id, rowId));
+          if (itemInfo != null) {          
+        	  String id = itemInfo.attr("value");
+        	  String rowId = itemInfo.attr("name").split("id_arr")[1];
+        	  items.putIfAbsent(name, new ArrayList<>());
+        	  items.get(name).add(new QuickStockItem(name, id, rowId));
+          }
         }
       });
       return items;

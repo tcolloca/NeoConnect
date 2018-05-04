@@ -23,6 +23,7 @@ import com.neopetsconnect.utils.Categories;
 import com.neopetsconnect.utils.ConfigProperties;
 import com.neopetsconnect.utils.HttpUtils;
 import com.neopetsconnect.utils.Logger;
+import com.neopetsconnect.utils.Utils;
 
 public class FaerieQuestSolver implements Categories {
 
@@ -60,6 +61,7 @@ public class FaerieQuestSolver implements Categories {
         throw new IllegalStateException("Failed updating price of item");
       }
       Logger.out.log(CATEGORY, "Updated price on side shop");
+      Logger.out.log("Next Username: "+ ConfigProperties.getUsername());
       Main.handleSession(helper, ConfigProperties.getUsername(), 
           ConfigProperties.getPassword(), ConfigProperties.isMyShopUsingPin() ? 
               ConfigProperties.getPin() : null);
@@ -67,7 +69,9 @@ public class FaerieQuestSolver implements Categories {
       ShopItem sideBought = new ShopWizard(helper).buyFromUser(ConfigProperties.getSideUsername(),
           item.get());
       Logger.out.log(CATEGORY, "Bought from side: " + sideBought);
+      Logger.out.log(CATEGORY, "Talking again to Faerie...");
       talkToFaerie();
+      Utils.sleep(10);
     } finally {
       ConfigProperties.updateStatus(Status.ON);
     }
@@ -89,7 +93,8 @@ public class FaerieQuestSolver implements Categories {
         String ck =
             content.getElementById("fq2_form").select(":root > input[name='ck']").first().val();
         if (toReject != null && toReject.contains(faerie)) {
-          if (questContent.getElementById("abandon_CATEGORY") != null) {
+          if (questContent.getElementById("abandon_faerie_quest") != null) {
+        	Logger.out.log(CATEGORY, "Trying to abandon...");
             loadAbandonQuest(ck);
             Logger.out.log(CATEGORY, "Rejected quest from " + faerie + " faerie.");
             return Optional.empty();
@@ -98,13 +103,16 @@ public class FaerieQuestSolver implements Categories {
         if (toAccept != null && !toAccept.contains("all") && !toAccept.contains(faerie)) {
           Logger.out.log(CATEGORY, "Ignored quest from " + faerie + " faerie.");
           return Optional.empty();
-        } else if (questContent.getElementById("complete_CATEGORY") != null) {
+        } else if (questContent.getElementById("complete_faerie_quest") != null) {
+          Logger.out.log(CATEGORY, "Trying to complete...");
           loadCompleteQuest(ck);
           Logger.out.log(CATEGORY, "Completed quest from " + faerie + " faerie.");
           return Optional.empty();
         }
+        Logger.out.log(CATEGORY, "Maybe complete button not found?");
         return Optional.of(new Item(name));
       } else {
+    	Logger.out.log(CATEGORY, "Item not found.");
         String description = questContent.getElementsByClass("description_bottom").first().text();
         throw new FaerieQuestBlockedException(description);
       }
