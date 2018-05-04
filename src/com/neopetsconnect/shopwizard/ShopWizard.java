@@ -47,7 +47,8 @@ public class ShopWizard implements Categories {
     return buyShopItems(shopItems);
   }
 
-  public Map<Item, List<ShopItem>> buyItems(List<Item> items, int times) {
+  public Map<Item, List<ShopItem>> buyItems(List<Item> items, int times) throws FaerieQuestException, ShopWizardBannedException {
+	validateShopWizard();
     return buyShopItems(findItems(items, times));
   }
 
@@ -268,6 +269,6 @@ public class ShopWizard implements Categories {
         .addFormParameter("type", "process_wizard").addFormParameter("feedset", "0")
         .addFormParameter("shopwizard", name).addFormParameter("table", "shop")
         .addFormParameter("criteria", "exact").addFormParameter("min_price", "0")
-        .addFormParameter("max_price", "99999");
+        .addFormParameter("max_price", "999999");
   }
 }

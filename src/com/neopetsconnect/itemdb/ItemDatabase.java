@@ -11,6 +11,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import com.neopetsconnect.main.Item;
+import com.neopetsconnect.utils.Logger;
 
 public class ItemDatabase {
 
@@ -20,7 +21,9 @@ public class ItemDatabase {
 
   public static void main(String[] args) {
     ItemDatabase itemDatabase = ItemDatabase.getInstance();
-    itemDatabase.addItems(JellyneoItemDatabase.getInstance().query("choco"));
+    for (int i = 1; i <= 9; i++) {    	
+    	itemDatabase.addItems(JellyneoItemDatabase.getInstance().query("jellyneo-idb/stamps" + i + ".txt"), true);
+    }
     itemDatabase.save();
   }
 
@@ -40,8 +43,13 @@ public class ItemDatabase {
     return itemDb.get(name);
   }
 
-  public void addItems(List<Item> items) {
-    items.forEach(item -> itemDb.put(item.getName(), item));
+  public void addItems(List<Item> items, boolean logMissing) {
+    items.forEach(item -> {
+    	itemDb.put(item.getName(), item);
+    	if (logMissing && !item.getPrice().isPresent()) {
+    		Logger.out.log("Missing price for: " + item.getName()); 
+    	}
+    });
   }
 
   public void save() {
@@ -74,7 +82,7 @@ public class ItemDatabase {
           }
           return new Item(name, price);
         }).collect(Collectors.toList());
-        addItems(items);
+        addItems(items, false);
       } catch (IOException e) {
         throw new RuntimeException("Error while loading item database", e);
       }

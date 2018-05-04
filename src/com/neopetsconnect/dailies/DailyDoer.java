@@ -24,10 +24,10 @@ public class DailyDoer implements Categories {
       return 0;
     });
 
-    runner.addAlwaysJob(() -> {
-      new Inventory(helper).organize(ConfigProperties.getStockMinPrice());
-      return 0;
-    });
+    runner.addJob(() -> {
+      new Inventory(helper).organize(ConfigProperties.getInventoryMinPrice());
+      return 60 * 60 * 4;
+    }, 0);
 
     runner.addJob(() -> {
       new MyShop(helper).updatePrices(ConfigProperties.getShopWizSearchTimes(), true,

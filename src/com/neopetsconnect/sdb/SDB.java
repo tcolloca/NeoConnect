@@ -59,7 +59,7 @@ public class SDB {
         "golden chain bracelet"
         
         );
-    shop.discardBetween(1, 99999, blacklist);
+    shop.discardBetween(1, 1000, blacklist);
   }
 
   public SDB(HttpHelper helper) {
