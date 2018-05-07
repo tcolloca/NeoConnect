@@ -1,6 +1,6 @@
 /target/
 logs/*
-credentials.properties
+config.properties
 .classpath
 .project
 .settings/*
