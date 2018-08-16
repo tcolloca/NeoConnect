@@ -68,7 +68,7 @@ public class ConfigProperties implements Categories {
 
   // RESTOCK
   public static boolean isRestockEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(RESTOCK, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(RESTOCK, "enabled", false);
   }
   public static String getStoreName() {
     return ConfigPropertiesReader.props.getString(RESTOCK, "store");
@@ -126,7 +126,7 @@ public class ConfigProperties implements Categories {
   
   // KITCHEN QUEST
   public static boolean isKitchenQuestEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(KITCHEN_QUEST, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(KITCHEN_QUEST, "enabled", false);
   }
   public static int getKitchenQuestDailyMaxSpend() {
     return ConfigPropertiesReader.props.getInt(KITCHEN_QUEST, "daily_max_spend");
@@ -137,12 +137,12 @@ public class ConfigProperties implements Categories {
 
   // FOOD_CLUB
   public static boolean isFoodClubEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(FOOD_CLUB, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(FOOD_CLUB, "enabled", false);
   }
 
   // TRAINING_SCHOOL
   public static boolean isTrainingSchoolEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(TRAINING_SCHOOL, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(TRAINING_SCHOOL, "enabled", false);
   }
   public static String getStatType() {
     return ConfigPropertiesReader.props.getString(TRAINING_SCHOOL, "stat_type", null);
@@ -150,12 +150,12 @@ public class ConfigProperties implements Categories {
 
   // TDMGPOP
   public static boolean isTdmgpopEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(TDMGPOP, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(TDMGPOP, "enabled", false);
   }
    
   // HEALING_SPRINGS
   public static boolean isHealingSpringsEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(HEALING_SPRINGS, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(HEALING_SPRINGS, "enabled", false);
   }
   public static int getHealingSpringsFreq() {
     return ConfigPropertiesReader.props.getInt(HEALING_SPRINGS, "frequency");
@@ -163,12 +163,12 @@ public class ConfigProperties implements Categories {
 
   // FRUIT_MACHINE
   public static boolean isFruitMachineEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(FRUIT_MACHINE, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(FRUIT_MACHINE, "enabled", false);
   }
   
   // BURIED_TREASURE
   public static boolean isBuriedTreasureEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(BURIED_TREASURE, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(BURIED_TREASURE, "enabled", false);
   }
   public static int getBuriedTreasureX() {
     return ConfigPropertiesReader.props.getInt(BURIED_TREASURE, "x");
@@ -179,12 +179,12 @@ public class ConfigProperties implements Categories {
   
   // FISHING_VORTEX
   public static boolean isFishingVortexEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(FISHING_VORTEX, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(FISHING_VORTEX, "enabled", false);
   }
   
   // COINCIDENCE
   public static boolean isCoincidenceEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(COINCIDENCE, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(COINCIDENCE, "enabled", false);
   }
   public static int getCoincidenceMaxSpend() {
     return ConfigPropertiesReader.props.getInt(COINCIDENCE, "max_spend");
@@ -192,7 +192,7 @@ public class ConfigProperties implements Categories {
   
   // LAB_RAY
   public static boolean isLabRayEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(LAB_RAY, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(LAB_RAY, "enabled", false);
   }
   public static String getLabRayPetName() {
     return ConfigPropertiesReader.props.getString(LAB_RAY, "pet_name");
@@ -200,7 +200,7 @@ public class ConfigProperties implements Categories {
   
   // TURMACULUS
   public static boolean isTurmaculusEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(TURMACULUS, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(TURMACULUS, "enabled", false);
   }
   public static String getTurmaculusPetName() {
     return ConfigPropertiesReader.props.getString(TURMACULUS, "pet_name");
@@ -208,12 +208,12 @@ public class ConfigProperties implements Categories {
   
   // SNOWAGER
   public static boolean isSnowagerEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(SNOWAGER, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(SNOWAGER, "enabled", false);
   }
   
   // EDNAS_QUEST
   public static boolean isEdnasQuestEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(EDNAS_QUEST, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(EDNAS_QUEST, "enabled", false);
   }
   public static int getEdnasQuestDailyMaxSpend() {
     return ConfigPropertiesReader.props.getInt(EDNAS_QUEST, "daily_max_spend");
@@ -230,21 +230,21 @@ public class ConfigProperties implements Categories {
   
   // WISE_OLD_KING
   public static boolean isWiseOldKingEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(WISE_OLD_KING, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(WISE_OLD_KING, "enabled", false);
   }
   // COLTZANS_SHRINE
   public static boolean isColtzansShrineEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(COLTZANS_SHRINE, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(COLTZANS_SHRINE, "enabled", false);
   }
 
   // FORGOTTEN_SHORE
   public static boolean isForgottenShoreEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(FORGOTTEN_SHORE, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(FORGOTTEN_SHORE, "enabled", false);
   }
 
   // STOCK_MARKET
   public static boolean isStockMarketEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(STOCK_MARKET, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(STOCK_MARKET, "enabled", false);
   }
   public static int getStockMarketMinBuy() {
     return ConfigPropertiesReader.props.getInt(STOCK_MARKET, "min_buy");
@@ -274,7 +274,7 @@ public class ConfigProperties implements Categories {
 
   // ORGANIZE_INVENTORY
   public static boolean isOrganizeInventoryEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(ORGANIZE_INVENTORY, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(ORGANIZE_INVENTORY, "enabled", false);
   }
   public static int getInventoryMinPrice() {
     return ConfigPropertiesReader.props.getInt(ORGANIZE_INVENTORY, "min_price");
@@ -282,7 +282,7 @@ public class ConfigProperties implements Categories {
   
   // FAERIE QUEST
   public static boolean isFaerieQuestEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(FAERIE_QUEST, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(FAERIE_QUEST, "enabled", false);
   }
   public static int getFaerieQuestMaxCost() {
     return ConfigPropertiesReader.props.getInt(FAERIE_QUEST, "max_cost", Integer.MAX_VALUE);
@@ -310,7 +310,7 @@ public class ConfigProperties implements Categories {
 
   // DEBUG
   public static boolean isDebugEnabled() {
-    return ConfigPropertiesReader.props.getBoolean(DEBUG, "enabled");
+    return ConfigPropertiesReader.props.getBoolean(DEBUG, "enabled", false);
   }
   public static double getDelay() {
     return ConfigPropertiesReader.props.getDouble(DEBUG, "delay", 0);

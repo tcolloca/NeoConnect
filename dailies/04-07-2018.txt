@@ -1,0 +1,22 @@
+[FRUIT_MACHINE]
+done = true
+
+[TDMGPOP]
+done = true
+
+[COLTZANS_SHRINE]
+done = true
+
+[QUESTS]
+quests_done = 3
+spent = 10877
+
+[WISE_OLD_KING]
+done = true
+
+[LAB_RAY]
+done = true
+
+[FORGOTTEN_SHORE]
+done = true
+

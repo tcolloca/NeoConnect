@@ -9,9 +9,14 @@ import com.neopetsconnect.main.Status;
 
 public class TimedJobsRunner<T> {
 
+  private final static int MAX_SHORT_COUNT = 10;
+  private final static int MAX_SHORT_TIME = 60;
+  
   private final BiFunction<Callable<T>, T, TimedJob<T>> transformer;
   private final Set<Callable<T>> alwaysJobSet = new HashSet<>();
   private final TreeSet<TimedJob<T>> timedJobSet = new TreeSet<TimedJob<T>>();
+  
+  private int count = 0;
 
   public TimedJobsRunner(BiFunction<Callable<T>, T, TimedJob<T>> transformer) {
     this.transformer = transformer;
@@ -30,6 +35,15 @@ public class TimedJobsRunner<T> {
       }
       TimedJob<T> first = timedJobSet.first();
       long sleepTime = Math.max(first.getRemaining(), 0);
+      if (sleepTime < MAX_SHORT_TIME) {
+        count++;
+      } else {
+        count = 0;
+      }
+      if (count >= MAX_SHORT_COUNT) {
+        ConfigProperties.updateStatus(Status.STOPPED);
+        throw new Exception("Too many short cycles. Stopping!");
+      }
       Logger.out.log("Sleeping for " + sleepTime + " seconds");
       Utils.sleep(first.getRemaining());
       runAlwaysJobs();

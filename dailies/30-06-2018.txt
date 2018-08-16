@@ -1,0 +1,9 @@
+[TDMGPOP]
+done = true
+
+[FISHING_VORTEX]
+done = true
+
+[FORGOTTEN_SHORE]
+done = true
+

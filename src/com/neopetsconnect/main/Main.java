@@ -3,6 +3,7 @@ package com.neopetsconnect.main;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import com.httphelper.main.HttpHelper;
+import com.httphelper.main.HttpHelperException;
 import com.httphelper.main.HttpResponse;
 import com.logger.main.TimeUnits;
 import com.neopetsconnect.bot.Bot;
@@ -79,7 +80,14 @@ public class Main implements Categories {
       HttpHelper.log = ConfigProperties.isLogRequests();
       CaptchaSolver.logImages = ConfigProperties.isLogCaptchaImages();
       HttpHelper helper = initHelper();
-      handleSession(helper);
+      while (true) {        
+        try {
+          handleSession(helper);
+          break;
+        } catch (HttpHelperException e) {
+          Logger.out.log(MAIN, "Connection failed, retrying. Reason: " + e.getMessage());
+        }
+      }
       if (ConfigProperties.isDebugEnabled()) {
         helper.setRandomDelay(ConfigProperties.getDelay(), ConfigProperties.getDelay());
       }

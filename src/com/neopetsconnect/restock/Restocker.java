@@ -3,6 +3,7 @@ package com.neopetsconnect.restock;
 import java.util.List;
 import java.util.stream.Collectors;
 import com.httphelper.main.HttpHelper;
+import com.httphelper.main.HttpHelperException;
 import com.logger.main.TimeUnits;
 import com.neopetsconnect.exceptions.RestockBannedException;
 import com.neopetsconnect.inventory.Inventory;
@@ -67,6 +68,8 @@ public class Restocker implements Categories {
         buy(list);
       } catch (RestockBannedException e) {
         throw (RestockBannedException) e;
+      } catch (HttpHelperException e) {
+        Logger.out.log(MAIN, "Connection failed: " + e.getMessage());
       }
     }
   }
@@ -86,7 +89,7 @@ public class Restocker implements Categories {
       }
       Logger.out.logTimeStart("", TimeUnits.SECONDS);
       List<ShopItem> items = store.getItems();
-      Logger.out.logTimeEnd("", RESTOCK, "Get items list: %.3f");
+      double loadTime = Logger.out.logTimeEnd("", RESTOCK, "Get items list: %.3f");
       if (items.isEmpty()) {
         if (!soldOutWaiting) {
           soldOutWaiting = true;
@@ -101,8 +104,10 @@ public class Restocker implements Categories {
           return worthyItems;
         }
       }
-      Utils.sleepAndLog(RESTOCK, Utils.random(ConfigProperties.getMinRefreshTime(), 
-          ConfigProperties.getMaxRefreshTime()));
+      if (loadTime < ConfigProperties.getMaxRefreshTime()) {        
+        Utils.sleepAndLog(RESTOCK, Utils.random(ConfigProperties.getMinRefreshTime(), 
+            ConfigProperties.getMaxRefreshTime()));
+      }
 
       time = System.currentTimeMillis() - startTime;
       if (System.currentTimeMillis() - rsBanStartTime > ConfigProperties.getCheckBanTime() * 1000) {
