@@ -1,0 +1,662 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Search Results | Neopets Items</title>
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="/layout/css/foundation.min.css">
+  <link rel="stylesheet" href="/layout/css/main.css?v=3">
+  <link rel="stylesheet" href="/layout/css/dept_itemdb.css?v=3">
+  <link rel="stylesheet" href="/layout/css/chosen.1.5.1.min.css">
+<link rel="search" type="application/opensearchdescription+xml" title="Neopets Item Search" href="/layout/search/itemdb.xml">
+  <script src="/layout/js/vendor/custom.modernizr.js"></script>
+  <link rel="icon" type="image/png" href="/layout/imgs/itemdb/favicon.png">
+</head>
+<body>
+  <div id="layout-dept-wrapper" class="hide-for-small">
+  <div class="row" id="layout-depts">
+    <div class="large-12 small-12 columns">
+      <a href="http://www.jellyneo.net/" class="layout-dept-link ">JN Home</a>
+      <a href="https://items.jellyneo.net/" class="layout-dept-link current">Item Database</a>
+      <a href="https://bookofages.jellyneo.net/" class="layout-dept-link ">Book of Ages</a>
+      <a href="http://wardrobe.jellyneo.net/" class="layout-dept-link ">Wardrobe</a>
+      <a href="http://battlepedia.jellyneo.net/" class="layout-dept-link ">Battlepedia</a>
+      <a href="http://www.drsloth.com/" class="layout-dept-link ">Dr. Sloth</a>
+    </div>
+  </div>
+</div>  <div id="layout-logo-row-wrapper">
+    <div class="row hide-for-small" id="layout-logo-row">
+      <div class="large-9 small-12 columns" id="layout-logo-container">
+        <div id="layout-logo-plate">
+          <a href="/"><img src="/layout/imgs/clear.png" alt="Item Database"></a>
+        </div>
+        <div id="layout-logo">
+          <a href="/"><img src="/layout/imgs/clear.png" alt="Item Database"></a>
+        </div>
+      </div>
+      <div class="large-3 columns" id="layout-jnacc-bar">
+                  <div id="jnacc-dropdown" data-dropdown="jnacc-drop" class="button dropdown expand small round jnbutton">
+            <img src="/layout/imgs/clear.png" class="icon-20 jnacc" alt="Your jnAccount">
+            Hello, tomatereloco!          </div>
+          <div id="jnacc-drop" class="f-dropdown">
+            <div id="jnacc-services-drop" >
+              <ul>
+                <li><a href="http://www.jellyneo.net/?go=welcome">Services Portal</a></li>
+                <li><a href="http://www.jellyneo.net/?go=accountsettings">Account Settings</a></li>
+                <li><a href="http://www.jellyneo.net/?go=welcome&amp;logout=yes">Log Out</a></li>
+              </ul>
+              <div class="f-dropdown-section">Services</div>
+              <ul>
+                <li><a href="http://www.jellyneo.net/?go=altadorcup_record">Altador Cup Record Images</a></li>
+                <li><a href="http://www.jellyneo.net/?go=dailies">Dailies</a></li>
+                <li><a href="http://www.jellyneo.net/?go=dailydarestats">Daily Dare Stat Images</a></li>
+                <li><a href="http://www.jellyneo.net/?go=goalcounters">Goal Counters</a></li>
+                <li><a href="http://www.jellyneo.net/?go=lab_ray_logger">Lab Ray Logger</a></li>
+                <li><a href="https://items.jellyneo.net/?go=wishlists">Wishlists</a></li>
+              </ul>
+            </div>
+                      </div>
+              </div>
+    </div>
+  </div>
+  <div id="layout-nav-menu-wrapper">
+  <div id="layout-nav-menu" class="row">
+    <div class="contain-to-grid sticky">
+      <nav class="top-bar">
+                <ul class="title-area">
+          <li class="name"></li>
+          <li class="search-toggle" data-search-bar-id="itemdb-sidebar-search">&nbsp;</li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="left">
+            <li><a href="/">Home</a></li>
+            <li class="has-dropdown"><a href="/search/">Items</a>
+              <ul class="dropdown">
+                <li><a href="/search/">All Items</a></li>
+                <li><a href="/search/newest/">Newest Items</a></li>
+                <li><a href="/retiring-soon/">Retiring Soon</a></li>
+                <li><a href="/recently-retired/">Recently Retired</a></li>
+                <li><a href="/special-searches/">Special Searches</a></li>
+              </ul>
+            </li>
+            <li class="has-dropdown"><a href="/tools/">Tools</a>
+              <ul class="dropdown">
+                <li class="has-dropdown">
+                  <a href="/tools/">Checklists</a>
+                  <ul class="dropdown">
+                    <li><a href="/tools/book-checklist/">Book Checklist</a></li>
+                    <li><a href="/tools/booktastic-checklist/">Booktastic Checklist</a></li>
+                    <li><a href="/tools/gourmet-checklist/">Gourmet Checklist</a></li>
+                    <li><a href="/tools/neodeck-checklist/">NeoDeck Checklist</a></li>
+                    <li><a href="/tools/stamp-checklist/">Stamp Checklist</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="/tools/">Price Checkers</a>
+                  <ul class="dropdown">
+                    <li><a href="/tools/closet-price-checker/">Closet Price Checker</a></li>
+                    <li><a href="/tools/gallery-price-checker/">Gallery Price Checker</a></li>
+                    <li><a href="/tools/sdb-price-checker/">SDB Price Checker</a></li>
+                    <li><a href="/tools/shop-stock-price-checker/">Shop Stock Price Checker</a></li>
+                    <li><a href="/tools/storage-shed-price-checker/">Storage Shed Price Checker</a></li>
+                  </ul>
+                </li>
+                <li><a href="/tools/petpet-matcher/">Petpet Matcher</a></li>
+              </ul>
+            </li>
+            <li><a href="/wishlists/">Wishlists</a></li>
+            <li class="has-dropdown"><a href="#">Content</a>
+              <ul class="dropdown">
+                <li><a href="http://www.jellyneo.net/?go=cookingpot">Cooking Pot Recipes</a></li>
+                <li><a href="http://www.jellyneo.net/?go=diseasescures">Cures for Diseases</a></li>
+                <li><a href="http://www.jellyneo.net/?go=disease_items">Disease Giving Items</a></li>
+                <li><a href="/openable-items/">Items That Give More Items</a></li>
+                <li><a href="/negg-point-guide/">Negg Point Value Guide</a></li>
+                <li><a href="/neggery-purchase-guide/">Neggery Purchase Guide</a></li>
+                <li><a href="http://www.jellyneo.net/?go=item_rarities_explained">Rarities Explained</a></li>
+                <li><a href="http://www.jellyneo.net/?go=stamps">Stamp Album Listing</a></li>
+                <li><a href="http://battlepedia.jellyneo.net/">Weapon Reviews</a></li>
+                <li><a href="http://wardrobe.jellyneo.net/preview/">Wearable Previews</a></li>
+              </ul>
+            </li>
+            <li class="has-dropdown"><a href="/contribute/">Contribute</a>
+              <ul class="dropdown">
+                <li><a href="/contribute/classic-neohome-previews/">Classic Neohome Previews</a></li>
+                <li><a href="/contribute/item-ids/">Item IDs</a></li>
+                <li><a href="/contribute/missing-est-values/">Missing Est. Values</a></li>
+                <li><a href="/contribute/trading-post-tagging/">Trading Post Tagging</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="right">
+            <li><a href="/search-bar/">Browser Search</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+          </ul>
+        </section>
+              </nav>
+    </div>
+  </div>
+</div>  <div class="row">
+    <div class="large-9 small-12 columns">
+      <ul class="breadcrumbs">
+  <li><a href="/">Home</a></li>
+  <li><a href="/search/">Items</a></li>
+  <li class="current"><a href="#">Search Results</a></li>
+</ul>
+
+      <div class="alert-box success">
+        <strong>Heads up!</strong> The user shop price cap was <a href="http://www.jellyneo.net/index.php?comments=12117">raised to 999,999 NP</a>
+        on Tuesday, March 27th. Prices are in flux right now, so please be patient as we begin updating and waiting
+        for the market to settle. You should thoroughly research an item before purchasing anything over 100,000 NP.
+      </div>
+
+      <h1>Search Results</h1>
+
+      
+      <p class="right">
+        <a href="/search/print/?cat%5B%5D=31&amp;limit=75" target="_blank" rel="nofollow" class="button jnbutton round tiny">Print</a>
+      </p>
+      <p>There are <b>650</b> results for your search.</p>
+
+      <ul class="pagination">
+	<li class="arrow"><a href="?cat%5B%5D=31&amp;limit=75&amp;start=375">&laquo;</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=0">1</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=75">2</a></li>
+<li class="unavailable"><a href="">&hellip;</a></li>	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=150">3</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=225">4</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=300">5</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=375">6</a></li>
+	<li class="current"><a href="?cat%5B%5D=31&amp;limit=75&amp;start=450">7</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=525">8</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=600">9</a></li>
+	<li class="arrow"><a href="?cat%5B%5D=31&amp;limit=75&amp;start=525">&raquo;</a></li>
+</ul>
+<ul class="small-block-grid-3 large-block-grid-5 text-center word-wrap-break-word">
+<li>
+<a href="/item/2878/"><img src="/assets/imgs/items/2878.gif" alt="Snow Wars Catapult Stamp" title="Snow Wars Catapult Stamp" class="item-result-image"></a><br><a href="/item/2878/">Snow Wars Catapult Stamp</a>
+<br><span class="text-small"><a href="/item/2878/price-history/" class="price-history-link" title="April 10, 2018">1,425 NP</a></span>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="2878"></li>
+<li>
+<a href="/item/19834/"><img src="/assets/imgs/items/19834.gif" alt="Snowager Stamp" title="Snowager Stamp" class="item-result-image"></a><br><a href="/item/19834/">Snowager Stamp</a>
+<br><span class="text-small"><a href="/item/19834/price-history/" class="price-history-link" title="April 10, 2018">19,500 NP</a></span>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="19834"></li>
+<li>
+<a href="/item/62419/"><img src="/assets/imgs/items/62419.gif" alt="Snowball Fight Stamp" title="Snowball Fight Stamp" class="item-result-image"></a><br><a href="/item/62419/">Snowball Fight Stamp</a>
+<br><span class="text-small"><a href="/item/62419/price-history/" class="price-history-link" title="April 10, 2018">7,900 NP</a></span>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="62419"></li>
+<li>
+<a href="/item/16806/"><img src="/assets/imgs/items/16806.gif" alt="Snowbunny Stamp" title="Snowbunny Stamp" class="item-result-image"></a><br><a href="/item/16806/">Snowbunny Stamp</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="16806"></li>
+<li>
+<a href="/item/39098/"><img src="/assets/imgs/items/39098.gif" alt="Snowglobe Faerie Stamp" title="Snowglobe Faerie Stamp" class="item-result-image"></a><br><a href="/item/39098/">Snowglobe Faerie Stamp</a>
+<br><span class="text-small"><a href="/item/39098/price-history/" class="price-history-link" title="April 10, 2018">2,750 NP</a></span>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="39098"></li>
+<li>
+<a href="/item/17874/"><img src="/assets/imgs/items/17874.gif" alt="Space Faerie Stamp" title="Space Faerie Stamp" class="item-result-image"></a><br><a href="/item/17874/">Space Faerie Stamp</a>
+<br><span class="text-small"><a href="/item/17874/price-history/" class="price-history-link" title="April 10, 2018">104,000 NP</a></span>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="17874"></li>
+<li>
+<a href="/item/50287/"><img src="/assets/imgs/items/50287.gif" alt="Spirit of Slumber Stamp" title="Spirit of Slumber Stamp" class="item-result-image"></a><br><a href="/item/50287/">Spirit of Slumber Stamp</a>
+<br><span class="text-small"><a href="/item/50287/price-history/" class="price-history-link" title="April 10, 2018">10,000 NP</a></span>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="50287"></li>
+<li>
+<a href="/item/11975/"><img src="/assets/imgs/items/11975.gif" alt="Splat-A-Sloth Stamp" title="Splat-A-Sloth Stamp" class="item-result-image"></a><br><a href="/item/11975/">Splat-A-Sloth Stamp</a>
+<br><span class="text-small"><a href="/item/11975/price-history/" class="price-history-link" title="April 10, 2018">4,500 NP</a></span>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="11975"></li>
+<li>
+<a href="/item/11977/"><img src="/assets/imgs/items/11977.gif" alt="Spooky Gravestone Stamp" title="Spooky Gravestone Stamp" class="item-result-image"></a><br><a href="/item/11977/">Spooky Gravestone Stamp</a>
+<br><span class="text-small"><a href="/item/11977/price-history/" class="price-history-link" title="April 10, 2018">190 NP</a></span>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="11977"></li>
+<li>
+<a href="/item/2715/"><img src="/assets/imgs/items/2715.gif" alt="Spyder Stamp" title="Spyder Stamp" class="item-result-image"></a><br><a href="/item/2715/">Spyder Stamp</a>
+<br><span class="text-small"><a href="/item/2715/price-history/" class="price-history-link" title="April 10, 2018">11,400 NP</a></span>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="2715"></li>
+<li>
+<a href="/item/62922/"><img src="/assets/imgs/items/62922.gif" alt="Spyders Stamp" title="Spyders Stamp" class="item-result-image"></a><br><a href="/item/62922/">Spyders Stamp</a>
+<br><span class="text-small"><a href="/item/62922/price-history/" class="price-history-link" title="April 10, 2018">127,000 NP</a></span>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="62922"></li>
+<li>
+<a href="/item/58195/"><img src="/assets/imgs/items/58195.gif" alt="stamp_365" title="stamp_365" class="item-result-image"></a><br><a href="/item/58195/">stamp_365</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58195"></li>
+<li>
+<a href="/item/58196/"><img src="/assets/imgs/items/58196.gif" alt="stamp_368" title="stamp_368" class="item-result-image"></a><br><a href="/item/58196/">stamp_368</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58196"></li>
+<li>
+<a href="/item/58197/"><img src="/assets/imgs/items/58197.gif" alt="stamp_369" title="stamp_369" class="item-result-image"></a><br><a href="/item/58197/">stamp_369</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58197"></li>
+<li>
+<a href="/item/58198/"><img src="/assets/imgs/items/58198.gif" alt="stamp_370" title="stamp_370" class="item-result-image"></a><br><a href="/item/58198/">stamp_370</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58198"></li>
+<li>
+<a href="/item/58213/"><img src="/assets/imgs/items/58213.gif" alt="stamp_371" title="stamp_371" class="item-result-image"></a><br><a href="/item/58213/">stamp_371</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58213"></li>
+<li>
+<a href="/item/58214/"><img src="/assets/imgs/items/58214.gif" alt="stamp_378" title="stamp_378" class="item-result-image"></a><br><a href="/item/58214/">stamp_378</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58214"></li>
+<li>
+<a href="/item/58215/"><img src="/assets/imgs/items/58215.gif" alt="stamp_379" title="stamp_379" class="item-result-image"></a><br><a href="/item/58215/">stamp_379</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58215"></li>
+<li>
+<a href="/item/58216/"><img src="/assets/imgs/items/58216.gif" alt="stamp_380" title="stamp_380" class="item-result-image"></a><br><a href="/item/58216/">stamp_380</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58216"></li>
+<li>
+<a href="/item/58221/"><img src="/assets/imgs/items/58221.gif" alt="stamp_381" title="stamp_381" class="item-result-image"></a><br><a href="/item/58221/">stamp_381</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58221"></li>
+<li>
+<a href="/item/58222/"><img src="/assets/imgs/items/58222.gif" alt="stamp_382" title="stamp_382" class="item-result-image"></a><br><a href="/item/58222/">stamp_382</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58222"></li>
+<li>
+<a href="/item/58223/"><img src="/assets/imgs/items/58223.gif" alt="stamp_383" title="stamp_383" class="item-result-image"></a><br><a href="/item/58223/">stamp_383</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58223"></li>
+<li>
+<a href="/item/58224/"><img src="/assets/imgs/items/58224.gif" alt="stamp_384" title="stamp_384" class="item-result-image"></a><br><a href="/item/58224/">stamp_384</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58224"></li>
+<li>
+<a href="/item/58225/"><img src="/assets/imgs/items/58225.gif" alt="stamp_386" title="stamp_386" class="item-result-image"></a><br><a href="/item/58225/">stamp_386</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58225"></li>
+<li>
+<a href="/item/57976/"><img src="/assets/imgs/items/57976.gif" alt="stamp_destruct_castle" title="stamp_destruct_castle" class="item-result-image"></a><br><a href="/item/57976/">stamp_destruct_castle</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="57976"></li>
+<li>
+<a href="/item/52167/"><img src="/assets/imgs/items/52167.gif" alt="stamp_destruct_ixi" title="stamp_destruct_ixi" class="item-result-image"></a><br><a href="/item/52167/">stamp_destruct_ixi</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52167"></li>
+<li>
+<a href="/item/52168/"><img src="/assets/imgs/items/52168.gif" alt="stamp_destruct_kiko" title="stamp_destruct_kiko" class="item-result-image"></a><br><a href="/item/52168/">stamp_destruct_kiko</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52168"></li>
+<li>
+<a href="/item/57977/"><img src="/assets/imgs/items/57977.gif" alt="stamp_destruct_king" title="stamp_destruct_king" class="item-result-image"></a><br><a href="/item/57977/">stamp_destruct_king</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="57977"></li>
+<li>
+<a href="/item/57978/"><img src="/assets/imgs/items/57978.gif" alt="stamp_destruct_knights" title="stamp_destruct_knights" class="item-result-image"></a><br><a href="/item/57978/">stamp_destruct_knights</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="57978"></li>
+<li>
+<a href="/item/52169/"><img src="/assets/imgs/items/52169.gif" alt="stamp_destruct_kougra" title="stamp_destruct_kougra" class="item-result-image"></a><br><a href="/item/52169/">stamp_destruct_kougra</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52169"></li>
+<li>
+<a href="/item/58249/"><img src="/assets/imgs/items/58249.gif" alt="stamp_destruct_kougraknight" title="stamp_destruct_kougraknight" class="item-result-image"></a><br><a href="/item/58249/">stamp_destruct_kougraknight</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58249"></li>
+<li>
+<a href="/item/52170/"><img src="/assets/imgs/items/52170.gif" alt="stamp_destruct_lisha" title="stamp_destruct_lisha" class="item-result-image"></a><br><a href="/item/52170/">stamp_destruct_lisha</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52170"></li>
+<li>
+<a href="/item/36469/"><img src="/assets/imgs/items/36469.gif" alt="stamp_destruct_lupe" title="stamp_destruct_lupe" class="item-result-image"></a><br><a href="/item/36469/">stamp_destruct_lupe</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="36469"></li>
+<li>
+<a href="/item/36470/"><img src="/assets/imgs/items/36470.gif" alt="stamp_destruct_lupe2" title="stamp_destruct_lupe2" class="item-result-image"></a><br><a href="/item/36470/">stamp_destruct_lupe2</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="36470"></li>
+<li>
+<a href="/item/36471/"><img src="/assets/imgs/items/36471.gif" alt="stamp_destruct_lupe3" title="stamp_destruct_lupe3" class="item-result-image"></a><br><a href="/item/36471/">stamp_destruct_lupe3</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="36471"></li>
+<li>
+<a href="/item/58250/"><img src="/assets/imgs/items/58250.gif" alt="stamp_destruct_luperun" title="stamp_destruct_luperun" class="item-result-image"></a><br><a href="/item/58250/">stamp_destruct_luperun</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58250"></li>
+<li>
+<a href="/item/57979/"><img src="/assets/imgs/items/57979.gif" alt="stamp_destruct_moehog" title="stamp_destruct_moehog" class="item-result-image"></a><br><a href="/item/57979/">stamp_destruct_moehog</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="57979"></li>
+<li>
+<a href="/item/58251/"><img src="/assets/imgs/items/58251.gif" alt="stamp_destruct_moehogblock" title="stamp_destruct_moehogblock" class="item-result-image"></a><br><a href="/item/58251/">stamp_destruct_moehogblock</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58251"></li>
+<li>
+<a href="/item/57980/"><img src="/assets/imgs/items/57980.gif" alt="stamp_destruct_orb" title="stamp_destruct_orb" class="item-result-image"></a><br><a href="/item/57980/">stamp_destruct_orb</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="57980"></li>
+<li>
+<a href="/item/52171/"><img src="/assets/imgs/items/52171.gif" alt="stamp_destruct_quiggle" title="stamp_destruct_quiggle" class="item-result-image"></a><br><a href="/item/52171/">stamp_destruct_quiggle</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52171"></li>
+<li>
+<a href="/item/52172/"><img src="/assets/imgs/items/52172.gif" alt="stamp_destruct_scorchio" title="stamp_destruct_scorchio" class="item-result-image"></a><br><a href="/item/52172/">stamp_destruct_scorchio</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52172"></li>
+<li>
+<a href="/item/52173/"><img src="/assets/imgs/items/52173.gif" alt="stamp_destruct_techo" title="stamp_destruct_techo" class="item-result-image"></a><br><a href="/item/52173/">stamp_destruct_techo</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52173"></li>
+<li>
+<a href="/item/57981/"><img src="/assets/imgs/items/57981.gif" alt="stamp_destruct_three" title="stamp_destruct_three" class="item-result-image"></a><br><a href="/item/57981/">stamp_destruct_three</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="57981"></li>
+<li>
+<a href="/item/52174/"><img src="/assets/imgs/items/52174.gif" alt="stamp_destruct_zafara" title="stamp_destruct_zafara" class="item-result-image"></a><br><a href="/item/52174/">stamp_destruct_zafara</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52174"></li>
+<li>
+<a href="/item/52175/"><img src="/assets/imgs/items/52175.gif" alt="stamp_faerie_ixi" title="stamp_faerie_ixi" class="item-result-image"></a><br><a href="/item/52175/">stamp_faerie_ixi</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52175"></li>
+<li>
+<a href="/item/58015/"><img src="/assets/imgs/items/58015.gif" alt="stamp_gormball_01" title="stamp_gormball_01" class="item-result-image"></a><br><a href="/item/58015/">stamp_gormball_01</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58015"></li>
+<li>
+<a href="/item/58016/"><img src="/assets/imgs/items/58016.gif" alt="stamp_gormball_02" title="stamp_gormball_02" class="item-result-image"></a><br><a href="/item/58016/">stamp_gormball_02</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58016"></li>
+<li>
+<a href="/item/58017/"><img src="/assets/imgs/items/58017.gif" alt="stamp_gormball_03" title="stamp_gormball_03" class="item-result-image"></a><br><a href="/item/58017/">stamp_gormball_03</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58017"></li>
+<li>
+<a href="/item/58018/"><img src="/assets/imgs/items/58018.gif" alt="stamp_gormball_04" title="stamp_gormball_04" class="item-result-image"></a><br><a href="/item/58018/">stamp_gormball_04</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58018"></li>
+<li>
+<a href="/item/58019/"><img src="/assets/imgs/items/58019.gif" alt="stamp_gormball_05" title="stamp_gormball_05" class="item-result-image"></a><br><a href="/item/58019/">stamp_gormball_05</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58019"></li>
+<li>
+<a href="/item/58020/"><img src="/assets/imgs/items/58020.gif" alt="stamp_gormball_06" title="stamp_gormball_06" class="item-result-image"></a><br><a href="/item/58020/">stamp_gormball_06</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58020"></li>
+<li>
+<a href="/item/58021/"><img src="/assets/imgs/items/58021.gif" alt="stamp_gormball_07" title="stamp_gormball_07" class="item-result-image"></a><br><a href="/item/58021/">stamp_gormball_07</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58021"></li>
+<li>
+<a href="/item/58022/"><img src="/assets/imgs/items/58022.gif" alt="stamp_gormball_08" title="stamp_gormball_08" class="item-result-image"></a><br><a href="/item/58022/">stamp_gormball_08</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58022"></li>
+<li>
+<a href="/item/58300/"><img src="/assets/imgs/items/58300.gif" alt="stamp_hal_edna" title="stamp_hal_edna" class="item-result-image"></a><br><a href="/item/58300/">stamp_hal_edna</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58300"></li>
+<li>
+<a href="/item/58301/"><img src="/assets/imgs/items/58301.gif" alt="stamp_hal_nimmo" title="stamp_hal_nimmo" class="item-result-image"></a><br><a href="/item/58301/">stamp_hal_nimmo</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58301"></li>
+<li>
+<a href="/item/58302/"><img src="/assets/imgs/items/58302.gif" alt="stamp_hal_witch" title="stamp_hal_witch" class="item-result-image"></a><br><a href="/item/58302/">stamp_hal_witch</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58302"></li>
+<li>
+<a href="/item/58313/"><img src="/assets/imgs/items/58313.gif" alt="stamp_haunted_aisha" title="stamp_haunted_aisha" class="item-result-image"></a><br><a href="/item/58313/">stamp_haunted_aisha</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58313"></li>
+<li>
+<a href="/item/57982/"><img src="/assets/imgs/items/57982.gif" alt="stamp_haunted_braintree" title="stamp_haunted_braintree" class="item-result-image"></a><br><a href="/item/57982/">stamp_haunted_braintree</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="57982"></li>
+<li>
+<a href="/item/52176/"><img src="/assets/imgs/items/52176.gif" alt="stamp_haunted_bruce" title="stamp_haunted_bruce" class="item-result-image"></a><br><a href="/item/52176/">stamp_haunted_bruce</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52176"></li>
+<li>
+<a href="/item/52177/"><img src="/assets/imgs/items/52177.gif" alt="stamp_haunted_cave" title="stamp_haunted_cave" class="item-result-image"></a><br><a href="/item/52177/">stamp_haunted_cave</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52177"></li>
+<li>
+<a href="/item/52178/"><img src="/assets/imgs/items/52178.gif" alt="stamp_haunted_cybunny" title="stamp_haunted_cybunny" class="item-result-image"></a><br><a href="/item/52178/">stamp_haunted_cybunny</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52178"></li>
+<li>
+<a href="/item/52179/"><img src="/assets/imgs/items/52179.gif" alt="stamp_haunted_kacheek" title="stamp_haunted_kacheek" class="item-result-image"></a><br><a href="/item/52179/">stamp_haunted_kacheek</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52179"></li>
+<li>
+<a href="/item/52180/"><img src="/assets/imgs/items/52180.gif" alt="stamp_haunted_mask" title="stamp_haunted_mask" class="item-result-image"></a><br><a href="/item/52180/">stamp_haunted_mask</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52180"></li>
+<li>
+<a href="/item/52181/"><img src="/assets/imgs/items/52181.gif" alt="stamp_haunted_mummy" title="stamp_haunted_mummy" class="item-result-image"></a><br><a href="/item/52181/">stamp_haunted_mummy</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52181"></li>
+<li>
+<a href="/item/57983/"><img src="/assets/imgs/items/57983.gif" alt="stamp_haunted_scarecrow" title="stamp_haunted_scarecrow" class="item-result-image"></a><br><a href="/item/57983/">stamp_haunted_scarecrow</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="57983"></li>
+<li>
+<a href="/item/57984/"><img src="/assets/imgs/items/57984.gif" alt="stamp_haunted_shroom" title="stamp_haunted_shroom" class="item-result-image"></a><br><a href="/item/57984/">stamp_haunted_shroom</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="57984"></li>
+<li>
+<a href="/item/58314/"><img src="/assets/imgs/items/58314.gif" alt="stamp_haunted_thing" title="stamp_haunted_thing" class="item-result-image"></a><br><a href="/item/58314/">stamp_haunted_thing</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58314"></li>
+<li>
+<a href="/item/57985/"><img src="/assets/imgs/items/57985.gif" alt="stamp_haunted_witch" title="stamp_haunted_witch" class="item-result-image"></a><br><a href="/item/57985/">stamp_haunted_witch</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="57985"></li>
+<li>
+<a href="/item/58315/"><img src="/assets/imgs/items/58315.gif" alt="stamp_ice_juppiechia" title="stamp_ice_juppiechia" class="item-result-image"></a><br><a href="/item/58315/">stamp_ice_juppiechia</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58315"></li>
+<li>
+<a href="/item/58572/"><img src="/assets/imgs/items/58572.gif" alt="stamp_island_hut" title="stamp_island_hut" class="item-result-image"></a><br><a href="/item/58572/">stamp_island_hut</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58572"></li>
+<li>
+<a href="/item/58573/"><img src="/assets/imgs/items/58573.gif" alt="stamp_island_island" title="stamp_island_island" class="item-result-image"></a><br><a href="/item/58573/">stamp_island_island</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58573"></li>
+<li>
+<a href="/item/58574/"><img src="/assets/imgs/items/58574.gif" alt="stamp_island_juppie" title="stamp_island_juppie" class="item-result-image"></a><br><a href="/item/58574/">stamp_island_juppie</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58574"></li>
+<li>
+<a href="/item/58575/"><img src="/assets/imgs/items/58575.gif" alt="stamp_island_soothing" title="stamp_island_soothing" class="item-result-image"></a><br><a href="/item/58575/">stamp_island_soothing</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="58575"></li>
+<li>
+<a href="/item/52182/"><img src="/assets/imgs/items/52182.gif" alt="stamp_island_tiki" title="stamp_island_tiki" class="item-result-image"></a><br><a href="/item/52182/">stamp_island_tiki</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52182"></li>
+<li>
+<a href="/item/52183/"><img src="/assets/imgs/items/52183.gif" alt="stamp_island_tonu" title="stamp_island_tonu" class="item-result-image"></a><br><a href="/item/52183/">stamp_island_tonu</a>
+<br><input type="checkbox" class="add-to-wishlist-checkbox" value="52183"></li>
+</ul>
+<form id="wishlist-bulk-add-form" method="post" action=""><hr><div class="row"><div class="large-4 small-12 columns"><select id="wishlist-bulk-add-wishlist-id" name="wishlist_id" class="form-control"><option value="">- Select a Wishlist -</option><option value="3936">Hunt</option></select></div><div class="large-3 small-6 columns"><input type="submit" class="button jnbutton round small" value="Add Items to Wishlist"></div><div class="large-5 small-6 columns text-right"><button type="button" id="wishlists-bulk-check-all" class="button jnbutton round small">Check All</button></div></div><div id="wishlist-bulk-add-form-result"></div><hr></form><ul class="pagination">
+	<li class="arrow"><a href="?cat%5B%5D=31&amp;limit=75&amp;start=375">&laquo;</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=0">1</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=75">2</a></li>
+<li class="unavailable"><a href="">&hellip;</a></li>	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=150">3</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=225">4</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=300">5</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=375">6</a></li>
+	<li class="current"><a href="?cat%5B%5D=31&amp;limit=75&amp;start=450">7</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=525">8</a></li>
+	<li><a href="?cat%5B%5D=31&amp;limit=75&amp;start=600">9</a></li>
+	<li class="arrow"><a href="?cat%5B%5D=31&amp;limit=75&amp;start=525">&raquo;</a></li>
+</ul>
+    </div>
+    <div class="large-3 small-12 columns">
+            <div id="itemdb-sidebar-search" class="dept-search-bar hide-for-print">
+                <h3 class="jnheader">Search</h3>
+        <form method="get" action="/process/" data-abide>
+          <label for="search-name">Name:</label>
+          <div class="row">
+            <div class="small-8 columns">
+              <input id="search-name" name="name" type="text" value="">
+            </div>
+            <div class="small-4 columns">
+              <select id="search-name-type" name="name_type" class="form-control">
+                <option value="1">Partial</option><option value="2">Contains</option><option value="3">Exact</option>              </select>
+            </div>
+          </div>
+
+          <label for="search-description">In Description:</label>
+          <input id="search-description" name="description" type="text" value="">
+
+          <label for="search-category">
+            In Shop/Category:
+          </label>
+          <select id="search-category" class="chosen-select" data-placeholder="Click to select categories..." name="cat[]" multiple>
+            <option value="53">Altador Cup Souvenir</option><option value="74">Altadorian Armour</option><option value="70">Altadorian Food</option><option value="69">Altadorian Magic</option><option value="72">Altadorian Petpets</option><option value="81">Aquatic Food</option><option value="10">Aquatic Petpet</option><option value="3">Baked</option><option value="15">Battle Magic</option><option value="5">Book</option><option value="37">Booktastic Book</option><option value="82">Brightvale Armour</option><option value="38">Brightvale Books</option><option value="49">Brightvale Fruit</option><option value="23">Brightvale Motes</option><option value="93">Brightvale Potions</option><option value="84">Brightvale Scroll</option><option value="58">Brightvale Windows</option><option value="14">Broken Toy</option><option value="27">Candy</option><option value="30">Clothes</option><option value="22">Coffee</option><option value="111">Cogs Togs</option><option value="64">Coins</option><option value="39">Collectable Card</option><option value="67">Darigan Toy</option><option value="33">Defence Magic</option><option value="25">Desert Food</option><option value="24">Desert Petpet</option><option value="86">Desert Pottery</option><option value="35">Desert Scroll</option><option value="32">Desert Weapon</option><option value="63">Evil Coconut</option><option value="101">Exotic Foods</option><option value="36">Faerie Book</option><option value="41">Faerie Food</option><option value="77">Faerie Furniture</option><option value="19">Faerie Petpet</option><option value="75">Faerie Weapon Shop</option><option value="103">Fanciful Fauna</option><option value="1">Food</option><option value="21">Furniture</option><option value="52">Gardening</option><option value="87">Geraptiku Petpet</option><option value="29">Gift</option><option value="50">Grooming</option><option value="48">Gross Food</option><option value="34">Haunted Weaponry</option><option value="116">Healing Springs</option><option value="20">Healthy Food</option><option value="42">Hot Dog</option><option value="16">Ice Crystal</option><option value="51">Instrument</option><option value="61">Island Merchandise</option><option value="43">Jelly Food</option><option value="88">Kiko Lake Carpentry</option><option value="46">Kiko Lake Food</option><option value="47">Kreludan Food</option><option value="57">Kreludan Furniture</option><option value="110">Lampwycks Lights Fantastic</option><option value="2">Magic Item</option><option value="94">Maractite Weaponry</option><option value="90">Maraquan Petpets</option><option value="89">Medical Cures</option><option value="6">Medicine</option><option value="40">Medieval Food</option><option value="59">Medieval Petpet</option><option value="83">Meridell Potion</option><option value="112">Moltaran Books</option><option value="113">Moltaran Petpets</option><option value="109">Molten Morsels</option><option value="71">Mystic Mushroom</option><option value="108">Mystical Surroundings</option><option value="107">Neovian Antiques</option><option value="105">Neovian Attire</option><option value="104">Neovian Pastries</option><option value="106">Neovian Press</option><option value="9">Petpet</option><option value="56">Petpet Supplies</option><option value="95">Petpetpet</option><option value="79">Pirate Petpet</option><option value="44">Pizza</option><option value="99">Plushies</option><option value="80">Qasalan Food</option><option value="76">Qasalan Tablets</option><option value="85">Qasalan Weaponry</option><option value="117">Refreshments</option><option value="102">Remarkable Restoratives</option><option value="91">Robot Petpet</option><option value="92">Roo Island Merchandise</option><option value="62">School</option><option value="78">Sea Shells</option><option value="65">Slushie</option><option value="68">Smoothie</option><option value="17">Snow Food</option><option value="26">Space Battle</option><option value="96">Space Defence</option><option value="8">Space Food</option><option value="4">Special</option><option value="11">Spooky Food</option><option value="55">Spooky Furniture</option><option value="13">Spooky Petpet</option><option value="114">Springy Things</option><option value="31" selected>Stamp</option><option value="18">Toy</option><option value="73">Trading Card</option><option value="7">Tropical Food</option><option value="45">Tyrannian Food</option><option value="54">Tyrannian Furniture</option><option value="60">Tyrannian Petpet</option><option value="97">Tyrannian Weaponry</option><option value="115">Ugga Shinies</option><option value="28">Usuki Doll</option><option value="98">Utility Fish</option><option value="12">Wintery Petpet</option><option value="100">Wonderous Weaponry</option>          </select>
+
+          <label for="search-special-category">
+            In Special Category:
+          </label>
+          <select id="search-special-category" class="chosen-select" data-placeholder="Click to select special categories..." name="scat[]" multiple>
+            <option value="124">13 Days of Trick or Treat</option><option value="8">Advent Calendar</option><option value="107">Altador Cup Insider Experience</option><option value="102">Altador Cup NC Challenge</option><option value="77">Altador Cup Prizes</option><option value="103">Altador Cup VIP Access</option><option value="88">Altador Mini-Plot</option><option value="106">Altador Rising</option><option value="139">Anchor Management</option><option value="54">Animated</option><option value="56">Apple Bobbing</option><option value="78">Artists' Day Off</option><option value="82">Atlas of the Ancients</option><option value="141">Atlas of the Ancients NC Challenge</option><option value="133">Backpack Packing Centre</option><option value="10">Bagatelle</option><option value="91">Battle for Meridell</option><option value="74">Bloomin' Neggs</option><option value="63">Blumaroll</option><option value="97">Brucey B and the Lucky Coin</option><option value="111">Camp Wannamakeagame</option><option value="137">Capture the Comets</option><option value="122">Case of the Missing King</option><option value="95">Champions of Meridell</option><option value="37">Cheeseroller</option><option value="130">Chef Julien's Backstage Tasting Kitchen</option><option value="6">Concert Swag</option><option value="12">Cooking Pot</option><option value="30">Cork Gun Gallery</option><option value="65">Corridor of Chance</option><option value="31">Cracker Prizes</option><option value="89">Curse of Maraqua</option><option value="87">Cyodrake's Gaze</option><option value="38">Daily Dare</option><option value="117">Daily Dare Neocash Challenge</option><option value="75">Delina's Quests</option><option value="80">Desert Diplomacy</option><option value="11">Deserted Tomb</option><option value="67">Dyeworks</option><option value="72">Edolie's Phantastic Finds</option><option value="66">Elite Boutique</option><option value="104">Fanatic's Museum</option><option value="57">Festival of Neggs</option><option value="138">Filament Lamps</option><option value="126">Fivetastic Birthday Celebration</option><option value="55">Forgotten Shore</option><option value="101">Fortune Cookies</option><option value="129">Free the Faeries</option><option value="93">Gadgadsbogen Puzzle</option><option value="49">Games Master Challenge</option><option value="23">Giant Jelly</option><option value="22">Giant Omelette</option><option value="134">Gift Basket Centre</option><option value="132">Gift Pack Packing Centre</option><option value="144">Giveaway Hamper Centre</option><option value="115">GMC Neocash Challenge</option><option value="32">Golden Dubloon</option><option value="58">Grave Danger</option><option value="142">Great NC Scavenger Hunt</option><option value="28">Grumpy Old King</option><option value="47">Habitarium</option><option value="90">Hannah and the Ice Caves</option><option value="70">Haunted Hijinks</option><option value="105">Hidden Altador</option><option value="14">Hidden Tower</option><option value="108">Homes of the AC Heroes</option><option value="120">Honest Pete's Negg Punching</option><option value="85">Journey to the Lost Isle</option><option value="61">JubJub Power Bounce</option><option value="29">Kelp</option><option value="46">Key Quest Code Prizes</option><option value="98">Krawk Island Disappearance</option><option value="92">Lost Desert Plot</option><option value="125">Lovestruck</option><option value="109">Lulu Plays Detective</option><option value="123">Lulu's Bug Hunt</option><option value="114">Lulu's Masterful Plundering</option><option value="113">Lulu's Room Raid</option><option value="36">Lunar Temple</option><option value="143">Masks of Dread NC Quest</option><option value="41">Meteor Crash</option><option value="69">MME</option><option value="99">Moltara Mystery</option><option value="118">Mysterious Magic Neggs</option><option value="68">NC Collectible</option><option value="131">NC Kidnapping Caper</option><option value="42">NC Mall</option><option value="119">Negg-Gazer</option><option value="116">Neggstravaganza</option><option value="45">Neocash Cards</option><option value="39">Neocola Machine</option><option value="48">Neohomes 2.0</option><option value="96">Neopet V2</option><option value="35">Neoquest I Prizes</option><option value="34">Neoquest II Prizes</option><option value="43">Nerkmids</option><option value="136">New Game Challenge</option><option value="44">Ninja School</option><option value="60">Patapult</option><option value="25">Petpet Lab Rats</option><option value="50">Petpet Park</option><option value="7">Pick Your Own</option><option value="20">Quest Prizes</option><option value="110">Raiding the Royal Neopian</option><option value="5">Rare Item Code Prizes</option><option value="121">Real Negg Faerie Quests</option><option value="112">Reslen's Planetarium</option><option value="84">Return of Dr. Sloth</option><option value="19">Rubbish Dump</option><option value="140">Runic Doors</option><option value="135">Scanning for Buried Relics</option><option value="18">Scratchcards</option><option value="73">Sealed with a Gift</option><option value="64">Secret Meepit 'Stache</option><option value="62">Shenanigifts</option><option value="127">Six-rific Birthday Celebration</option><option value="3">Ski Lodge Murder Mystery</option><option value="16">Smuggler's Cove</option><option value="26">Snowager</option><option value="83">Spooky Food Eating Contest</option><option value="71">Stocking Stufftacular</option><option value="27">Symol Hole</option><option value="86">Tale of Woe</option><option value="53">Tangor's Workshop</option><option value="52">Tarla's Shop</option><option value="4">TCG RIC Prizes</option><option value="51">TDMBGPOP Prizes</option><option value="24">Test Your Strength</option><option value="81">The Faeries' Ruin</option><option value="15">Tombola</option><option value="17">Treasure Maps</option><option value="9">Turmaculus</option><option value="1">Underwater Fishing</option><option value="76">Unpaintable Petpets</option><option value="33">Unpainted Petpets</option><option value="94">Volcano Mystery</option><option value="128">War Booty</option><option value="79">War for the Obelisk</option><option value="40">Wearable</option><option value="21">Wheel Prizes</option><option value="59">Wonderclaw</option><option value="13">World Challenge Pieces</option><option value="100">Wraith Resurgence</option>          </select>
+          <div class="switch round">
+            <input id="search-scat-type1" name="scat_type" type="radio" value="1" checked>
+            <label for="search-scat-type1">In Either Selected</label>
+            <input id="search-scat-type2" name="scat_type" type="radio" value="2">
+            <label for="search-scat-type2">In All Selected</label>
+            <span></span>
+          </div>
+
+          <label for="search-rarity-min">Rarity:</label>
+          <div class="row collapse">
+            <div class="small-5 columns">
+              <input id="search-rarity-min" name="min_rarity" type="text" value="">
+            </div>
+            <div class="small-2 columns">
+              <span class="middlefix">to</span>
+            </div>
+            <div class="small-5 columns">
+              <input id="search-rarity-max" name="max_rarity" type="text" value="">
+            </div>
+          </div>
+
+          <label for="search-price-min">Price Range:</label>
+          <div class="row collapse">
+            <div class="small-5 columns">
+              <input id="search-price-min" name="min_price" type="text" value="">
+            </div>
+            <div class="small-2 columns">
+              <span class="middlefix">to</span>
+            </div>
+            <div class="small-5 columns">
+              <input id="search-price-max" name="max_price" type="text" value="">
+            </div>
+          </div>
+
+          <label for="search-sort-by">Sort By:</label>
+                      <div class="row">
+              <div class="small-7 columns">
+                <select id="search-sort-by" name="sort" class="form-control">
+                  <option value="1">Name</option><option value="2">Rarity</option><option value="3">Release</option><option value="4">SDB Order</option><option value="5">Price</option><option value="10">Category/Shop</option><option value="6">Stamp Album Position</option><option value="7">PPL Win Week</option><option value="8">Neodeck Position</option><option value="9">Added to Item DB</option>                </select>
+              </div>
+              <div class="small-5 columns">
+                <select id="search-sort-by-dir" name="sort_dir" class="form-control">
+                  <option value="asc">Ascending</option><option value="desc">Descending</option>                </select>
+              </div>
+            </div>
+          
+          <label for="search-exclude-neocash" class="inline-block">Exclude Neocash items?</label>
+          <input id="search-exclude-neocash" name="exclude_nc" type="checkbox" value="1">
+          <label for="search-limit">Results Per Page:</label>
+          <select id="search-limit" name="limit" class="form-control">
+            <option value="10">10</option><option value="20">20</option><option value="30">30</option><option value="40">40</option><option value="50">50</option><option value="75" selected>75</option>          </select>
+
+          <p id="itemdbMoreSearchToggle" class="hiddenSearchFieldsToggle "><a href="#" onclick="return openMoreSearch('itemdbMoreSearchToggle', 'itemdbMoreSearch');">+ More Search Options</a></p>
+
+          <div id="itemdbMoreSearch" class="hiddenSearchFields closed">
+            <label for="search-image">In Image:</label>
+            <input id="search-image" name="image" type="text" value="">
+
+            <label for="search-notes">Notes:</label>
+            <input id="search-notes" name="notes" type="text" value="">
+
+            <label for="search-release-min">Release Date:</label>
+            <div class="row collapse">
+              <div class="small-5 columns">
+                <input id="search-release-min" name="min_release" type="text" value="" placeholder="M/D/YYYY">
+              </div>
+              <div class="small-2 columns">
+                <span class="middlefix">to</span>
+              </div>
+              <div class="small-5 columns">
+                <input id="search-release-max" name="max_release" type="text" value="" placeholder="M/D/YYYY">
+              </div>
+            </div>
+
+            <label for="search-retire-min">Retirement Date:</label>
+            <div class="row collapse">
+              <div class="small-5 columns">
+                <input id="search-retire-min" name="min_retire" type="text" value="" placeholder="M/D/YYYY">
+              </div>
+              <div class="small-2 columns">
+                <span class="middlefix">to</span>
+              </div>
+              <div class="small-5 columns">
+                <input id="search-retire-max" name="max_retire" type="text" value="" placeholder="M/D/YYYY">
+              </div>
+            </div>
+
+            <label for="search-category-not">
+              Not in Shop/Category:
+            </label>
+            <select id="search-category-not" class="chosen-select" data-placeholder="Click to select..." name="not_in_cat[]" multiple>
+              <option value="53">Altador Cup Souvenir</option><option value="74">Altadorian Armour</option><option value="70">Altadorian Food</option><option value="69">Altadorian Magic</option><option value="72">Altadorian Petpets</option><option value="81">Aquatic Food</option><option value="10">Aquatic Petpet</option><option value="3">Baked</option><option value="15">Battle Magic</option><option value="5">Book</option><option value="37">Booktastic Book</option><option value="82">Brightvale Armour</option><option value="38">Brightvale Books</option><option value="49">Brightvale Fruit</option><option value="23">Brightvale Motes</option><option value="93">Brightvale Potions</option><option value="84">Brightvale Scroll</option><option value="58">Brightvale Windows</option><option value="14">Broken Toy</option><option value="27">Candy</option><option value="30">Clothes</option><option value="22">Coffee</option><option value="111">Cogs Togs</option><option value="64">Coins</option><option value="39">Collectable Card</option><option value="67">Darigan Toy</option><option value="33">Defence Magic</option><option value="25">Desert Food</option><option value="24">Desert Petpet</option><option value="86">Desert Pottery</option><option value="35">Desert Scroll</option><option value="32">Desert Weapon</option><option value="63">Evil Coconut</option><option value="101">Exotic Foods</option><option value="36">Faerie Book</option><option value="41">Faerie Food</option><option value="77">Faerie Furniture</option><option value="19">Faerie Petpet</option><option value="75">Faerie Weapon Shop</option><option value="103">Fanciful Fauna</option><option value="1">Food</option><option value="21">Furniture</option><option value="52">Gardening</option><option value="87">Geraptiku Petpet</option><option value="29">Gift</option><option value="50">Grooming</option><option value="48">Gross Food</option><option value="34">Haunted Weaponry</option><option value="116">Healing Springs</option><option value="20">Healthy Food</option><option value="42">Hot Dog</option><option value="16">Ice Crystal</option><option value="51">Instrument</option><option value="61">Island Merchandise</option><option value="43">Jelly Food</option><option value="88">Kiko Lake Carpentry</option><option value="46">Kiko Lake Food</option><option value="47">Kreludan Food</option><option value="57">Kreludan Furniture</option><option value="110">Lampwycks Lights Fantastic</option><option value="2">Magic Item</option><option value="94">Maractite Weaponry</option><option value="90">Maraquan Petpets</option><option value="89">Medical Cures</option><option value="6">Medicine</option><option value="40">Medieval Food</option><option value="59">Medieval Petpet</option><option value="83">Meridell Potion</option><option value="112">Moltaran Books</option><option value="113">Moltaran Petpets</option><option value="109">Molten Morsels</option><option value="71">Mystic Mushroom</option><option value="108">Mystical Surroundings</option><option value="107">Neovian Antiques</option><option value="105">Neovian Attire</option><option value="104">Neovian Pastries</option><option value="106">Neovian Press</option><option value="9">Petpet</option><option value="56">Petpet Supplies</option><option value="95">Petpetpet</option><option value="79">Pirate Petpet</option><option value="44">Pizza</option><option value="99">Plushies</option><option value="80">Qasalan Food</option><option value="76">Qasalan Tablets</option><option value="85">Qasalan Weaponry</option><option value="117">Refreshments</option><option value="102">Remarkable Restoratives</option><option value="91">Robot Petpet</option><option value="92">Roo Island Merchandise</option><option value="62">School</option><option value="78">Sea Shells</option><option value="65">Slushie</option><option value="68">Smoothie</option><option value="17">Snow Food</option><option value="26">Space Battle</option><option value="96">Space Defence</option><option value="8">Space Food</option><option value="4">Special</option><option value="11">Spooky Food</option><option value="55">Spooky Furniture</option><option value="13">Spooky Petpet</option><option value="114">Springy Things</option><option value="31">Stamp</option><option value="18">Toy</option><option value="73">Trading Card</option><option value="7">Tropical Food</option><option value="45">Tyrannian Food</option><option value="54">Tyrannian Furniture</option><option value="60">Tyrannian Petpet</option><option value="97">Tyrannian Weaponry</option><option value="115">Ugga Shinies</option><option value="28">Usuki Doll</option><option value="98">Utility Fish</option><option value="12">Wintery Petpet</option><option value="100">Wonderous Weaponry</option>            </select>
+
+            <label for="search-special-category-not">
+              Not in Special Category:
+            </label>
+            <select id="search-special-category-not" class="chosen-select" data-placeholder="Click to select..." name="not_in_scat[]" multiple>
+              <option value="124">13 Days of Trick or Treat</option><option value="8">Advent Calendar</option><option value="107">Altador Cup Insider Experience</option><option value="102">Altador Cup NC Challenge</option><option value="77">Altador Cup Prizes</option><option value="103">Altador Cup VIP Access</option><option value="88">Altador Mini-Plot</option><option value="106">Altador Rising</option><option value="139">Anchor Management</option><option value="54">Animated</option><option value="56">Apple Bobbing</option><option value="78">Artists' Day Off</option><option value="82">Atlas of the Ancients</option><option value="141">Atlas of the Ancients NC Challenge</option><option value="133">Backpack Packing Centre</option><option value="10">Bagatelle</option><option value="91">Battle for Meridell</option><option value="74">Bloomin' Neggs</option><option value="63">Blumaroll</option><option value="97">Brucey B and the Lucky Coin</option><option value="111">Camp Wannamakeagame</option><option value="137">Capture the Comets</option><option value="122">Case of the Missing King</option><option value="95">Champions of Meridell</option><option value="37">Cheeseroller</option><option value="130">Chef Julien's Backstage Tasting Kitchen</option><option value="6">Concert Swag</option><option value="12">Cooking Pot</option><option value="30">Cork Gun Gallery</option><option value="65">Corridor of Chance</option><option value="31">Cracker Prizes</option><option value="89">Curse of Maraqua</option><option value="87">Cyodrake's Gaze</option><option value="38">Daily Dare</option><option value="117">Daily Dare Neocash Challenge</option><option value="75">Delina's Quests</option><option value="80">Desert Diplomacy</option><option value="11">Deserted Tomb</option><option value="67">Dyeworks</option><option value="72">Edolie's Phantastic Finds</option><option value="66">Elite Boutique</option><option value="104">Fanatic's Museum</option><option value="57">Festival of Neggs</option><option value="138">Filament Lamps</option><option value="126">Fivetastic Birthday Celebration</option><option value="55">Forgotten Shore</option><option value="101">Fortune Cookies</option><option value="129">Free the Faeries</option><option value="93">Gadgadsbogen Puzzle</option><option value="49">Games Master Challenge</option><option value="23">Giant Jelly</option><option value="22">Giant Omelette</option><option value="134">Gift Basket Centre</option><option value="132">Gift Pack Packing Centre</option><option value="144">Giveaway Hamper Centre</option><option value="115">GMC Neocash Challenge</option><option value="32">Golden Dubloon</option><option value="58">Grave Danger</option><option value="142">Great NC Scavenger Hunt</option><option value="28">Grumpy Old King</option><option value="47">Habitarium</option><option value="90">Hannah and the Ice Caves</option><option value="70">Haunted Hijinks</option><option value="105">Hidden Altador</option><option value="14">Hidden Tower</option><option value="108">Homes of the AC Heroes</option><option value="120">Honest Pete's Negg Punching</option><option value="85">Journey to the Lost Isle</option><option value="61">JubJub Power Bounce</option><option value="29">Kelp</option><option value="46">Key Quest Code Prizes</option><option value="98">Krawk Island Disappearance</option><option value="92">Lost Desert Plot</option><option value="125">Lovestruck</option><option value="109">Lulu Plays Detective</option><option value="123">Lulu's Bug Hunt</option><option value="114">Lulu's Masterful Plundering</option><option value="113">Lulu's Room Raid</option><option value="36">Lunar Temple</option><option value="143">Masks of Dread NC Quest</option><option value="41">Meteor Crash</option><option value="69">MME</option><option value="99">Moltara Mystery</option><option value="118">Mysterious Magic Neggs</option><option value="68">NC Collectible</option><option value="131">NC Kidnapping Caper</option><option value="42">NC Mall</option><option value="119">Negg-Gazer</option><option value="116">Neggstravaganza</option><option value="45">Neocash Cards</option><option value="39">Neocola Machine</option><option value="48">Neohomes 2.0</option><option value="96">Neopet V2</option><option value="35">Neoquest I Prizes</option><option value="34">Neoquest II Prizes</option><option value="43">Nerkmids</option><option value="136">New Game Challenge</option><option value="44">Ninja School</option><option value="60">Patapult</option><option value="25">Petpet Lab Rats</option><option value="50">Petpet Park</option><option value="7">Pick Your Own</option><option value="20">Quest Prizes</option><option value="110">Raiding the Royal Neopian</option><option value="5">Rare Item Code Prizes</option><option value="121">Real Negg Faerie Quests</option><option value="112">Reslen's Planetarium</option><option value="84">Return of Dr. Sloth</option><option value="19">Rubbish Dump</option><option value="140">Runic Doors</option><option value="135">Scanning for Buried Relics</option><option value="18">Scratchcards</option><option value="73">Sealed with a Gift</option><option value="64">Secret Meepit 'Stache</option><option value="62">Shenanigifts</option><option value="127">Six-rific Birthday Celebration</option><option value="3">Ski Lodge Murder Mystery</option><option value="16">Smuggler's Cove</option><option value="26">Snowager</option><option value="83">Spooky Food Eating Contest</option><option value="71">Stocking Stufftacular</option><option value="27">Symol Hole</option><option value="86">Tale of Woe</option><option value="53">Tangor's Workshop</option><option value="52">Tarla's Shop</option><option value="4">TCG RIC Prizes</option><option value="51">TDMBGPOP Prizes</option><option value="24">Test Your Strength</option><option value="81">The Faeries' Ruin</option><option value="15">Tombola</option><option value="17">Treasure Maps</option><option value="9">Turmaculus</option><option value="1">Underwater Fishing</option><option value="76">Unpaintable Petpets</option><option value="33">Unpainted Petpets</option><option value="94">Volcano Mystery</option><option value="128">War Booty</option><option value="79">War for the Obelisk</option><option value="40">Wearable</option><option value="21">Wheel Prizes</option><option value="59">Wonderclaw</option><option value="13">World Challenge Pieces</option><option value="100">Wraith Resurgence</option>            </select>
+
+            <label for="search-status">Status:</label>
+            <select id="search-status" name="status" class="form-control">
+              <option value="">- Any -</option>
+              <option value="1">Active</option><option value="3">Searchable</option><option value="4">Unactivated</option><option value="2">Unreleased</option><option value="7">No Trade</option><option value="5">1-Player BD</option>            </select>
+
+            <label for="search-album-page">On Stamp Album Page:</label>
+            <select id="search-album-page" name="album" class="form-control">
+              <option value="">- Select -</option>
+              <option value="1">Mystery Island</option><option value="2">Virtupets</option><option value="3">Tyrannia</option><option value="4">Haunted Woods</option><option value="5">Neopia Central</option><option value="6">NeoQuest</option><option value="7">Snowy Valley</option><option value="8">Meridell vs Darigan</option><option value="9">Lost Desert</option><option value="10">The Battledome</option><option value="11">Coins</option><option value="12">Battle for Meridell</option><option value="13">NeoQuest II</option><option value="14">Other</option><option value="15">Space Station Coins</option><option value="16">Evil Coconuts</option><option value="17">Sea Shells</option><option value="18">Maraquan</option><option value="19">Altador</option><option value="20">Shenkuu</option><option value="21">Charms</option><option value="22">Other II</option><option value="23">Faerieland</option><option value="24">Scarabs</option><option value="25">Moltara</option><option value="26">Maractite Coins</option><option value="27">Qasala</option><option value="28">Treasures of the Deep</option><option value="29">Krawk Island</option><option value="30">Neovia</option><option value="31">Charms II</option><option value="32">Ghoul Catchers</option><option value="33">Other III</option><option value="34">Sea Shells II</option><option value="35">Neopia Central II</option><option value="36">Tyrannia II</option><option value="37">Snowy Valley II</option><option value="38">Evil Coconuts II</option><option value="39">Scarabs II</option><option value="40">Coins Part Deux Revenge of Coin</option>            </select>
+
+            <label for="search-tcg-set">In TCG Set:</label>
+            <select id="search-tcg-set" name="tcg_set" class="form-control">
+              <option value="">- Select -</option>
+              <option value="1">Base</option><option value="2">Battle for Meridell</option><option value="3">Return of Dr. Sloth</option><option value="4">Mystery Island</option><option value="5">Promotional</option><option value="6">Hannah and the Ice Caves</option><option value="7">Curse of Maraqua</option><option value="8">Lost Desert</option><option value="9">Darkest Faerie</option><option value="10">Travels in Neopia</option><option value="11">Haunted Woods</option>            </select>
+            <label for="search-classic-nh">
+              Has Classic Neohome preview?
+              <input id="search-classic-nh" name="classic_nh" type="checkbox" value="1">            </label>
+            <label for="search-classic-nh-audio">
+              Has Classic Neohome audio?
+              <input id="search-classic-nh-audio" name="classic_nh_audio" type="checkbox" value="1">            </label>
+            <label for="search-nh2">
+              Has Neohomes 2.0 preview?
+              <input id="search-nh2" name="nh2" type="checkbox" value="1">            </label>
+            <label for="search-won-ppl">
+              Has won the PPL?
+              <input id="search-won-ppl" name="ppl" type="checkbox" value="1">            </label>
+            <label for="search-replaced">
+              Has older versions?
+              <input id="search-replaced" name="replaced" type="checkbox" value="1">            </label>
+          </div>
+          <input type="submit" value="Find" class="button expand round jnbutton">
+        </form>
+      </div>    </div>
+  </div>
+  <div id="layout-footer-links" class="hide-for-print">
+    <div class="row">
+        <div class="large-2 small-6 columns">
+          <strong>About Jellyneo</strong>
+          <ul>
+            <li><a href="http://www.jellyneo.net/?go=newtojellyneo">About Us</a></li>
+            <li><a href="http://www.jellyneo.net/?go=history">History</a></li>
+            <li><a href="http://www.jellyneo.net/?go=staff">Our Staff</a></li>
+            <li><a href="http://www.jellyneo.net/?go=join_jellyneo">Become a Staffer</a></li>
+            <li><a href="http://www.jellyneo.net/?go=affiliate">Link to Us</a></li>
+          </ul>
+        </div>
+        <div class="large-2 small-6 columns">
+          <strong>Get In Touch</strong>
+          <ul>
+            <li><a href="http://www.jellyneo.net/?go=faq">FAQ's</a></li>
+            <li><a href="http://www.jellyneo.net/?go=form_bugs">Report an Error</a></li>
+            <li><a href="http://www.jellyneo.net/?go=form_ideas">Send Feedback</a></li>
+            <li><a href="http://www.jellyneo.net/?go=contactus">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="large-2 small-12 columns">
+          <strong>Your jnAccount</strong>
+          <ul>
+            <li><a href="http://www.jellyneo.net/?go=welcome">Services Portal</a></li>
+            <li><a href="http://www.jellyneo.net/?go=accountsettings">Account Settings</a></li>
+          </ul>
+        </div>
+        <div class="large-4 small-12 columns">
+          <strong class="hide-for-small">Visit Our Affiliates</strong>
+          <p class="hide-for-small">
+            <a href="http://www.neopets.com/" target="_blank"><img src="/layout/imgs/clear.png" id="aff-neopets" class="aff_img" alt="Neopets"></a>
+            <a href="http://www.billopan.com/" target="_blank"><img src="/layout/imgs/clear.png" class="aff_img" id="aff-tno" title="The Neopian Orphanage" alt="The Neopian Orphanage"></a>
+            <a href="http://lost.quiggle.org/" target="_blank"><img src="/layout/imgs/clear.png" class="aff_img" id="aff-lostandpound" title="Lost and Pound" alt="Lost and Pound"></a>
+            <a href="http://www.metaneo.net/" target="_blank"><img src="/layout/imgs/clear.png" class="aff_img" id="aff-metaneo" title="Metaneo" alt="Metaneo"></a>
+          </p>
+          <p><a href="http://www.twitter.com/jellyneo/">Keep up to date on <img src="/layout/imgs/clear.png" class="icon-20 twitter" alt="Twitter"> Twitter</a></p>
+        </div>
+        <div class="large-2 small-12 columns hide-for-small hide-for-medium" id="footer-mascot-holder">
+          <div id="footer-mascot" class="hide-for-small hide-for-medium"></div>
+        </div>
+    </div>
+  </div>
+  <div id="layout-footer-legal">
+    <div class="row">
+      <div class="large-8 small-12 columns" id="layout-legal-text">
+        &copy; 1999-2018 Neopets, Inc. All rights reserved. Used With Permission. All content not containing Neopets images is &copy; Jellyneo 2004-2018. You may not use our content on another website, or your petpage. | <a href="http://www.jellyneo.net/?go=privacy_policy">Privacy Policy</a>
+        <p id="money-makers-small" class="show-for-small text-center hide-for-print">
+          <a href="http://www.jellyneo.net/?go=donate_to_jellyneo"><img src="/layout/imgs/clear.png" class="money_img money-donate" title="Donate to JN!" alt="Donate to JN!"></a>
+          <a href="http://www.jellyneo.net/?go=purchasehosting"><img src="/layout/imgs/clear.png" class="money_img money-hosting" title="Host your own website!" alt="Host your own website!"></a>
+        </p>
+      </div>
+      <div class="large-4 small-12 columns text-right hide-for-small hide-for-print">
+        <a href="http://www.jellyneo.net/?go=donate_to_jellyneo"><img src="/layout/imgs/clear.png" class="money_img money-donate" title="Donate to JN!" alt="Donate to JN!"></a>
+        <a href="http://www.jellyneo.net/?go=purchasehosting"><img src="/layout/imgs/clear.png" class="money_img money-hosting" title="Host your own website!" alt="Host your own website!"></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="/layout/js/vendor/jquery.1.10.2.js"></script>
+  <script src="/layout/js/foundation.min.js"></script>
+  <script>$(document).foundation();</script>
+  <script src="/layout/js/global.js?v=3"></script>
+  <script src="/layout/js/chosen.1.5.1.jquery.min.js?v=3"></script><script src="/layout/js/itemdb.js?v=3"></script><script src="/layout/js/itemdb/idb_wishlists.js?v=3"></script>    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-285952-4', 'auto'); ga('send', 'pageview');
+    </script>
+  </body>
+</html>

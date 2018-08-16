@@ -1,0 +1,39 @@
+package com.neopetsconnect.utils;
+
+public interface Categories {
+
+  String MAIN = "MAIN";
+  String SESSION = "SESSION";
+  String RESTOCK = "RESTOCK";
+  String BUY = "BUY";
+  String LOGGING = "LOGGING";
+  String DAILIES = "DAILIES";
+  String QUESTS = "QUESTS";
+  String KITCHEN_QUEST = "KITCHEN_QUEST";
+  String FOOD_CLUB = "FOOD_CLUB";
+  String TDMGPOP = "TDMGPOP";
+  String HEALING_SPRINGS = "HEALING_SPRINGS";
+  String FISHING_VORTEX = "FISHING_VORTEX";
+  String COINCIDENCE = "COINCIDENCE";
+  String FRUIT_MACHINE = "FRUIT_MACHINE";
+  String FAERIE_QUEST = "FAERIE_QUEST";
+  String BURIED_TREASURE = "BURIED_TREASURE";
+  String TRAINING_SCHOOL = "TRAINING_SCHOOL";
+  String LAB_RAY = "LAB_RAY";
+  String TURMACULUS = "TURMACULUS";
+  String DEBUG = "DEBUG";
+  String SNOWAGER = "SNOWAGER";
+  String EDNAS_QUEST = "EDNAS_QUEST";
+  String WISE_OLD_KING = "WISE_OLD_KING";
+  String COLTZANS_SHRINE = "COLTZANS_SHRINE";
+  String FORGOTTEN_SHORE = "FORGOTTEN_SHORE";
+  String STOCK_MARKET = "STOCK_MARKET";
+  String SHOP_WIZARD = "SHOP_WIZARD";
+  String STORE = "STORE";
+  String MY_SHOP = "MY_SHOP";
+  String ORGANIZE_INVENTORY = "ORGANIZE_INVENTORY";
+  String INVENTORY = "INVENTORY";
+  String EXCEPTION = "EXCEPTION";
+  String BOT = "BOT";
+  String STATUS = "STATUS";
+}

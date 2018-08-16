@@ -1,0 +1,15 @@
+	Add sleeping hours
+improve restocking ban
+add post to tp
+
+Inventory:
+
+depositAll()
+moveAllToShop()
+
+moveToShopAndAddPrice(...)
+
+add stock market boon
+add process name
+add parse games forum for buried treasure
+add food club collect winnings
