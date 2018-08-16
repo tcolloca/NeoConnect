@@ -106,6 +106,10 @@ public class TrainingSchool implements Categories {
     if (maxStat > 2 * stats.getLevel()) {
       return "level";
     }
+    // Train level if stats are too high to be able to train in secret school.
+    if (stats.getDefence() >= 250 && stats.getHealth() >= 250 && stats.getStrength() >= 250) {
+    	return "level";
+    }
     int healthTier = getStatTier(stats.getHealth());
     int defenceTier = getStatTier(stats.getDefence());
     int strengthTier = getStatTier(stats.getStrength());
