@@ -299,6 +299,15 @@ public class ConfigProperties implements Categories {
   public static String getSidePassword() {
     return ConfigPropertiesReader.props.getString(FAERIE_QUEST, "password");
   }
+  
+  // BANK
+  public static boolean isBankEnabled() {
+	  return ConfigPropertiesReader.props.getBoolean(BANK, "enabled", false);
+  }
+  
+  public static boolean isDeadlyDiceEnabled() {
+    return ConfigPropertiesReader.props.getBoolean(DEADLY_DICE, "enabled", false);
+  }
 
   // LOGGING
   public static boolean isLogCaptchaImages() {

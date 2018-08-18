@@ -35,6 +35,8 @@ public class DailyDoer implements Categories {
       return 60 * 60 * 4;
     }, 0);
 
+    runner.addJob(() -> new DeadlyDice(helper).call(), 0);
+    runner.addJob(() -> new Bank(helper).call(), 0);
     runner.addJob(() -> new StockMarket(helper).call(), 0);
     runner.addJob(() -> new ForgottenShore(helper).call(), 0);
     runner.addJob(() -> new ColtzanShrine(helper).call(), 0);
@@ -52,6 +54,7 @@ public class DailyDoer implements Categories {
     runner.addJob(() -> new Coincidence(helper).call(), 0);
     runner.addJob(() -> new BuriedTreasure(helper).call(), 0);
     runner.addJob(() -> new Snowager(helper).call(), 0);
+    runner.addJob(() -> new DeadlyDice(helper).call(), 0);
   }
 
   /**

@@ -29,6 +29,8 @@ public interface Categories {
   String FORGOTTEN_SHORE = "FORGOTTEN_SHORE";
   String STOCK_MARKET = "STOCK_MARKET";
   String SHOP_WIZARD = "SHOP_WIZARD";
+  String BANK = "BANK";
+  String DEADLY_DICE = "DEADLY_DICE";
   String STORE = "STORE";
   String MY_SHOP = "MY_SHOP";
   String ORGANIZE_INVENTORY = "ORGANIZE_INVENTORY";

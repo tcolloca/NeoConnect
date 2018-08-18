@@ -1,0 +1,15 @@
+[FRUIT_MACHINE]
+done = true
+
+[BANK]
+done = true
+
+[TDMGPOP]
+done = true
+
+[COLTZANS_SHRINE]
+done = true
+
+[FORGOTTEN_SHORE]
+done = true
+
